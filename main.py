@@ -23,6 +23,7 @@ def getfield(lines, field):
 		return ""
 	return returnme.strip('"')
 
+#this code just tracks total usage, not number of users
 def main():
 	terms = ['damn','shit']
 	subs = ["hockey"]
