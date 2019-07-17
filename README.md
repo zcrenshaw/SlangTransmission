@@ -3,7 +3,7 @@ This is the code I am using for an independent research project looking into fac
 
 Minimal work will be done before August.
 
-FILES IN THIS REPO
+FILES IN THIS REPO:
 
 Web-Slang-Project-Proposal.docx
 	Copy of original proposal
