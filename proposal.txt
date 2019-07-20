@@ -23,5 +23,3 @@ My work in linguistics greatly informs which communities to choose, based on the
  
 Relevance to Academics and Career:
 I am a second-year Linguistics and Computer Science major, so computational linguistics is at the intersection of my principal interests. This project allows me to apply my knowledge of sociolinguistics, amplified by my training in Computer Science, to help answer a real-world question. This project is an application of the study of language contact using big data, an active area of computational linguistics research in which I am very interested in pursuing at a technological company after graduation. This project will give me a taste of what such research is like, and I intend to continue this type of research for my B.A. Thesis in Linguistics. More saliently, the final product of this project will be a significant addition to my portfolio of work, making me a more competitive candidate for industry jobs after graduation. 
-
-
