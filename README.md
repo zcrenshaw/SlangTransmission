@@ -11,3 +11,6 @@ Web-Slang-Project-Proposal.docx
 proposal.txt
 	plain text copy of proposal
 
+
+workflow.txt
+	File explaining the function of each file
