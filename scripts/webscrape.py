@@ -192,6 +192,37 @@ def create_filename(args):
 
     return name
 
+
+# merges two csv files
+def merge(infile, outfile):
+    needHeader = False # to check if file needs a header (is empty or non-existent)
+    with open(infile,'r') as input:
+        try: #check for file exist
+            with open(outfile, 'r') as check:
+                #check for file empty
+                needHeader = len(check.readline().strip('\n').split(',')) < 2
+        except:
+            #if does not exist, mark as needing header
+            needHeader = True
+
+        with open(outfile,'a+') as output:
+            filewriter = csv.writer(output, delimiter=',',
+                                    quotechar='|', quoting=csv.QUOTE_MINIMAL)
+
+            inline = input.readline().strip('\n').split(',')
+
+            # if new or empty document create and/or add header
+            if needHeader:
+                filewriter.writerow(inline)
+
+            inline = input.readline().strip('\n').split(',')
+
+            # iterate through input, append to output
+            while (len(inline) > 1): #check for EOF
+                filewriter.writerow(inline)
+                inline = input.readline().strip('\n').split(',')
+
+
 # RUN MULTIPLE SEARCHES FROM TEXT FILE
 def scrape_from_txt(file):
     with open(file, 'r') as textfile:
@@ -209,6 +240,11 @@ if __name__ == '__main__':
             print("Running batch of scrapes from text file")
             scrape_from_txt(sys.argv[1])
             print("Done")
+
+        # if need to merge files
+        if sys.argv[1] == 'merge':
+            merge(sys.argv[2],sys.argv[3])
+
         # else just run the scrape with the given parameters
         else:
             print("Running scrape from given parameters")
