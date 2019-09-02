@@ -1,0 +1,1 @@
+1 submission q=thot subreddit=askreddit aggs=subreddit fields=aggs metadata=true agg_size=50 after=100d before=0d 10

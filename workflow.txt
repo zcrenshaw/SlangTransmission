@@ -1,0 +1,11 @@
+collection/
+	holds files responsible for collection of data
+data/
+	holds data
+
+
+GENERAL ORDER:
+	1. Collect data given certain parameters
+	2. Process data to look for trends
+	3. Investigate trends or anomalies
+	4. Visualize findings
