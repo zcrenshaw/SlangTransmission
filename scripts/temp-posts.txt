@@ -1,0 +1,10 @@
+1 submission q=thot subreddit=askreddit aggs=author fields=aggs metadata=true agg_size=1000 after=410d before=0d 10  
+2 submission q=stan subreddit=askreddit aggs=author fields=aggs metadata=true agg_size=1000 after=410d before=0d 10  
+3 submission q=periodt subreddit=askreddit aggs=author fields=aggs metadata=true agg_size=1000 after=410d before=0d 10  
+4 submission q=periot subreddit=askreddit aggs=author fields=aggs metadata=true agg_size=1000 after=410d before=0d 10  
+5 submission q=deadass subreddit=askreddit aggs=author fields=aggs metadata=true agg_size=1000 after=410d before=0d 10  
+6 submission q=def subreddit=askreddit aggs=author fields=aggs metadata=true agg_size=1000 after=410d before=0d 10  
+7 submission q=defo subreddit=askreddit aggs=author fields=aggs metadata=true agg_size=1000 after=410d before=0d 10  
+8 submission subreddit=askreddit aggs=author fields=aggs metadata=true agg_size=1000 after=410d before=0d 10  
+9 submission q=thot subreddit=askmen aggs=author fields=aggs metadata=true agg_size=1000 after=410d before=0d 10  
+10 submission q=stan subreddit=askmen aggs=author fields=aggs metadata=true agg_size=1000 after=410d before=0d 10  

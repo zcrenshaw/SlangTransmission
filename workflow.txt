@@ -9,3 +9,11 @@ GENERAL ORDER:
 	2. Process data to look for trends
 	3. Investigate trends or anomalies
 	4. Visualize findings
+
+Order of commands:
+searches
+CSVmanip roll-avg-dir
+make folders
+move files
+concat
+plot

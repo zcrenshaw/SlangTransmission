@@ -1,11 +1,56 @@
-8 submission subreddit=askreddit aggs=subreddit fields=aggs metadata=true after=410d before=0d 10
-16 submission subreddit=askmen aggs=subreddit fields=aggs metadata=true after=410d before=0d 10
-24 submission subreddit=askwomen aggs=subreddit fields=aggs metadata=true after=410d before=0d 10
-32 submission subreddit=askgamers aggs=subreddit fields=aggs metadata=true after=410d before=0d 10
-40 submission subreddit=talesfromtechsupport aggs=subreddit fields=aggs metadata=true after=410d before=0d 10
-48 submission subreddit=talesfromretail aggs=subreddit fields=aggs metadata=true after=410d before=0d 10
-56 submission subreddit=roastme aggs=subreddit fields=aggs metadata=true after=410d before=0d 10
-64 submission subreddit=tifu aggs=subreddit fields=aggs metadata=true after=410d before=0d 10
-72 submission subreddit=askgaybros aggs=subreddit fields=aggs metadata=true after=410d before=0d 10
-80 submission subreddit=asknyc aggs=subreddit fields=aggs metadata=true after=410d before=0d 10
-88 submission subreddit=relationships aggs=subreddit fields=aggs metadata=true after=410d before=0d 10
+58 submission q=stan subreddit=tifu aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+59 submission q=periodt subreddit=tifu aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+60 submission q=periot subreddit=tifu aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+61 submission q=deadass subreddit=tifu aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+62 submission q=def subreddit=tifu aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+63 submission q=defo subreddit=tifu aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+64 submission subreddit=tifu aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+65 submission q=thot subreddit=askgaybros aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+66 submission q=stan subreddit=askgaybros aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+67 submission q=periodt subreddit=askgaybros aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+68 submission q=periot subreddit=askgaybros aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+69 submission q=deadass subreddit=askgaybros aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+70 submission q=def subreddit=askgaybros aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+71 submission q=defo subreddit=askgaybros aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+72 submission subreddit=askgaybros aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+73 submission q=thot subreddit=asknyc aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+74 submission q=stan subreddit=asknyc aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+75 submission q=periodt subreddit=asknyc aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+76 submission q=periot subreddit=asknyc aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+77 submission q=deadass subreddit=asknyc aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+78 submission q=def subreddit=asknyc aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+79 submission q=defo subreddit=asknyc aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+80 submission subreddit=asknyc aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+81 submission q=thot subreddit=relationships aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+82 submission q=stan subreddit=relationships aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+83 submission q=periodt subreddit=relationships aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+84 submission q=periot subreddit=relationships aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+85 submission q=deadass subreddit=relationships aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+86 submission q=def subreddit=relationships aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+87 submission q=defo subreddit=relationships aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+88 submission subreddit=relationships aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10
+
+
+  
+
+word list:
+thot
+stan
+periodt / periot
+deadass
+def / defo
+
+
+subreddit list:
+askreddit
+askmen
+askwomen
+askgamers
+talesfromtechsupport
+talesfromretail
+roastme
+tifu
+askgaybros
+asknyc
+relationships
+

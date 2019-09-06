@@ -1,0 +1,24 @@
+
+python3 plot.py ../post-data/askreddit-y2/submission_askreddit_subreddit_800d_410d_10_ALL.csv
+python3 plot.py ../post-data/askmen-y2/submission_askmen_subreddit_800d_410d_10_ALL.csv
+python3 plot.py ../post-data/askwomen-y2/submission_askwomen_subreddit_800d_410d_10_ALL.csv
+python3 plot.py ../post-data/askgaybros-y2/submission_askgaybros_subreddit_800d_410d_10_ALL.csv
+python3 plot.py ../post-data/asknyc-y2/submission_asknyc_subreddit_800d_410d_10_ALL.csv
+python3 plot.py ../post-data/relationships-y2/submission_relationships_subreddit_800d_410d_10_ALL.csv
+python3 plot.py ../post-data/tifu-y2/submission_tifu_subreddit_800d_410d_10_ALL.csv
+python3 plot.py ../post-data/roastme-y2/submission_roastme_subreddit_800d_410d_10_ALL.csv
+python3 plot.py ../post-data/talesfromtechsupport-y2/submission_talesfromtechsupport_subreddit_800d_410d_10_ALL.csv
+python3 plot.py ../post-data/talesfromretail-y2/submission_talesfromretail_subreddit_800d_410d_10_ALL.csv
+python3 plot.py ../post-data/askgamers-y2/submission_askgamers_subreddit_800d_410d_10_ALL.csv
+
+python3 plot.py ../comment-data/askreddit-y2/comment_askreddit_subreddit_800d_410d_10_ALL.csv
+python3 plot.py ../comment-data/askmen-y2/comment_askmen_subreddit_800d_410d_10_ALL.csv
+python3 plot.py ../comment-data/askwomen-y2/comment_askwomen_subreddit_800d_410d_10_ALL.csv
+python3 plot.py ../comment-data/askgaybros-y2/comment_askgaybros_subreddit_800d_410d_10_ALL.csv
+python3 plot.py ../comment-data/asknyc-y2/comment_asknyc_subreddit_800d_410d_10_ALL.csv
+python3 plot.py ../comment-data/relationships-y2/comment_relationships_subreddit_800d_410d_10_ALL.csv
+python3 plot.py ../comment-data/tifu-y2/comment_tifu_subreddit_800d_410d_10_ALL.csv
+python3 plot.py ../comment-data/roastme-y2/comment_roastme_subreddit_800d_410d_10_ALL.csv
+python3 plot.py ../comment-data/talesfromtechsupport-y2/comment_talesfromtechsupport_subreddit_800d_410d_10_ALL.csv
+python3 plot.py ../comment-data/talesfromretail-y2/comment_talesfromretail_subreddit_800d_410d_10_ALL.csv
+python3 plot.py ../comment-data/askgamers-y2/comment_askgamers_subreddit_800d_410d_10_ALL.csv

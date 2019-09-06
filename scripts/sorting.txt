@@ -1,0 +1,24 @@
+mkdir askgamers-y3
+mkdir askgaybros-y3
+mkdir askmen-y3
+mkdir asknyc-y3
+mkdir askreddit-y3
+mkdir askwomen-y3
+mkdir relationships-y3
+mkdir roastme-y3
+mkdir talesfromretail-y3
+mkdir talesfromtechsupport-y3
+mkdir tifu-y3
+
+mv -v *askgamers*.csv askgamers-y3/ | wc -l
+mv -v *askgaybros*.csv askgaybros-y3/ | wc -l
+mv -v *askgaybros*.csv askgaybros-y3/ | wc -l
+mv -v *askmen*.csv askmen-y3/ | wc -l
+mv -v *askwomen*.csv askwomen-y3/ | wc -l
+mv -v *askreddit*.csv askreddit-y3/ | wc -l
+mv -v *asknyc*.csv asknyc-y3/ | wc -l
+mv -v *tifu*.csv tifu-y3/ | wc -l
+mv -v *roastme*.csv roastme-y3/ | wc -l
+mv -v *relationships*.csv relationships-y3/ | wc -l
+mv -v *talesfromretail*.csv talesfromretail-y3/ | wc -l
+mv -v *talesfromtechsupport*.csv talesfromtechsupport-y3/ | wc -l

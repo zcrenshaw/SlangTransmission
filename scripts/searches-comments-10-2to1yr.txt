@@ -1,0 +1,113 @@
+1 comment q=thot subreddit=askreddit aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+2 comment q=stan subreddit=askreddit aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+3 comment q=periodt subreddit=askreddit aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+4 comment q=periot subreddit=askreddit aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+5 comment q=deadass subreddit=askreddit aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+6 comment q=def subreddit=askreddit aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+7 comment q=defo subreddit=askreddit aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+8 comment subreddit=askreddit aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+9 comment q=thot subreddit=askmen aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+10 comment q=stan subreddit=askmen aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+11 comment q=periodt subreddit=askmen aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+12 comment q=periot subreddit=askmen aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+13 comment q=deadass subreddit=askmen aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+14 comment q=def subreddit=askmen aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+15 comment q=defo subreddit=askmen aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+16 comment subreddit=askmen aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+17 comment q=thot subreddit=askwomen aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+18 comment q=stan subreddit=askwomen aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+19 comment q=periodt subreddit=askwomen aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+20 comment q=periot subreddit=askwomen aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+21 comment q=deadass subreddit=askwomen aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+22 comment q=def subreddit=askwomen aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+23 comment q=defo subreddit=askwomen aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+24 comment subreddit=askwomen aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+25 comment q=thot subreddit=askgamers aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+26 comment q=stan subreddit=askgamers aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+27 comment q=periodt subreddit=askgamers aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+28 comment q=periot subreddit=askgamers aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+29 comment q=deadass subreddit=askgamers aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+30 comment q=def subreddit=askgamers aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+31 comment q=defo subreddit=askgamers aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+32 comment subreddit=askgamers aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+33 comment q=thot subreddit=talesfromtechsupport aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+34 comment q=stan subreddit=talesfromtechsupport aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+35 comment q=periodt subreddit=talesfromtechsupport aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+36 comment q=periot subreddit=talesfromtechsupport aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+37 comment q=deadass subreddit=talesfromtechsupport aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+38 comment q=def subreddit=talesfromtechsupport aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+39 comment q=defo subreddit=talesfromtechsupport aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+40 comment subreddit=talesfromtechsupport aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+41 comment q=thot subreddit=talesfromretail aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+42 comment q=stan subreddit=talesfromretail aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+43 comment q=periodt subreddit=talesfromretail aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+44 comment q=periot subreddit=talesfromretail aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+45 comment q=deadass subreddit=talesfromretail aggs=subreddit fields=aggs metadata=true after=800d before=410d 10
+46 comment q=def subreddit=talesfromretail aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+47 comment q=defo subreddit=talesfromretail aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+48 comment subreddit=talesfromretail aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+49 comment q=thot subreddit=roastme aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+50 comment q=stan subreddit=roastme aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+51 comment q=periodt subreddit=roastme aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+52 comment q=periot subreddit=roastme aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+53 comment q=deadass subreddit=roastme aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+54 comment q=def subreddit=roastme aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+55 comment q=defo subreddit=roastme aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+56 comment subreddit=roastme aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+57 comment q=thot subreddit=tifu aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+58 comment q=stan subreddit=tifu aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+59 comment q=periodt subreddit=tifu aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+60 comment q=periot subreddit=tifu aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+61 comment q=deadass subreddit=tifu aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+62 comment q=def subreddit=tifu aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+63 comment q=defo subreddit=tifu aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+64 comment subreddit=tifu aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+65 comment q=thot subreddit=askgaybros aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+66 comment q=stan subreddit=askgaybros aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+67 comment q=periodt subreddit=askgaybros aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+68 comment q=periot subreddit=askgaybros aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+69 comment q=deadass subreddit=askgaybros aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+70 comment q=def subreddit=askgaybros aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+71 comment q=defo subreddit=askgaybros aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+72 comment subreddit=askgaybros aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+73 comment q=thot subreddit=asknyc aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+74 comment q=stan subreddit=asknyc aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+75 comment q=periodt subreddit=asknyc aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+76 comment q=periot subreddit=asknyc aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+77 comment q=deadass subreddit=asknyc aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+78 comment q=def subreddit=asknyc aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+79 comment q=defo subreddit=asknyc aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+80 comment subreddit=asknyc aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+81 comment q=thot subreddit=relationships aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+82 comment q=stan subreddit=relationships aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+83 comment q=periodt subreddit=relationships aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+84 comment q=periot subreddit=relationships aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+85 comment q=deadass subreddit=relationships aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+86 comment q=def subreddit=relationships aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+87 comment q=defo subreddit=relationships aggs=subreddit fields=aggs metadata=true after=800d before=410d 10  
+88 comment subreddit=relationships aggs=subreddit fields=aggs metadata=true after=800d before=410d 10
+
+
+  
+
+word list:
+thot
+stan
+periodt / periot
+deadass
+def / defo
+
+
+subreddit list:
+askreddit
+askmen
+askwomen
+askgamers
+talesfromtechsupport
+talesfromretail
+roastme
+tifu
+askgaybros
+asknyc
+relationships
+

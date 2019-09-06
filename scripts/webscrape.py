@@ -8,13 +8,33 @@ import sys
 import requests
 from time import sleep
 import csv
+import traceback
+import pandas as pd
+import numpy as np
+from math import ceil
+
+check_folder = True
+nodes = 0
 
 # DATA COLLECTION ~~~~~~~~~~~~~~~~~~~~
 
-def get_JSON(link,sleeptime):
+def get_JSON(link,sleeptime,attempts):
     # scrapes the data given a link
 
-    r = requests.get(link)
+    if attempts == 0:
+        print("Error in accessing data – no attempts left, aborting")
+        exit(1)
+
+    try:
+        r = requests.get(link)
+    except:
+        try:
+            print(r)
+        except:
+            print("Issue with link: attempting again")
+            sleep(sleeptime)
+            return get_JSON(link,sleeptime,attempts-1)
+
 
     if 'json' in r.headers.get('Content-Type'):
         try:
@@ -25,7 +45,7 @@ def get_JSON(link,sleeptime):
         if r.status_code == 429: # too many request error
             print("Too many requests: waiting " + str(sleeptime) + " seconds.")
             sleep(sleeptime)
-            data = get_JSON(link)
+            data = get_JSON(link,sleeptime,attempts)
         else:
             print("Error: Not in JSON format")
             data = None
@@ -33,45 +53,176 @@ def get_JSON(link,sleeptime):
     return data
 
 def gen_link(args):
-    # TODO: simplify link construction
     # constructs a link for search
-    link = ['','']
-    if args[1][0:5] == 'https': #if the input is a link
-        link[0] = args[1]
-        split = args[1].split('&')
-        link[1] = split[0].split('/')[-2]
-        for i in range(2,len(split)):
-            link[1] += '_' + split[i]
-    else: #if the inputs are parameters
-        link[0] = 'https://api.pushshift.io/reddit/search/'
-        link[0] += args[1] + '/?'
-        link[1] += args[1]
+    link = ''
+    if args[1][0:5] == 'https': # if the input is a link
+        link = args[1]
+    else: # if the inputs are parameters
+        link = 'https://api.pushshift.io/reddit/search/'
+        link += args[1] + '/?'
         for i in range(2, len(args)):
-            link[0] += '&' + args[i]
             if len(args[i]) == 0:
                 # skip over error in text file commands
                 continue
-            if args[i] == '':
-                link[1] += "_"
-            if args[i][0:4] == "aggs":
-                link[1] += '_' + args[i].split('=')[1]
-            if "after" in args[i] or "before" in args[i] or 'subreddit' in args[i]:
-                link[1] += '_' + args[i].split('=')[1]
-            try:
-                link[1] += str(int(args[i]))
-            except:
-                continue
+            else:
+                link += '&' + args[i]
 
     return link
 
-def scrape(args, sleeptime):
+def split_range(after,before):
+    scales = {
+        "d" : 24,
+        "h" : 60,
+        "m" : 60
+    }
+    new_dates = [None] * 4
+    a = after.split('=')[1]
+    b = before.split('=')[1]
+    timescale = a[-1]
+    a = int(a[:-1])
+    b = int(b[:-1])
+    if (a - b) == 1:
+        a *= scales[timescale]
+        b *= scales[timescale]
+        if timescale == 'd':
+            timescale = 'h'
+        elif timescale == 'h':
+            timescale = 'm'
+        elif timescale == 'm':
+            timescale = 's'
+
+    mid = b + (a-b)//2
+
+    new_dates[0] = 'after=' + str(a) + timescale
+    new_dates[1] = 'before=' + str(mid)+ timescale
+    new_dates[2] = 'after=' + str(mid)+ timescale
+    new_dates[3] = 'before=' + str(b) + timescale
+
+
+    return new_dates
+
+def convert_to_secs(x,scale):
+    if scale == 'd':
+        return x * 24 * 60 * 60
+    elif scale == 'h':
+        return x * 60 * 60
+    elif scale == 'm':
+        return x * 60
+    elif scale == 's':
+        return x
+    else:
+        print("Error: timescale not valid")
+        exit(0)
+
+
+def create_subs(after,before,sections):
+    a = int(after.split('=')[1][:-1])
+    b = int(before.split('=')[1][:-1])
+    timescale = after[-1]
+    a = convert_to_secs(a,timescale)
+    b = convert_to_secs(b,timescale)
+    return np.linspace(a,b,num=sections,dtype=int)
+
+def create_labels(a,b):
+    after = 'after=' + str(a) + 's'
+    before = 'before=' + str(b) + 's'
+    return [after,before]
+
+
+
+
+def scrape(args,sleeptime,attempts):
+    # given parameters, run a scrape
+
+    # parameters (convention): sub/comment  (query)   subreddit   aggs    metadata   after   before
+
+    link = gen_link(args)  # produce link / filename
+
+    data = get_JSON(link, sleeptime,attempts)  # obtain data based on the link
+
+    return_data = [None] * 3
+
+    arg_copy = args
+
+    df = None
+
+    max = 1000
+
+    global nodes
+
+    # ensures reading correct field even in case of no query
+    if args[4].split('=')[0] == 'aggs':
+        agg_type = args[4].split('=')[1]
+    else:
+        # no query is used for total
+        agg_type = args[3].split('=')[1]
+
+    if agg_type == 'author':
+        # return number of users using this term
+        try:
+            total = data['metadata']['total_results']
+            df = pd.DataFrame(columns=['author', 'count'])
+            nodes+=1
+            if nodes%100 == 0:
+                print(str(nodes) + " acceses complete")
+            if total > max: # true max is 1000, but can leave wiggle room
+                sections = ceil(total/(max*.8))
+                dates = create_subs(args[-2],args[-1],sections+1)
+                for i in range(sections):
+                    zone = create_labels(dates[i],dates[i+1])
+                    arg_copy[-2] = zone[0]
+                    arg_copy[-1] = zone[1]
+                    section_data = scrape(arg_copy,sleeptime,attempts)[2]
+                    df = df.merge(section_data,on='author',suffixes=['_l','_r'],how='outer')
+                    df = df.replace(to_replace=np.nan,value=0)
+                    df['count'] = df['count_l'] + df['count_r']
+                    df = df.drop(['count_l','count_r'],axis=1)
+
+                df = df.sort_values(by='count',ascending=False)
+                return_data[0] = len(df['author'])
+
+            else:
+                authors = data['aggs']['author']
+                users = []
+                counts = []
+                for a in authors:
+                    users.append(a['key'])
+                    counts.append(a['doc_count'])
+
+                frame = {'author': pd.Series(users), 'count': pd.Series(counts)}
+                df = pd.DataFrame(frame)
+
+        except:
+            print('FAIL')
+            traceback.print_exc()
+            exit(0)
+            return_data[0] = 0
+    elif agg_type == 'subreddit':
+        # return number of posts/comments with this term
+        try:
+            return_data[0] = data['aggs']['subreddit'][0]['doc_count']
+        except:
+            return_data[0] = 0
+
+    else:
+        return "Not yet supported"
+
+    return_data[1] = link
+    return_data[2] = df
+    return return_data
+
+def old_scrape(args, sleeptime,df):
     # given parameters, run a scrape
 
     # parameters (convention): sub/comment  (query)   subreddit   aggs    metadata   after   before
 
     link = gen_link(args) #produce link / filename
 
-    data = get_JSON(link[0],sleeptime) #obtain data based on the link
+    data = get_JSON(link,sleeptime) #obtain data based on the link
+
+    return_data = [None] * 3
+
+    global nodes
 
     # ensures reading correct field even in case of no query
     if args[4].split('=')[0] == 'aggs':
@@ -83,27 +234,65 @@ def scrape(args, sleeptime):
     if  agg_type == 'author':
         # return number of users using this term
         try:
-            return [len(data['aggs']['author']),link[0]]
+            if data['metadata']['total_results'] >= 1000:
+                new_dates = split_range(args[-2],args[-1])
+                early_args = args[:-2]
+                early_args.extend(new_dates[0:2])
+                late_args = args[:-2]
+                late_args.extend(new_dates[0:2])
+                early = scrape(early_args,sleeptime,None)
+                late = scrape(late_args,sleeptime,None)
+                try:
+                    df = pd.merge(early[2],late[2],on='author',how='inner',suffixes=('_e','_l'))
+                    df['count'] = df['count_e'] + df['count_l']
+                    df = df.drop(['count_e','count_l'],axis=1)
+                except:
+                    traceback.print_exc()
+
+
+            else:
+                authors = data['aggs']['author']
+                users = []
+                counts = []
+                for a in authors:
+                    users.append(a['key'])
+                    counts.append(a['doc_count'])
+
+                frame = { 'author': pd.Series(users), 'count' : pd.Series(counts)}
+                df = pd.DataFrame(frame)
+                nodes+=1
+                if nodes%100 == 0:
+                    print(nodes)
+
+            return_data[0] = len(data['aggs']['author'])
         except:
-            return [0,link[0]]
+            print('FAIL')
+            traceback.print_exc()
+            exit(0)
+            return_data[0] = 0
     elif agg_type == 'subreddit':
         # return number of posts/comments with this term
         try:
-            return [data['aggs']['subreddit'][0]['doc_count'],link[0]]
+            return_data[0] = data['aggs']['subreddit'][0]['doc_count']
         except:
-            return [0,link[0]]
+            return_data[0] = 0
 
     else:
         return "Not yet supported"
+
+    return_data[1] = "Greetings"
+    return_data[2] = df
+    return return_data
 
 
 
 def batch(args):
     # given parameters, run a series of scrapes
     # will break the time interval into even buckets of a given size
-    # parameters: sub/comment    query   subreddit   aggs   metadata    after   before  bucket_size
+    # parameters: sub/comment    query   subreddit   aggs  fields metadata    after   before  bucket_size
 
     SLEEPTIME = 1 # time for sleeping to account for 429 errors
+    ATTEMPTS = 5
 
     timescale = args[-3][-1]
 
@@ -111,7 +300,7 @@ def batch(args):
     before = int(args[-2][7:-1])
     bucket_size = int(args[-1])
 
-    header = ['count','average','after','before','link']
+    header = ['count','after','before','link']
     name = create_filename(args)
 
     # sanity check on time scale
@@ -132,15 +321,26 @@ def batch(args):
 
     data = [] # to hold data
 
-    # TODO: edit this link
-    output = "../comment-data/" + name + ".csv"
+    # TODO: change this
+    out_folder = "../post-user-data/"
+
+    global check_folder
+    if (check_folder):
+        response = input("Is " + out_folder + " the correct destination? Y/N \n")
+        if response.lower() == 'y' or response.lower() == 'yes':
+            check_folder = False
+            print("Moving forward")
+        else:
+            print("Please input correct destination folder and run again.")
+            exit(0)
+    output = out_folder + name + ".csv"
 
     # collect data from the scrapes
     while (b >= before):
         search[-2] = 'after=' + str(a) + timescale
         search[-1] = 'before=' + str(b) + timescale
-        point = scrape(search, SLEEPTIME)
-        data.append([point[0],'NA',a,b,point[1]])
+        point = scrape(search, SLEEPTIME,ATTEMPTS)
+        data.append([point[0],a,b,point[1]])
        # sleep(SLEEPTIME / 10)  # too prevent 429 (too many request) errors
         a = b
         b = a - bucket_size
@@ -169,7 +369,7 @@ def create_filename(args):
             name += "_" + args[i].split('=')[1]
         if args[i][0:2] == 'q=':
             name += "_" + args[i].split('=')[1]
-        if "after" in args[i] or "before" in args[i] or 'subreddit' in args[i]:
+        if "after" in args[i] or "before" in args[i] or 'subreddit=' in args[i]:
             name += "_" + args[i].split('=')[1]
         try:
             name += "_" + str(int(args[i]))
@@ -187,10 +387,10 @@ def merge(infile, outfile):
     with open(infile,'r') as input:
         try: #check for file exist
             with open(outfile, 'r') as check:
-                #check for file empty
+                # check for file empty
                 needHeader = len(check.readline().strip('\n').split(',')) < 2
         except:
-            #if does not exist, mark as needing header
+            # if does not exist, mark as needing header
             needHeader = True
 
         with open(outfile,'a+') as output:
