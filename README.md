@@ -1,5 +1,5 @@
 # SlangTransmission
-This is the code I am using for an independent research project looking into factors relating to the transmission of slang between groups on Reddit.
+This is the code I am using for an independent research project looking into factors relating to the role of influencers in rise of slang terms in certain groups on Reddit.
 
 Minimal work will be done before August.
 
@@ -11,6 +11,10 @@ Web-Slang-Project-Proposal.docx
 proposal.txt
 	plain text copy of proposal
 
-
 workflow.txt
 	File explaining the function of each file
+
+scripts/
+	Holds all of the scripts and input files for the scripts used for data collection and analysis
+
+Any folder with "data" in the title holds the data that I collected.
