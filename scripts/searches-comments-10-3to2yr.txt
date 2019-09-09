@@ -22,14 +22,14 @@
 22 comment q=def subreddit=askwomen aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
 23 comment q=defo subreddit=askwomen aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
 24 comment subreddit=askwomen aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
-25 comment q=thot subreddit=askgamers aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
-26 comment q=stan subreddit=askgamers aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
-27 comment q=periodt subreddit=askgamers aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
-28 comment q=periot subreddit=askgamers aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
-29 comment q=deadass subreddit=askgamers aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
-30 comment q=def subreddit=askgamers aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
-31 comment q=defo subreddit=askgamers aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
-32 comment subreddit=askgamers aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+25 comment q=thot subreddit=askUK aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+26 comment q=stan subreddit=askUK aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+27 comment q=periodt subreddit=askUK aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+28 comment q=periot subreddit=askUK aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+29 comment q=deadass subreddit=askUK aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+30 comment q=def subreddit=askUK aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+31 comment q=defo subreddit=askUK aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+32 comment subreddit=askUK aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
 33 comment q=thot subreddit=talesfromtechsupport aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
 34 comment q=stan subreddit=talesfromtechsupport aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
 35 comment q=periodt subreddit=talesfromtechsupport aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
@@ -86,6 +86,15 @@
 86 comment q=def subreddit=relationships aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
 87 comment q=defo subreddit=relationships aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
 88 comment subreddit=relationships aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10
+89 comment q=thot subreddit=AMA aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+90 comment q=stan subreddit=AMA aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+91 comment q=periodt subreddit=AMA aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+92 comment q=periot subreddit=AMA aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+93 comment q=deadass subreddit=AMA aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+94 comment q=def subreddit=AMA aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+95 comment q=defo subreddit=AMA aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10  
+96 comment subreddit=AMA aggs=subreddit fields=aggs metadata=true after=1210d before=760d 10
+
 
 
   
@@ -99,10 +108,11 @@ def / defo
 
 
 subreddit list:
+AMA
 askreddit
 askmen
 askwomen
-askgamers
+askUK
 talesfromtechsupport
 talesfromretail
 roastme

@@ -1,7 +1,8 @@
+AMA
 askreddit
 askmen
 askwomen
-askgamers
+askUK
 talesfromtechsupport
 talesfromretail
 roastme
@@ -9,3 +10,5 @@ tifu
 askgaybros
 asknyc
 relationships
+
+formerly: askgamers

@@ -1,0 +1,9 @@
+count,after,before,link
+432,450,440,https://api.pushshift.io/reddit/search/submission/?&subreddit=asknyc&aggs=subreddit&fields=aggs&metadata=true&after=450d&before=440d
+399,440,430,https://api.pushshift.io/reddit/search/submission/?&subreddit=asknyc&aggs=subreddit&fields=aggs&metadata=true&after=440d&before=430d
+430,430,420,https://api.pushshift.io/reddit/search/submission/?&subreddit=asknyc&aggs=subreddit&fields=aggs&metadata=true&after=430d&before=420d
+399,420,410,https://api.pushshift.io/reddit/search/submission/?&subreddit=asknyc&aggs=subreddit&fields=aggs&metadata=true&after=420d&before=410d
+424,410,400,https://api.pushshift.io/reddit/search/submission/?&subreddit=asknyc&aggs=subreddit&fields=aggs&metadata=true&after=410d&before=400d
+429,400,390,https://api.pushshift.io/reddit/search/submission/?&subreddit=asknyc&aggs=subreddit&fields=aggs&metadata=true&after=400d&before=390d
+430,390,380,https://api.pushshift.io/reddit/search/submission/?&subreddit=asknyc&aggs=subreddit&fields=aggs&metadata=true&after=390d&before=380d
+401,380,370,https://api.pushshift.io/reddit/search/submission/?&subreddit=asknyc&aggs=subreddit&fields=aggs&metadata=true&after=380d&before=370d

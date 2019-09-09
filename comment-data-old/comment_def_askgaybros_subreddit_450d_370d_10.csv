@@ -1,0 +1,9 @@
+count,after,before,link
+18,450,440,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askgaybros&aggs=subreddit&fields=aggs&metadata=true&after=450d&before=440d
+27,440,430,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askgaybros&aggs=subreddit&fields=aggs&metadata=true&after=440d&before=430d
+17,430,420,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askgaybros&aggs=subreddit&fields=aggs&metadata=true&after=430d&before=420d
+30,420,410,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askgaybros&aggs=subreddit&fields=aggs&metadata=true&after=420d&before=410d
+22,410,400,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askgaybros&aggs=subreddit&fields=aggs&metadata=true&after=410d&before=400d
+12,400,390,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askgaybros&aggs=subreddit&fields=aggs&metadata=true&after=400d&before=390d
+18,390,380,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askgaybros&aggs=subreddit&fields=aggs&metadata=true&after=390d&before=380d
+20,380,370,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askgaybros&aggs=subreddit&fields=aggs&metadata=true&after=380d&before=370d

@@ -13,7 +13,7 @@ GENERAL ORDER:
 Order of commands:
 searches
 CSVmanip roll-avg-dir
-make folders
-move files
+adjust time
+sorting
 concat
 plot

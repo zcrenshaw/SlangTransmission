@@ -1,2 +1,0 @@
-count,after,before,link
-587547,100,90,https://api.pushshift.io/reddit/search/comment/?&subreddit=askreddit&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=100d&before=90d

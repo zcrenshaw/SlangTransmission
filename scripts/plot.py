@@ -21,7 +21,7 @@ def main():
 
     cols = list(df.columns.values)
     lencols = len(cols)
-    max = 0
+    max = 0 # TODO: review this variable's use
 
     # calculate percentages of total
     for i in range(5,lencols):

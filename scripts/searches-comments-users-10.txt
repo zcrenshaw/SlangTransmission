@@ -86,6 +86,14 @@
 86 comment q=def subreddit=relationships aggs=author fields=aggs metadata=true agg_size=1000 after=410d before=0d 10  
 87 comment q=defo subreddit=relationships aggs=author fields=aggs metadata=true agg_size=1000 after=410d before=0d 10  
 88 comment subreddit=relationships aggs=author fields=aggs metadata=true agg_size=1000 after=410d before=0d 10
+89 comment q=thot subreddit=AMA aggs=author fields=aggs metadata=true agg_size=1000 after=410d before=0d 10  
+90 comment q=stan subreddit=AMA aggs=author fields=aggs metadata=true agg_size=1000 after=410d before=0d 10  
+91 comment q=periodt subreddit=AMA aggs=author fields=aggs metadata=true agg_size=1000 after=410d before=0d 10  
+92 comment q=periot subreddit=AMA aggs=author fields=aggs metadata=true agg_size=1000 after=410d before=0d 10  
+93 comment q=deadass subreddit=AMA aggs=author fields=aggs metadata=true agg_size=1000 after=410d before=0d 10  
+94 comment q=def subreddit=AMA aggs=author fields=aggs metadata=true agg_size=1000 after=410d before=0d 10  
+95 comment q=defo subreddit=AMA aggs=author fields=aggs metadata=true agg_size=1000 after=410d before=0d 10  
+96 comment subreddit=AMA aggs=author fields=aggs metadata=true agg_size=1000 after=410d before=0d 10
 
 
   
@@ -99,6 +107,7 @@ def / defo
 
 
 subreddit list:
+AMA
 askreddit
 askmen
 askwomen

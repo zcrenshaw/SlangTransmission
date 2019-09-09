@@ -7,6 +7,7 @@
 import sys
 import os
 import pandas as pd
+import re
 
 
 def prep_df(filename,droplink):
@@ -45,6 +46,30 @@ def del_col(df,col):
     except:
         print("Column not found")
     return df
+
+
+def count_influence(q,src,dst):
+    after = []
+    before = []
+    sums = []
+
+    for file in os.listdir(src):
+        if file[-3:] == 'csv':
+            df = pd.read_csv(src+file)
+            file_split = file.split('_')
+            a = file_split[-3][:-1]
+            b = file_split[-2][:-1]
+            df['count'] = df["text"].str.count(q, re.I)
+            count = df['count'].sum()
+            after.append(a)
+            before.append(b)
+            sums.append(count)
+
+    frame = {'after': after,'before': before, 'count': sums}
+
+    df = pd.DataFrame(frame)
+
+    df.to_csv(dst,index=False)
 
 
 def manip():
@@ -109,7 +134,11 @@ def manip():
         output = file1.append(file2)
         output.to_csv(outfile)
 
-
+    elif func == "count-influence":
+        q = sys.argv[2]
+        folder = sys.argv[3]
+        output = sys.argv[4]
+        count_influence(q,folder,output)
 
     else:
         print("Not yet supported")

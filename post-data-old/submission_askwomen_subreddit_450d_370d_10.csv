@@ -1,0 +1,9 @@
+count,after,before,link
+1718,450,440,https://api.pushshift.io/reddit/search/submission/?&subreddit=askwomen&aggs=subreddit&fields=aggs&metadata=true&after=450d&before=440d
+1905,440,430,https://api.pushshift.io/reddit/search/submission/?&subreddit=askwomen&aggs=subreddit&fields=aggs&metadata=true&after=440d&before=430d
+1865,430,420,https://api.pushshift.io/reddit/search/submission/?&subreddit=askwomen&aggs=subreddit&fields=aggs&metadata=true&after=430d&before=420d
+1971,420,410,https://api.pushshift.io/reddit/search/submission/?&subreddit=askwomen&aggs=subreddit&fields=aggs&metadata=true&after=420d&before=410d
+2123,410,400,https://api.pushshift.io/reddit/search/submission/?&subreddit=askwomen&aggs=subreddit&fields=aggs&metadata=true&after=410d&before=400d
+2032,400,390,https://api.pushshift.io/reddit/search/submission/?&subreddit=askwomen&aggs=subreddit&fields=aggs&metadata=true&after=400d&before=390d
+1914,390,380,https://api.pushshift.io/reddit/search/submission/?&subreddit=askwomen&aggs=subreddit&fields=aggs&metadata=true&after=390d&before=380d
+1907,380,370,https://api.pushshift.io/reddit/search/submission/?&subreddit=askwomen&aggs=subreddit&fields=aggs&metadata=true&after=380d&before=370d

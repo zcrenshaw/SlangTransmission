@@ -1,4 +1,4 @@
-python3 CSVmanip.py concat ../post-data/askgamers-y2/ avg submission_askgamers_subreddit_800d_410d_10.csv
+python3 CSVmanip.py concat ../post-data/askUK-y2/ avg submission_askUK_subreddit_800d_410d_10.csv
 python3 CSVmanip.py concat ../post-data/askgaybros-y2/ avg submission_askgaybros_subreddit_800d_410d_10.csv
 python3 CSVmanip.py concat ../post-data/askmen-y2/ avg submission_askmen_subreddit_800d_410d_10.csv
 python3 CSVmanip.py concat ../post-data/asknyc-y2/ avg submission_asknyc_subreddit_800d_410d_10.csv
@@ -9,8 +9,9 @@ python3 CSVmanip.py concat ../post-data/roastme-y2/ avg submission_roastme_subre
 python3 CSVmanip.py concat ../post-data/talesfromretail-y2/ avg submission_talesfromretail_subreddit_800d_410d_10.csv
 python3 CSVmanip.py concat ../post-data/talesfromtechsupport-y2/ avg submission_talesfromtechsupport_subreddit_800d_410d_10.csv
 python3 CSVmanip.py concat ../post-data/tifu-y2/ avg submission_tifu_subreddit_800d_410d_10.csv
+python3 CSVmanip.py concat ../post-data/AMA-y2/ avg submission_AMA_subreddit_800d_410d_10.csv
 
-python3 CSVmanip.py concat ../comment-data/askgamers-y2/ avg comment_askgamers_subreddit_800d_410d_10.csv
+python3 CSVmanip.py concat ../comment-data/askUK-y2/ avg comment_askUK_subreddit_800d_410d_10.csv
 python3 CSVmanip.py concat ../comment-data/askgaybros-y2/ avg comment_askgaybros_subreddit_800d_410d_10.csv
 python3 CSVmanip.py concat ../comment-data/askmen-y2/ avg comment_askmen_subreddit_800d_410d_10.csv
 python3 CSVmanip.py concat ../comment-data/asknyc-y2/ avg comment_asknyc_subreddit_800d_410d_10.csv
@@ -21,4 +22,5 @@ python3 CSVmanip.py concat ../comment-data/roastme-y2/ avg comment_roastme_subre
 python3 CSVmanip.py concat ../comment-data/talesfromretail-y2/ avg comment_talesfromretail_subreddit_800d_410d_10.csv
 python3 CSVmanip.py concat ../comment-data/talesfromtechsupport-y2/ avg comment_talesfromtechsupport_subreddit_800d_410d_10.csv
 python3 CSVmanip.py concat ../comment-data/tifu-y2/ avg comment_tifu_subreddit_800d_410d_10.csv
+python3 CSVmanip.py concat ../comment-data/AMA-y2/ avg comment_AMA_subreddit_800d_410d_10.csv
 

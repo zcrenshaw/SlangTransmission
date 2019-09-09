@@ -1,0 +1,9 @@
+count,after,before,link
+100,450,440,https://api.pushshift.io/reddit/search/comment/?&q=thot&subreddit=askreddit&aggs=subreddit&fields=aggs&metadata=true&after=450d&before=440d
+95,440,430,https://api.pushshift.io/reddit/search/comment/?&q=thot&subreddit=askreddit&aggs=subreddit&fields=aggs&metadata=true&after=440d&before=430d
+105,430,420,https://api.pushshift.io/reddit/search/comment/?&q=thot&subreddit=askreddit&aggs=subreddit&fields=aggs&metadata=true&after=430d&before=420d
+128,420,410,https://api.pushshift.io/reddit/search/comment/?&q=thot&subreddit=askreddit&aggs=subreddit&fields=aggs&metadata=true&after=420d&before=410d
+142,410,400,https://api.pushshift.io/reddit/search/comment/?&q=thot&subreddit=askreddit&aggs=subreddit&fields=aggs&metadata=true&after=410d&before=400d
+101,400,390,https://api.pushshift.io/reddit/search/comment/?&q=thot&subreddit=askreddit&aggs=subreddit&fields=aggs&metadata=true&after=400d&before=390d
+122,390,380,https://api.pushshift.io/reddit/search/comment/?&q=thot&subreddit=askreddit&aggs=subreddit&fields=aggs&metadata=true&after=390d&before=380d
+89,380,370,https://api.pushshift.io/reddit/search/comment/?&q=thot&subreddit=askreddit&aggs=subreddit&fields=aggs&metadata=true&after=380d&before=370d

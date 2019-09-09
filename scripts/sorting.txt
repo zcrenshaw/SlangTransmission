@@ -1,4 +1,5 @@
-mkdir askgamers-y3
+mkdir AMA-y3
+mkdir askUK-y3
 mkdir askgaybros-y3
 mkdir askmen-y3
 mkdir asknyc-y3
@@ -10,8 +11,8 @@ mkdir talesfromretail-y3
 mkdir talesfromtechsupport-y3
 mkdir tifu-y3
 
-mv -v *askgamers*.csv askgamers-y3/ | wc -l
-mv -v *askgaybros*.csv askgaybros-y3/ | wc -l
+mv -v *AMA*.csv AMA-y3/ | wc -l
+mv -v *askUK*.csv askUK-y3/ | wc -l
 mv -v *askgaybros*.csv askgaybros-y3/ | wc -l
 mv -v *askmen*.csv askmen-y3/ | wc -l
 mv -v *askwomen*.csv askwomen-y3/ | wc -l

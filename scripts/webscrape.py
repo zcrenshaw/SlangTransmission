@@ -69,38 +69,6 @@ def gen_link(args):
 
     return link
 
-def split_range(after,before):
-    scales = {
-        "d" : 24,
-        "h" : 60,
-        "m" : 60
-    }
-    new_dates = [None] * 4
-    a = after.split('=')[1]
-    b = before.split('=')[1]
-    timescale = a[-1]
-    a = int(a[:-1])
-    b = int(b[:-1])
-    if (a - b) == 1:
-        a *= scales[timescale]
-        b *= scales[timescale]
-        if timescale == 'd':
-            timescale = 'h'
-        elif timescale == 'h':
-            timescale = 'm'
-        elif timescale == 'm':
-            timescale = 's'
-
-    mid = b + (a-b)//2
-
-    new_dates[0] = 'after=' + str(a) + timescale
-    new_dates[1] = 'before=' + str(mid)+ timescale
-    new_dates[2] = 'after=' + str(mid)+ timescale
-    new_dates[3] = 'before=' + str(b) + timescale
-
-
-    return new_dates
-
 def convert_to_secs(x,scale):
     if scale == 'd':
         return x * 24 * 60 * 60
@@ -130,11 +98,10 @@ def create_labels(a,b):
 
 
 
-
-def scrape(args,sleeptime,attempts):
+def scrape(args,sleeptime,attempts,goal,current):
     # given parameters, run a scrape
 
-    # parameters (convention): sub/comment  (query)   subreddit   aggs    metadata   after   before
+    # parameters (convention): sub/comment  (query)   subreddit   aggs    metadata .... score   after   before
 
     link = gen_link(args)  # produce link / filename
 
@@ -157,14 +124,54 @@ def scrape(args,sleeptime,attempts):
         # no query is used for total
         agg_type = args[3].split('=')[1]
 
-    if agg_type == 'author':
+    if agg_type == 'none':
+        total = data['metadata']['total_results']
+        # create list of text
+        if goal < 0:
+            #first access for this query
+            goal = total/100
+            current = 0
+        page = data['data']
+        text = []
+        lpage = len(page)
+        maxscore = sys.maxsize
+        foundend = False
+
+        if args[1] == 'submission':
+            # if post
+            field = 'title'
+            nextfield = 'selftext'
+        else:
+            # if comment
+            field = 'body'
+            nextfield = None
+
+        for i in range(lpage):
+            current += 1
+            if current > goal:
+                foundend = True
+                break
+            addtext = page[i][field]
+            if nextfield is not None:
+                addtext += '\n\n\n' + page[i][nextfield]
+
+            text.append(addtext)
+            maxscore = page[i]['score']
+
+        df = pd.DataFrame(pd.Series(data=text,name='text'))
+
+        if not foundend:
+            args[-3] = 'score=<{}'.format(maxscore)
+            df = df.append(scrape(args,sleeptime,attempts,goal,current)[2])
+
+        return_data[0] = -1
+
+
+    elif agg_type == 'author':
         # return number of users using this term
         try:
             total = data['metadata']['total_results']
             df = pd.DataFrame(columns=['author', 'count'])
-            nodes+=1
-            if nodes%100 == 0:
-                print(str(nodes) + " acceses complete")
             if total > max: # true max is 1000, but can leave wiggle room
                 sections = ceil(total/(max*.8))
                 dates = create_subs(args[-2],args[-1],sections+1)
@@ -172,14 +179,14 @@ def scrape(args,sleeptime,attempts):
                     zone = create_labels(dates[i],dates[i+1])
                     arg_copy[-2] = zone[0]
                     arg_copy[-1] = zone[1]
-                    section_data = scrape(arg_copy,sleeptime,attempts)[2]
+                    section_data = scrape(arg_copy,sleeptime,attempts,0,0)[2]
                     df = df.merge(section_data,on='author',suffixes=['_l','_r'],how='outer')
                     df = df.replace(to_replace=np.nan,value=0)
                     df['count'] = df['count_l'] + df['count_r']
                     df = df.drop(['count_l','count_r'],axis=1)
 
                 df = df.sort_values(by='count',ascending=False)
-                return_data[0] = len(df['author'])
+                return_data[0] = len(df.index)
 
             else:
                 authors = data['aggs']['author']
@@ -191,10 +198,16 @@ def scrape(args,sleeptime,attempts):
 
                 frame = {'author': pd.Series(users), 'count': pd.Series(counts)}
                 df = pd.DataFrame(frame)
+                return_data[0] = len(df.index)
+                print("Completed bucket")
+
+            nodes += 1
+            if nodes % 100 == 0:
+                print(str(nodes) + " accesses complete")
 
         except:
             print('FAIL')
-            traceback.print_exc()
+            print("Error: ", sys.exc_info()[0], "occurred.")
             exit(0)
             return_data[0] = 0
     elif agg_type == 'subreddit':
@@ -211,81 +224,6 @@ def scrape(args,sleeptime,attempts):
     return_data[2] = df
     return return_data
 
-def old_scrape(args, sleeptime,df):
-    # given parameters, run a scrape
-
-    # parameters (convention): sub/comment  (query)   subreddit   aggs    metadata   after   before
-
-    link = gen_link(args) #produce link / filename
-
-    data = get_JSON(link,sleeptime) #obtain data based on the link
-
-    return_data = [None] * 3
-
-    global nodes
-
-    # ensures reading correct field even in case of no query
-    if args[4].split('=')[0] == 'aggs':
-        agg_type = args[4].split('=')[1]
-    else:
-        # no query is used for total
-        agg_type = args[3].split('=')[1]
-
-    if  agg_type == 'author':
-        # return number of users using this term
-        try:
-            if data['metadata']['total_results'] >= 1000:
-                new_dates = split_range(args[-2],args[-1])
-                early_args = args[:-2]
-                early_args.extend(new_dates[0:2])
-                late_args = args[:-2]
-                late_args.extend(new_dates[0:2])
-                early = scrape(early_args,sleeptime,None)
-                late = scrape(late_args,sleeptime,None)
-                try:
-                    df = pd.merge(early[2],late[2],on='author',how='inner',suffixes=('_e','_l'))
-                    df['count'] = df['count_e'] + df['count_l']
-                    df = df.drop(['count_e','count_l'],axis=1)
-                except:
-                    traceback.print_exc()
-
-
-            else:
-                authors = data['aggs']['author']
-                users = []
-                counts = []
-                for a in authors:
-                    users.append(a['key'])
-                    counts.append(a['doc_count'])
-
-                frame = { 'author': pd.Series(users), 'count' : pd.Series(counts)}
-                df = pd.DataFrame(frame)
-                nodes+=1
-                if nodes%100 == 0:
-                    print(nodes)
-
-            return_data[0] = len(data['aggs']['author'])
-        except:
-            print('FAIL')
-            traceback.print_exc()
-            exit(0)
-            return_data[0] = 0
-    elif agg_type == 'subreddit':
-        # return number of posts/comments with this term
-        try:
-            return_data[0] = data['aggs']['subreddit'][0]['doc_count']
-        except:
-            return_data[0] = 0
-
-    else:
-        return "Not yet supported"
-
-    return_data[1] = "Greetings"
-    return_data[2] = df
-    return return_data
-
-
-
 def batch(args):
     # given parameters, run a series of scrapes
     # will break the time interval into even buckets of a given size
@@ -293,6 +231,7 @@ def batch(args):
 
     SLEEPTIME = 1 # time for sleeping to account for 429 errors
     ATTEMPTS = 5
+    global nodes
 
     timescale = args[-3][-1]
 
@@ -322,7 +261,7 @@ def batch(args):
     data = [] # to hold data
 
     # TODO: change this
-    out_folder = "../post-user-data/"
+    out_folder = "../comment-data/"
 
     global check_folder
     if (check_folder):
@@ -335,22 +274,31 @@ def batch(args):
             exit(0)
     output = out_folder + name + ".csv"
 
+    writeout = True
+
     # collect data from the scrapes
     while (b >= before):
         search[-2] = 'after=' + str(a) + timescale
         search[-1] = 'before=' + str(b) + timescale
-        point = scrape(search, SLEEPTIME,ATTEMPTS)
+        point = scrape(search, SLEEPTIME,ATTEMPTS,-1,0)
+        if point[0] == -1:
+            output = out_folder + create_filename(search + [bucket_size]) + ".csv"
+            point[2].to_csv(output,index=False)
+            writeout = False
         data.append([point[0],a,b,point[1]])
-       # sleep(SLEEPTIME / 10)  # too prevent 429 (too many request) errors
+        nodes = 0
+        sleep(SLEEPTIME / 50)  # too prevent 429 (too many request) errors
         a = b
         b = a - bucket_size
 
+
     # write to csv file
-    with open(output, 'w') as file:
-        filewriter = csv.writer(file, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
-        filewriter.writerow(header)
-        for i in range(len(data)):
-            filewriter.writerow(data[i])
+    if writeout:
+        with open(output, 'w') as file:
+            filewriter = csv.writer(file, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+            filewriter.writerow(header)
+            for i in range(len(data)):
+                filewriter.writerow(data[i])
 
 
 

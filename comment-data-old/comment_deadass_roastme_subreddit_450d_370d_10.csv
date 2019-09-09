@@ -1,0 +1,9 @@
+count,after,before,link
+3,450,440,https://api.pushshift.io/reddit/search/comment/?&q=deadass&subreddit=roastme&aggs=subreddit&fields=aggs&metadata=true&after=450d&before=440d
+2,440,430,https://api.pushshift.io/reddit/search/comment/?&q=deadass&subreddit=roastme&aggs=subreddit&fields=aggs&metadata=true&after=440d&before=430d
+5,430,420,https://api.pushshift.io/reddit/search/comment/?&q=deadass&subreddit=roastme&aggs=subreddit&fields=aggs&metadata=true&after=430d&before=420d
+7,420,410,https://api.pushshift.io/reddit/search/comment/?&q=deadass&subreddit=roastme&aggs=subreddit&fields=aggs&metadata=true&after=420d&before=410d
+3,410,400,https://api.pushshift.io/reddit/search/comment/?&q=deadass&subreddit=roastme&aggs=subreddit&fields=aggs&metadata=true&after=410d&before=400d
+3,400,390,https://api.pushshift.io/reddit/search/comment/?&q=deadass&subreddit=roastme&aggs=subreddit&fields=aggs&metadata=true&after=400d&before=390d
+2,390,380,https://api.pushshift.io/reddit/search/comment/?&q=deadass&subreddit=roastme&aggs=subreddit&fields=aggs&metadata=true&after=390d&before=380d
+2,380,370,https://api.pushshift.io/reddit/search/comment/?&q=deadass&subreddit=roastme&aggs=subreddit&fields=aggs&metadata=true&after=380d&before=370d

@@ -9,7 +9,8 @@ python3 plot.py ../post-data/tifu-y2/submission_tifu_subreddit_800d_410d_10_ALL.
 python3 plot.py ../post-data/roastme-y2/submission_roastme_subreddit_800d_410d_10_ALL.csv
 python3 plot.py ../post-data/talesfromtechsupport-y2/submission_talesfromtechsupport_subreddit_800d_410d_10_ALL.csv
 python3 plot.py ../post-data/talesfromretail-y2/submission_talesfromretail_subreddit_800d_410d_10_ALL.csv
-python3 plot.py ../post-data/askgamers-y2/submission_askgamers_subreddit_800d_410d_10_ALL.csv
+python3 plot.py ../post-data/askUK-y2/submission_askUK_subreddit_800d_410d_10_ALL.csv
+python3 plot.py ../post-data/AMA-y2/submission_AMA_subreddit_800d_410d_10_ALL.csv
 
 python3 plot.py ../comment-data/askreddit-y2/comment_askreddit_subreddit_800d_410d_10_ALL.csv
 python3 plot.py ../comment-data/askmen-y2/comment_askmen_subreddit_800d_410d_10_ALL.csv
@@ -21,4 +22,5 @@ python3 plot.py ../comment-data/tifu-y2/comment_tifu_subreddit_800d_410d_10_ALL.
 python3 plot.py ../comment-data/roastme-y2/comment_roastme_subreddit_800d_410d_10_ALL.csv
 python3 plot.py ../comment-data/talesfromtechsupport-y2/comment_talesfromtechsupport_subreddit_800d_410d_10_ALL.csv
 python3 plot.py ../comment-data/talesfromretail-y2/comment_talesfromretail_subreddit_800d_410d_10_ALL.csv
-python3 plot.py ../comment-data/askgamers-y2/comment_askgamers_subreddit_800d_410d_10_ALL.csv
+python3 plot.py ../comment-data/askUK-y2/comment_askUK_subreddit_800d_410d_10_ALL.csv
+python3 plot.py ../comment-data/AMA-y2/comment_AMA_subreddit_800d_410d_10_ALL.csv
