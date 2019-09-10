@@ -48,6 +48,8 @@ def get_JSON(link,sleeptime,attempts):
             data = get_JSON(link,sleeptime,attempts)
         else:
             print("Error: Not in JSON format")
+            print(r.headers.get('Content-Type'))
+            print(r.text)
             data = None
 
     return data
@@ -159,7 +161,10 @@ def scrape(args,sleeptime,attempts,goal,current):
                 break
             addtext = page[i][field]
             if nextfield is not None:
-                addtext += '\n\n\n' + page[i][nextfield]
+                try:
+                    addtext += '\n\n\n' + page[i][nextfield]
+                except:
+                    print(link)
 
             text.append(addtext)
             maxscore = page[i]['score']
@@ -295,7 +300,6 @@ def batch(args,out_folder):
             point[2].to_csv(output,index=False)
             writeout = False
         data.append([point[0],a,b,point[1]])
-        nodes = 0
         sleep(SLEEPTIME / 50)  # to prevent 429 (too many request) errors
         a = b
         b = a - bucket_size
