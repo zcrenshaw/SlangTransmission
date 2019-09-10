@@ -1,0 +1,190 @@
+text
+"I remember a post here about a guy who had just started at a new company. For the first week one of his female colleagues kept moaning about how hard the reports that she had to do were.  So one morning he wrote a script to do the reports for her.  Told her in front of everybody else.  And that's when he found out that the reports were her only task and she was promptly let go after testing.
+
+Edit: It was his first day and he wrote the script on his lunch hour.
+
+https://www.reddit.com/r/talesfromtechsupport/comments/32uzrk/my_first_day_on_the_job_and_i_accidentally_got/
+And it was /u/RecursionIsRecursion who wrote it"
+"&gt;resolving the customers problem was not on the check sheet of things to do. 
+
+That figures."
+"&gt; As the tech neared the site, he called me on his satellite phone.
+&gt; 
+&gt; “I’m almost to the site, but everything looks fine...oh.”
+&gt; 
+&gt; The tech suddenly went quiet and I thought I had lost him, until he spoke again.
+&gt; 
+&gt; “It’s on bears.”
+
+"
+"I'm in the middle of something like this.  My company just did a department reshuffle and I inherited work from someone a rank above mine, who is still with the company.
+
+She spent two to three hours every single day manually building one report.  She didn't even use a template and just load data in, or reuse an old report and to the same.
+
+She manually built this report from a new blank workbook EVERY SINGLE DAY.
+
+I told my boss flat out that I absolutely was not doing that.  I wrote macros to do it and her two to three hour report is done in roughly four minutes.
+
+She was pissed AT ME when she found out."
+What's funny is that people who complain about how hard their jobs are are often doing so to preserve them (look at how brilliant I am and what I can do!). That really backfired on her unfortunately.
+"&gt; She was pissed AT ME when she found out.
+
+On one hand, that's a completely normal reaction, but on the other hand, what was she expecting your reaction to be?
+
+""I'm sorry, I'll be less competent next time""?"
+"&gt; This user submitted a ticket recently stating he is ""Unable to open Adobe files"".
+
+This ticket fills me with rage due to past experience.
+
+Adobe Acrobat?
+Adobe Photoshop?
+Adobe Illustrator?
+Adobe InDesign?
+Adobe Dreamweaver?
+Adobe Pagemaker (Hey, waitaminute...)?
+Adobe Premiere?
+Adobe After Effects?
+
+It's just as bad with Microsoft, with the added bonus that technically someone's Microsoft could be a copy of Halo."
+"Not necessarily. I've worked in a few companies, across 2 industries, and I've found that the people that complain the most are the ones who are hindered by the processes and systems (which are meant to support their job functions) preventing them from spending more of their time on their actual job. It's like leveraging Excel for tasks that are better off left to an actual system or database, especially when the staff is not trained in Excel (or had terrible training).
+
+In one job a few years ago, I rewrote some queries, without changing any calculations, and decreased computational time by hours. The staff using those queries needed the data for their actual jobs, so they actually got yelled at less by upper management for not being able to do something every so often waiting for the calcs to be done (especially when the queries failed and had to be restarted). Their manager got canned for writing those queries in that way in the first place, along with some personality issues.
+
+Note that I actually work in process improvement, and as much as I help cut costs, I actually save jobs by increasing profitability."
+"Without fail, anyone who brings a pc to me that they tried and failed to build themselves, always mentions how they have their A+ cert"
+"&gt; ""I'm sorry, I'll be less competent next time""
+
+*flair incoming*"
+"I only automate my own tasks, and I tell nobody that I have done so."
+"It was inevitable, don't blame yourself "
+I need to hear about the bears.
+"During my interview I was asked what I would do if a user called and they couldn’t connect to the network. 
+
+Without even thinking, I ask... “is it plugged in”? 
+
+They all look at me kinda funny, college educated, degree in computer engineering and electrical engineering, they wanted to hear ping or trace route. 
+
+So I replied why? You don’t need a degree to troubleshoot stupid, and after the trace route or ping fails what are you gonna do next? Check if it’s plugged in anyways.
+
+Long story short, I got the job... and now I plug shit in all day"
+Wow. Do make sure TS1 is retrained on company policy.
+"OK, I think I might be the co worker who closed off this ticket. OP, did this happen in an English town whose inhabitants are usually disgusted? And do you still have your Toyota? "
+Upvoted for great justice.
+"There's a pretty simple explanation - most broadband installers will set up a user's PC or laptop to connect to the WiFi as part of the installation, so they can see it's actually working.  
+
+So in the customer's mind, the man came, installed the router, and gave their PC some Internet."
+"Your parents can use Teamviewer? You're in heaven, dude."
+A former boss of mine once asked me dead serious if we can't just make the font of a graphic design white and put red paper in the printer.
+"It takes a special printer that probably costs more than it is worth, ut yes, you can actually do this."
+"Reminds me of a few years ago when I helped the help desk at times. We had a new nurse manager start and I'd heard rumors she was hard to get along with and very bad at following up. Around her second week, we get two tickets in on the same day, both from her. One was that emails sent to her would often be delayed for hours or days. The second was the voicemail wouldn't show up on her phone until hours or days later.
+
+What are the odds that two completely unrelated, unconnected systems would happen to have the same issue for the same user at the same time, and not be affecting anyone else? I never had it confirmed, but I'm pretty sure she was just horrid at checking her messages and tried foisting the blame on us. I had techs go check it out, just to say we did our due diligence, and of course it was completely unreproducible in spite of ""happening constantly"". She was fired a couple weeks later, rumor being it was because she never responded to messages. "
+"I literally don't believe it. Yes, and most assuredly, yes, I still have the Toyota :D"
+So let's add telekinetic powers to the list of expected tech support qualifications...
+"But they don't, nobody gets a pay rise, the fat cats just pocket the savings but whoops, yearly raises still don't match inflation rates... yay business..."
+I think this is the only time I've seen a Nook being used to save the day...
+Yeah but did you really need to name that macro Brenda 2.0? 
+"I love these ""misdirection"" calls.
+
+I had one once - ""when I dock my laptop, nothing comes up on the laptop screen, only on the external monitor.""
+Thinking they've just fiddled with the video output settings I go down to see. 
+
+Of course, the laptop screen is smashed. There's actually glass and liquid from the panel leaking out of it.
+
+""Oh, I did sit on it by mistake last night. Do you think that could be it?"""
+Quality shitpost.
+"Sounds like the end of every call I've ever had with TWC.
+
+Me: Well, what can you do?
+Them: Send a technician in the next 3-45 days."
+"It might come off kind of callous, but I don’t think there’s any benefit to society in having people employed doing jobs that are so easily automatable(or otherwise improved by technological means), it’s just a waste of resources.  Ideally those remaining employees should have all got a 25% pay raise to match their increased productivity, or the company can reduce the cost of their product so it’s more affordable and/or more competitive.  Some would say that the company just keeps the difference in shareholder profits, but free market forces should dictate that if the company gets
+too greedy the competition will just under-cut their prices and take the business.  
+
+Average household income has increased in the last generation,  if that’s mostly because more households have two incomes, individual incomes have dropped.  In my mind, automation means that while fewer people are needed to work, those that are working can make a larger wage and more families can be supported on a single income.  It doesn’t actually take that much of a wage increase considering that in many cases the majority of the second income goes to childcare costs, as well other spending related to having less time at home, such as more restaurant meals over cooking at home."
+"This, so hard.
+
+One my old jobs had an IT guy that started the company (company was not IT related, though). So he knew the pain. In our ticket system were two check boxes. One for mandatory training required, and a behavioral related one. Click training req'd, and the ticket would route to our boss, who would look it over, then if agreed, would send to HR, which was required that they do as we said.
+
+The second one was for abusive, or plain repeat time and money wasters. These would go to the owner and my boss. They pull all the phone logs and tickets, then the shitface would be barred from calling IT. They would have to ask their manager Everytime to call with them.
+
+They'd either leave, or get their shit together and be allowed again. A couple were very abusive over the phone and we're just plain fired for misconduct.
+"
+"I bet she went home, cut down a tree, and wood carved a chair to relax in, as she does every night."
+"&gt;I sent an email to TS1's manager and asked them to investigate this issue since they were giving me false information about company policy.
+
+Good for you. I've had to deal with ""techs"" that would just say whatever to get you off the phone as well. I was enlisted IT during the heyday of NMCI. The service was as horrible as the interwebs tell you."
+"Do any of them mention it in the vein of “I have an A+ and I *still* can’t figure this out, could you please help my idiot self?”  That’s how I’d mention it, if I mentioned it at all.
+
+Of course, I’ve built four computers now with zero issues, including two before I ever got my A+.  On top of that, my A+ expired like...five years ago lol.  I was part of the last group of A+ cert holders who were mostly trained on WinXP."
+"We get these. ""What do you mean your not going to break the contract just because i'm shouting at you!"".  
+
+The best one (Although this isn't a service contract) was the company that insisted they would only speak to one technician (who was out), they wouldn't do basic troubleshooting on the phone with my colleague, but equally wouldn't either wait for the technician to call them back later or call back later themself. What the hell where they expecting us to do? "
+&gt;I think this is the only time I've seen a Nook being used ~~to save the day...~~
+"Classic ""turn it off and turn it on again"".  👍"
+As per company policy
+"This really remind me about The IT Crowd
+Remember, never try to search Google on Google, or you will [break the internet](https://youtu.be/qdjRwpYM-Kw)"
+"&gt; I did the thing again and it fixed something.
+
+That's how the tech aura starts."
+"Yes! I can check on 13 servers in 1 click.  I automated a 30 hour a week job to 5 minutes of human work and 6 hours of computer processing. And lots of other stuff.
+  
+Yet it may take me 30 minutes to explain to a person how to print to the color printer double sided instead of the black and white printer. And an hour meeting to explain that we can't just switch to Macs, iPhones, and iPads."
+For a while I actually used closing my laptop lid and reopening it as part of the password. Truly a hard to replicate password 
+"A couple of years ago I placed a Teamviewer shortcut on my grandma's desktop and renamed it ""grandma, click here when I tell you to"".  
+Everytime she calls me with a computer problem, I fire up teamviewer and tell her to double-click the icon that says ""grandma, click here when I tell you to"", and read me the ID and password.  
+She doesn't call me with tech problems as often anymore, because until I installed Teamviewer for her they were an excuse to make me come over for lunch.  
+
+I should visit her."
+"Am engineer. Actually, we are very smart but lack any and all common sense. 
+
+Occasionally, doors can be tricky. Yes, really."
+"Well, Backspace (as in Delete) was certainly a valid character on old Unix systems; if you wanted to actually undo a character you had to use CTRL-H. Using the Delete character is actually a good non-alphanumeric character, I guess. "
+"Fixing the issue is typically the least important point. Usually it's about how you made the caller feel, regardless of outcome... What sucks more is the following are also typical:
+
+If you made the caller feel wonderful, but didn't fix the issue, you would be marked down.
+
+If you did everything you could to meet the points you're graded on, and the caller just hung up and called back to get somebody else, you would be marked down."
+"You almost want her to deny it, so you can escalate it to Security and her manager."
+"The interesting thing is that weighted mice are a thing. Mostly they're used for gaming, but you can add these little pieces of lead to make them weigh more"
+"This in every way.
+
+I worked in a call center for 5 dismal months. 
+One call cemented the “I need TF out”. 
+
+I had shown up early for a training and that meant I was on the phones about two hours before my shift. 
+My first call was from a prison hospital about one of their rolling carts not having access to the network. I went through every trouble shooting step and determined the wireless NIC was faulty. I created a ticket for their in house support to replace it. 
+
+About 4 hours later, now the rest of my ‘team’ is there. I get a call from the same hospital about the same cart. I explain that a ticket was already submitted for it to be replaced (I guess previous staffer did not ‘tag out’ the cart for service or let the next shift know, it happens). 
+
+IMMEDIATELY I get a chat pop up from DouchBag McTeamLead that I didnt bother troubleshooting or doing any of the rest of the procedure and I would be written up. 
+Apparently he had decided to live QA that call. 
+
+In the disciplinary meeting I printed out the ticket I had created on the first call as well as the tier ii ticket information as well as the ticket I created for the second call showing that the cart in question was the same. 
+
+Why TF would I troubleshoot the same cart TWICE for the same issue. I sure wasnt going to spend 40min trying when I already knew the nic was bad. 
+I explained that, still got written up for not following the steps. "
+"Whatever piece of work they were doing that your software took over, what you effectively did was increase the team's capacity to do it. If management was smart, they would have found a way to give them more pieces of work. 
+
+I work on a mobile work order dispatching app that acts as middleware integrated with old green screen business systems. The techs doing the work can complete a bit more work each day than they could on paper, but more importantly they turn in their info quicker. Quicker invoicing means faster and more reliable payment from the customer.
+
+But what about the dispatchers? They don't have to spend all day on the phones with techs, telling them where to go next. They can send all their tech's parts and labor into the old green screen system with the click of one button. They used to spend 3+ hours a day doing this, now it takes 3 minutes. NOW they panic, thinking they won't be needed.
+
+It doesn't work that way though, because the managers are smart. They hire more sales staff to land more accounts. They hire more techs to service those accounts. Which creates more billable hours while creating little additional overheard in the dispatch office."
+That makes... so much more sense.
+"Reminds me of a rhyme my Dad taught me as a kid:
+
+""Oh how I hate this damn machine, I wish that they would sell it.
+
+It never does what I want it to, only what I tell it."""
+"OMG this was my mom, just over the phone, like I’m not able to do all that computer take over stuff. LOL"
+Either they lost their jobs from the business not having work for them or the business closing it's doors due to the outdated software causing excessive payroll costs.  
+there's a battleship joke somewhere in there
+"The first question is ""is it plugged in?""
+
+The second question is ""...on both ends?""
+
+You'll die a little inside the first time not asking this bites you in the ass."
+this honestly sounds like exactly the opportunity to be rid of her...
+"""And that's when I strangled her, Your Honor.""
+"

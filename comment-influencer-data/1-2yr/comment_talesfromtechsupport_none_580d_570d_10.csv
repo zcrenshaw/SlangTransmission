@@ -1,0 +1,185 @@
+text
+This is why people love shared logons. And why I hate them. 
+Some or most people are so unbelievably stupid that you can’t help but wonder how they’ve gotten as far as they have in life. 
+I've come across so many people that do this. WHYYYYYYYYYYYYYY
+You got SO lucky for not frying any other components!
+"I get this constantly.
+
+dev: ""We have repeatedly run into a lack of resources. Please provide a permanent resolution.""
+
+me: ""Either tune your application to use less resources, or engage the Capacity Planning team to review increasing the resources available.""
+
+dev: ""How do I tune my application?""
+
+me: ... dafuq should I know I don't write fucking java you muppet.
+"
+"One year on, with the note ignored for a week and one day, cue the same thing happening again, except by this time $ colleague has moved on, and his Apple ID has been deleted as "" no longer needed"" by $secretary, as he no longer worked there."
+There's something REALLY dodgy/illegal on that drive. 
+"&gt;  Do not speak of this to anybody. Especially do not email each other.
+
+This had me convinced that something very illegal was about to happen."
+"&gt;she drops it and gets out her laptop, and proceeds to attempt to pry it open, hinge side
+
+I knew this would be a fantastic train wreck at this point.
+
+I really expected her to mention at the end that the presentation was about preparedness in work projects."
+600kB is good going - that's half a floppy!
+"&gt;He made sure to save all project files to the network in the future.
+
+So *that's* how to get those users to do that! ""Hey boss, authorize me to throw $stubbornUser's PC in the trash compactor with zero notice."""
+"But the Leatherman was OK, right?
+"
+"I'm always amazed that people don't make connections like that on their own.
+You tossed something out and immediately something stopped working? Could they be related? Technology, eh? "
+"""I typed the password into the little box and hit submit but nothing happens!"" Cue 45 tweets in a row of the password."
+yeah you might want to listen to the person trying to teach you something.. 
+"""Please provide a permanent solution.""
+
+""Uninstall application.""
+
+Problem solved."
+Flash runs on my iPhone. I watch him do it all the time on the Netflix app. 
+"Yes, and it makes a great voltage tester."
+"I love this story. I'm picturing your dad as a tall-ish guy with glasses wearing a cardigan and khakis just staring at the computer with his hand on his chin for 8 hours straight, not moving, just contemplating the problem until you get home and the light bulb finally clicks. That's probably not how went, but still"
+It only takes one time being screwed on Apple IDs before you make an account in your department name and use it for everything. 
+"I just ran:
+
+    cat /proc/cpuinfo | grep processor | tail -1
+
+...on nearly 2,000 servers using SSH. It took 1m56.77s, and the only reason it took that long was my script preserves the output of all the commands and concatenates them together at the end. Just need to add one to each answer. Why is Kevin logging into each server manually?
+
+Sounds like he needs to spend less time on math and more time on bash."
+"I was at one customer that had a shared login that was used by the customer's support staff, all of the functional/technical consultants from the partner, and all of the resources from our company. You had upwards of thirty people on the same login. And when you logged in via browser for the first time from a given PC, after it accepted the user/password it would show all of the HTTP sessions with a ""Logout other sessions"" box *checked by default* next to the continue button. 
+
+One person logs in forgetting to check that box, 29 other people get logged out, 29 people try to log back in, one of those 29 invariably forgets to uncheck the ""kick everyone else  out"" box... repeat and rinse for the next hour.
+
+Technically the use of shared logins is against the license terms, but the application I referred to in OP is generally licensed for unlimited user count at no charge (the application's usage rights are included at no extra charge in the cost of support on the business applications you pay to license), so I imagine it isn't an audit target and never heard about anybody caring.
+
+--------------------
+
+The best customers gave me a separate named login in the system. I wasn't opposed to using a shared login to help support them.
+
+Middle was customers with security requirements (think government, defense contractors, etc.) where I couldn't log into their system or even screen share. Instead I flew to them, sat down next to them, and tell them what to click and type.
+
+Worst is customers with slow, restrictive security teams and hitting nonstop red tape. Shared login or not, not having access sucks. Everyone is yelling at you to fix it and security is just throwing more and more barriers up."
+I find it worrying that same person is in charge of a companies twitter account. 
+"*""We've tried nothing and we're all out of ideas!""* - Beatnik Flanders"
+"Yeah, I forgot to mention that all the other components were intact after my ""accident"". 
+Yeah, so I was very lucky."
+"Haha, nice. This reminds me of an earlier job back in my 20s when I was a snot faced college kid in a computer chop shop. There was junk everywhere, naturally, since this was the mid-late 1990s and computers belonged in businesses mostly, mr Boss figured he didn't really need to spruce up the place for walk-in customers since most people just called in.
+
+One day out of the blue stuff on the shelves on the far wall fell to the floor making quite the racket. Boss yelled at us from his room, thinking we didn't put crap away properly. Nope, turns out a huge snake (python) slipped in the shop via the back entrance and slithered among all the junk in the shop. Fucker was like 3 meters long, had to call the Wildlife department to bag it. Meanwhile the other techs were doing their work like normal but I was freaking out. ""Relax kid these aren't venomous, they need to squeeze their prey to death. As long as you don't lie down on the floor beside it you should be fine lol."" So there I was standing at the furthest table installing Windows 95 on some customer's computer and totally trying not to freak out at the huge ass snake lying peacefully on a shelf surrounded by computer parts, while the older techs nonchalantly went about their business as usual. Oh yeah we weren't allowed to open the doors in case the snake tried to escape, which also meant I had to hold in my pee because holy shit i wasn't going to chance getting into a small room and being killed by snake while trying to take a leak."
+"&gt;We've got a flight to catch at 2
+
+Your poor planning does not constitute an emergency on my part"
+"My colleagues rule to live by in support, ""a lack of planning on your part does not instigate an emergency on mine"".
+
+I always get an explanation of exactly why something is urgent. Is it your prod servers down? Company money making jobs not running? Then I'm doing nothing but working on it till it's fixed.  
+
+Is it ""urgent"" because you were asked to do it 3 months ago but left it till 1 day before deadline? You can wait till I get around to it.  "
+Probably her naked photos which she forgot about
+"Big_IT_Boss: ""We should fire everyone immediately who complains about mailing list spam by replying to the whole list.""
+
+I like your boss."
+Because he's incapable of scripting.
+The same proto-instinct that tells people to pop pimples also tells them to ditch dongles.
+"&gt; I emailed him the username and password which everyone can find from our database but I was trying to make it easy for him.
+
+I hope you learned your lesson."
+"This is a shocking story, but it is well grounded."
+"Rule #1 for surviving tech support:
+
+PSUs are scary. Respect them accordingly.
+
+Flipping other switches in a computer may be fixable, randomly flipping switches on a PSU results in exploding capacitors or small fires. Other computer bits are user serviceable, PSUs hold on to painful amounts of charge for (at least) weeks - don't put things inside them wantonly."
+"A new Selben story? Yes, finally a worthwile activity while waiting for the connecting train at the station!
+
+Edit: I will never understand why users disable common sense as soon as only the word IT falls..."
+"Just had an email: ""He needs all these apps installed. If you *really* can't get it done by 2, we could stay and catch the later flight at 5.""
+
+Seriously. I don't even have a laptop to install this stuff on. He can't seem to understand that."
+"Dude, you fucked up. xD
+
+As someone with El. Eng. degree I cannot fathom how you could not know that :D.
+
+But you are one lucky bastard that she didn't realize and nothing else got fried.
+
+Good story bro."
+"So let me get this straight, a company sent a person to another company to *play a YouTube video* for someone else?
+
+This is the (l)user version of driving cross-country to plug something in."
+Voltage Test Mode: projectile
+At least he wasnt trying to cut the cd down to fit inside the 3 1/4 floppy drive. 
+"That's obviously not all that she was presenting.  I'm sure she talked about what's going to be in the video, played the video, then talked again repeating everything the video just said in slightly different words.  The whole time you're left sitting there, dying inside, screaming internally ""I KNOW WE JUST WATCHED THE VIDEO!"""
+"Yea, there was a company we acquired that was using a mis-mash of 2007, 2010 and 13. They had no standards at all (just go buy whatever you want from best buy kinda setup)
+
+Needless to say a lot of them were not pleased when we began upgrading them and taking away their precious .psts and local admin rights. 
+
+Humans are strange creatures
+
+Edit: ransomware/polyviruses are horrible to deal with with full admin rights, so we are back to limited rights. And psts are fine unless you have corporate cloud infrastructure already in place. "
+"tl;dr company wanted great people but paid for Indian sweatshop work.
+
+Sounds like they got exactly what they paid for, and I hope they learned a lesson from it."
+That I should mysteriously have to go to the bathroom anytime he walks my way? I sure have.
+"At least they told the truth.
+
+""Did you remove anything from a USB port?""
+
+""Ummm ... "" *stares at trash* ""... no, nothing at all"""
+"We laugh now, but that is the next step. "
+Man. I feel bad for everyone involved in this one. That's rough.
+"In other words, he can't do bash, but he does know how to bash on a keyboard."
+"In the DoD, absolutely. I just did a Windows 10 migration for 650 users, they are responsible for backing up their information and were warned 3 weeks ahead that the migration was coming via Wipe and Load. 
+
+About 100 people lost data, including some higher GS and Enlisted folks. They now back their shit up. "
+That's a special level of stupidity right there!
+"Wtf? Why did he make you say ""im calling to give you a courtesy call""? Better yet, why would you comply?"
+"Same here! Nope just got pwned hard and had to burn it all down  to the ground. Wow, really interesting story too. "
+I don't mean to brag but... All the girls ditch my dongle.
+"My employer has recently started implementing SSH keys, and they'll be implementing SSL client keys soon, to ensure that everything is logged against the guilty party.
+
+...
+
+**Except** on the Windows servers. I've always created a named account for myself the first time I login to a customer's domain, so I know when something was me. My manager has recently been through customer servers and deleted all my named accounts. Not only that, he decided to issue a company-wide email to only use our generic accounts for logging in to Windows servers.
+
+Jesus Christ."
+"&gt; I don't understand your solution, so it must not have fixed the problem. Why should I check to see if it works? Fix it!
+
+Yeah I've had that before.
+
+""Remapped network drives, made sure to reconnect at login""
+
+""Ticket Reopenned still not working.""
+
+Remote in.
+
+""What network drives are you missing.""
+
+""XYZ.""
+
+""You mean XYZ right here."" As I circle the network drives and begin clicking on them to open them.
+
+""Oh yes.""
+
+""Did you open them before reopening the ticket?""
+
+""No, I just thought you didnt do anything since nothing is different.""
+
+Kicked that up the chain, never heard back about it."
+"She was fishing to see if OP did keep a copy.
+
+The way the customer wanted that interaction to go is
+&gt;Customer calls and claims drive is empty, boss says ""that's ok, we have a backup"".
+
+When the customer was called out on it, they feign outrage to prevent OP from verifying the data (and potentially have the company bend over backwards fr her).
+
+To OP: if you still have the original drive, I would be checking the data, just in case there is something that law enforcement should know about on it."
+"Sadly a lot of the educational portals ive come across want flash, or silverlight.....
+
+"
+"Server crashes. Causes root filesystem corruption. Kevin goes to the data center (because this server had no remote console capability). Spends HOURS repeatedly banging the ""Y"" key for fsck.  
+  
+Another server crashes. Root filesystem corruption. I console in, run ""fsck -y /"". Done in 5 minutes."
+"They'd complain to the environment manager, who knows that they're idiots. The complaint stops there. :D"
+"Time to set the Screensaver to text that states ""jiggle the goddamn mouse to get rid of this"" "

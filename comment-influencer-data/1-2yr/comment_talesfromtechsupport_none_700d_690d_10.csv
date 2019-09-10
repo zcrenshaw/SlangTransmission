@@ -1,0 +1,132 @@
+text
+"I must admit, I like your \*\*\*\*ing manager."
+"""Help the Chromebooks are doing the thing we asked!""
+
+
+
+"
+ugh.... calls where security features were set up and no-one bothered to remember.... And people can never comprehend that them saying “But it IS me!!!” means diddly squat to the system. 
+I'd log it as an hour worked.
+I can't help but think that your sister is more capable of handling things than that user was.
+That is exactly why you stop by the afternoon before to verify everything is up.
+"So stupid question and I may be reaching here.....wouldn't it have been easier/cheaper to have domestic IPad saved to icloud, CEO buy an IPad in Germany and have icloud restore everything to her now new IPad? CEO forgot her own equipment so CEO will have to eat the cost."
+"Yeah, I thought they had done that. Unfortunately, my role doesn't include that. I get to go to the shit show , I don't get to set it up :("
+"I wish I knew how to pronounce that... I've got a good guess as it is, but still."
+"Oh you evil thing you. Worked though, so fuck it. Problem solved. "
+I spent 14 years in tech support and had a total of 8 managers. Only 2 of them had our back like this. Sadly those two only lasted a total of 2 years. You are very fortunate to have a fucking manager who has your back.
+"My old place had an ERP system that, for every command run on the backend rather than handled in forms, would pass auth...  Yeah, that's right, every time you do stuff on this system you give up your credentials to anyone running ps. Genius."
+Morning manager
+A wise user once told me to wait 10 minutes before panicking. I wish teachers would breathe for a second and take the same advice.
+"There's a certain well known hardware manufacturer, business solution provider, etc. with a 3 letter acronym for a name that you pretty much have to be dead not to recognize. Well they use default passwords *everywhere*, including in their online documentation, etc. so the whole world could easily look them up. 
+
+Years ago I worked at a university and was tasked with setting up a new research cluster provided by this vendor. The university wanted it on the public internet so researchers outside the university could easily access it. (VPN? What's that?) The vendor provided the cluster along with a few days of a tech on-site to set it up. 
+
+Well the tech dutifully set it up and left the default passwords in place. The first thing I did when I logged into it, after changing the root password, was to take a close look at the logs. Sure enough there was already an unauthorized login from an IP somewhere in China. Some automated bot had apparently found the new cluster before it was locked down in any way. So I immediately wiped the entire system &amp; performed a complete re-install.
+
+So glad I don't work at that university any more, and so glad I don't have to deal with vendors like that any more."
+"&gt; ""I don't want a shadow. Isn't there a way to get the light to wrap around them?""
+
+I'm a programmer, not support, but I still occasionally get requests this level of impossibility.  The latest one was when we wound up with a loop caused by a new set of data files being sent into our engine.  We finally determined the issue and I was asked if there was any way I could write a program to detect whether or not a loop would run forever or if the program would actually execute properly when new data files were created.  This, for non-compsci, is a rough description of *The Halting Problem* - proven by Alan Turing in the late 1930s to be impossible to solve.  My usual response to a request like this is, ""If you can figure out how, let me know, just don't tell anyone else.  Oh, you don't mind signing this NDA do you?"" and then explain the problem with their request."
+There could have easily been a fire as a result of their negligence. Tell your supervisor about this.
+"&gt;As I am sure many of you here know, being the only guy working in IT in the family means that every computer-related issue not solvable after 5 minutes, by itself, as well as advice to do anything remotely IT falls on your shoulders.
+
+5 minutes? Lucky... My norm is ""the moment a pop-up appears"". Before it's read of course."
+"It's quite funny how the kids can read and follow basic instructions, yet the school admin (and supposedly IT department)can't. "
+"Ooooh yeah. Tech stuff she is pretty good with, social stuff not so much. I usually spend my days explaining to her what certain slang terms such as ""Bye Felicia"" or ""Throwing shade"" are and it's a 50/50 shot if she will understand it."
+"I would flat out refuse to work with anyone who asked me how to bypass a safety device.   
+"
+You ever ask yourself why do I even say anything if no one is going to listen? 
+"Not a plumber, but it might be possible that the angle stop was rusted or corroded.
+
+AO used a little too much force trying to close the angle stop and broke it. My HOA has a yearly maintenance cycle where they check angle stops for rust/corrosion after they couldn't shut off the water to a unit with a broken water pipe due to a bad stop."
+"Maybe she thought you were using a weird phonetic alphabet?
+
+Or maybe in her mind you were using the normal one, but your coworker is a recovering alcoholic and you didn't want to say Whiskey, so you went with Welcome instead.
+
+Or maybe it was just a bad case of ""late in the week mondays"""
+"Wait, you mean they didnt just tell you to fix it and would rather take the hit of losing the customer? What planet is this?
+
+
+.....Or I've worked for some terrible MSP's."
+This drove me mad when I worked in cellular. Also “why can’t you tell me my gmail password”
+"&gt;LTR FTP, on mobile so not a ton of formatting will be done.
+
+Apparently more than her email, since it hasn't been deleted as spam yet."
+"Came here to say this.  Tell CEO to find the nearest Apple Store and buy a new iPad, get the hotel's WiFi login, and set aside 20 mins for a phone call.  You will talk them through an iCloud Restore and once it downloads, their new iPad will have all their crap on it.  "
+What a great hecking manager.
+"That was the first thing I did when I got back to my office. He's one of ""the other two guys."""
+I probably could but I don't really care enough to deal with it 
+"This would be one of those wonderful times where it is nice to be a lowly tech...
+
+Having worked in a K-12, I understand that it takes a certain type of person to be a teacher, and that requires a particular kind of mental state to get ""in the groove"" when dealing with kids.  We in IT understand - coding has a similar kind of mental change, and in both cases, pulling a person out of that mental state is disruptive to doing their job.  So, I give a lot of leeway to teachers who seem to turn off their brains when it comes to IT - it takes mental gymnastics to think in a different way, and they really are doing what they should be doing by not switching this part of their brains back on.
+
+But a major health and safety issue like this, even an otherwise good teacher should have the book thrown at them.  The ""right"" response to this would be an email to the principal, the union steward, the head of maintenance, and anyone else in authority that would end up in trouble were a room catch fire and/or students injured.
+
+Fortunately for the lowly tech, this sort of aggressive punitive action is above the tech's pay grade - a pointed email to your supervisor then dropping it is really all that's required."
+There is a military saying that applies to most aspects of any job like that: Inspect what you expect. 
+"Man, I know the ERP acronym is revenue something-or-other, but for some reason I always read it as ""Erotic RolePlaying"" first, probably from my WoW days...
+
+Really changes the context of the sentence."
+"I think the bit about your diagnosis is a bit TMI...   
+Also, I'll bet that that woman spent the entire time smack-talking IT support for 'forcing her' to put everything back."
+"OP: ""How many more installs are on the schedule for today?""  
+Steve: ""Just tumor.""  
+[OP punches Steve]
+"
+"So, this isn't a technical complaint, but uh, if you have to resort to trickery to be listened to because your friends don't think you could possibly understand anything about computers, you maybe need better friends. "
+"That sounds like my father’s email/text formatting and cadence. Two anonymized examples of texts he’s sent me:
+
+&gt; Hey good morning super all is progressing ,OK checks in the mail! Please give us a call we enjoy keeping up with what's going on you
+
+&gt; Good afternoon last \ the July 2 extravaganza with half of lords point is off.We'll go to FORD's Nowak \ July 2 afternoon Richard and Carolyn invited
+
+"
+"If he was smarter, he would have given himself and everyone else a raise, except for that guy he hates, who he gives an enormous raise, putting suspicion on him."
+"Cust:  We need Microsoft word installed on these chromebooks.
+
+Me: sigh"
+I barely know the slang and I'm *in* the new generation
+Think of it as your boss buying you a thank you dinner. 
+"""It's all good bro', no one died!"""
+International Bloody Morons.
+Can't you read?  It's hunter2ing manager.
+"Subject: Fire. Dear Sir/Madam, I am writing to inform you of a fire that has broken out on the premises of 123 Cavendon Road... "
+"Wait, guest wifi is supposed to work?!?! What kind of rich guys are you?"
+"&gt; Before it's read of course.
+
+And after they closed it, by clicking on one of the buttons to make it go away (though they can't remember which button, and the computer's been running slow ever since...)."
+"It was Colman  Mustard in the Downloads with a PNG. 
+
+/I have a clue."
+"All you whippersnappers with your flicker spinners and snip-chats, I'd yell at you to get off my lawn but as a millennial I can't afford one."
+"&gt;I get paid to help people with these fridges, they don't pay me enough to OWN one: Side note, so many rich callers not getting that when I try to explain why I don't have personal experience with their fridge.
+
+Wait, so this ""stupidly expensive fridge company"" won't train you on their equipment before putting you on their support line and they expect you to just read the manual at people? I don't own a bunch of Cisco Nexus switches but I sure as shit know how to make them push packets."
+"In Australia our telephone company will call you up from a blocked number and ask your password.  That's the policy, and they wouldn't do it any other way. I eventually got them to send an email from the domain and answered them. Apparently I was the first to question this."
+"And it's a good thing they called in before they heard the news, otherwise that would have been a case of a former user with motivation with access they shouldn't have... which is frequently bad news."
+"Oh man I've seen this happen before. We couldn't figure out why a client wasn't able to power on her pc. and I was because she was pressing and Holding the power button instead of just touching it for a moment. Because she had to do a long press to turn it off she thought she had to do the same to turn it on. She would press and gold the power and when it beeped and started booting she would let go and it would shut down.
+
+Probably isn't your issue but I  had to mention it."
+"Hey, at least they actually did check instead of sitting there and then lying and said they checked it."
+Thank god I've never had anyone fight over remote control.  I think I would have an aneurysm if that happened to me... 
+"Quick question, if the room is on fire,do I have to wait in the room or can I wait elsewhere? Please respond promptly, the flames are spreading. "
+"Walk this CEO through what now!!!!
+
+CEO AIN'T GOT TIME FOR THAT."
+It's both a great MSP and a shitty customer. They had a habit of disputing invoices for the most mundane maintenance like fixing their backups 
+"""We spared no expense.""
+
+- John Hammond, *before the dinosaurs killed a bunch of people*"
+"Oh, dude, this kinda shit hasn't stopped as I moved up the career ladder. I work for a Fortune 500 company as a Sysadmin these days, and the requests I get from developers who aren't necessarily hardware savvy are incredible. Also, money is no object. ""Yeah, can you spin me up a VM with more resources than your entire goddamn cluster so I can do a POC for something that could run on a Raspberry Pi? What do you mean it'll cost $10M in hardware? It's just a POC!"
+"Treat it like when people scream for their lawyer on a CSR call.
+
+""Sorry, but going against company safety policy is illegal, and I will have to ask you to start talking to legal. And possibly a mental hospital"".
+
+Unfortunately, since this user is texting, there is not satisfying click at the end."
+"Well, its ok if she doesn't know. I barely know half of the slang this new generation is using."
+Don't understand what's so weird about this?  Bossman working hard at 830pm on a Friday covering for his team.  He might be a manager and too far away from these simple tasks... See this in every industry. 
+"&gt; TLDR; Read the title.
+
+Laziest TL;DR ever. Take your upvote."
+I'm mister manager
+Oh I love it. That is my go-to action for everything above my pay grade... Dangerous actions? Email to supervisor. Theft? Email to supervisor. Destruction of property? Email to supervisor. And at the end of the day I get to laugh it off and forget about it.

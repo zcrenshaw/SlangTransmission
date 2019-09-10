@@ -124,7 +124,9 @@ def scrape(args,sleeptime,attempts,goal,current):
         # no query is used for total
         agg_type = args[3].split('=')[1]
 
+    # INFLUENCER FINDER
     if agg_type == 'none':
+        nodes+=1
         total = data['metadata']['total_results']
         # create list of text
         if goal < 0:
@@ -136,6 +138,10 @@ def scrape(args,sleeptime,attempts,goal,current):
         lpage = len(page)
         maxscore = sys.maxsize
         foundend = False
+
+        if lpage == 0: # no hits
+            text.append('')
+            foundend = True
 
         if args[1] == 'submission':
             # if post
@@ -162,11 +168,12 @@ def scrape(args,sleeptime,attempts,goal,current):
 
         if not foundend:
             args[-3] = 'score=<{}'.format(maxscore)
-            df = df.append(scrape(args,sleeptime,attempts,goal,current)[2])
+            lower = scrape(args,sleeptime,attempts,goal,current)
+            df = df.append(lower[2])
 
         return_data[0] = -1
 
-
+    # USERS FINDER
     elif agg_type == 'author':
         # return number of users using this term
         try:
@@ -210,6 +217,8 @@ def scrape(args,sleeptime,attempts,goal,current):
             print("Error: ", sys.exc_info()[0], "occurred.")
             exit(0)
             return_data[0] = 0
+
+    # TOTAL CONTENT FINDER
     elif agg_type == 'subreddit':
         # return number of posts/comments with this term
         try:
@@ -224,12 +233,12 @@ def scrape(args,sleeptime,attempts,goal,current):
     return_data[2] = df
     return return_data
 
-def batch(args):
+def batch(args,out_folder):
     # given parameters, run a series of scrapes
     # will break the time interval into even buckets of a given size
     # parameters: sub/comment    query   subreddit   aggs  fields metadata    after   before  bucket_size
 
-    SLEEPTIME = 1 # time for sleeping to account for 429 errors
+    SLEEPTIME = 3 # time for sleeping to account for 429 errors
     ATTEMPTS = 5
     global nodes
 
@@ -260,9 +269,7 @@ def batch(args):
 
     data = [] # to hold data
 
-    # TODO: change this
-    out_folder = "../comment-data/"
-
+    ''' # checking output folder
     global check_folder
     if (check_folder):
         response = input("Is " + out_folder + " the correct destination? Y/N \n")
@@ -272,6 +279,9 @@ def batch(args):
         else:
             print("Please input correct destination folder and run again.")
             exit(0)
+    
+    '''
+
     output = out_folder + name + ".csv"
 
     writeout = True
@@ -287,7 +297,7 @@ def batch(args):
             writeout = False
         data.append([point[0],a,b,point[1]])
         nodes = 0
-        sleep(SLEEPTIME / 50)  # too prevent 429 (too many request) errors
+        sleep(SLEEPTIME / 50)  # to prevent 429 (too many request) errors
         a = b
         b = a - bucket_size
 
@@ -360,12 +370,14 @@ def merge(infile, outfile):
 
 
 # RUN MULTIPLE SEARCHES FROM TEXT FILE
-def scrape_from_txt(file):
+def scrape_from_txt(file,out_folder):
     with open(file, 'r') as textfile:
         command = textfile.readline().strip().split(' ')
         while len(command) > 1: # check for EOF
-            batch(command)
+            batch(command,out_folder)
             print(command[0] + " is done")
+            global nodes
+            nodes = 0
             command = textfile.readline().strip().split(' ')
 
 # ~~~~~~~~~~~~~
@@ -374,7 +386,7 @@ if __name__ == '__main__':
         # run scrapes from text file if that is the input
         if sys.argv[1][-4:-1] == ".tx":
             print("Running batch of scrapes from text file")
-            scrape_from_txt(sys.argv[1])
+            scrape_from_txt(sys.argv[1],sys.argv[2])
             print("All done!")
 
         # if need to merge files
@@ -384,6 +396,6 @@ if __name__ == '__main__':
         # else just run the scrape with the given parameters
         else:
             print("Running scrape from given parameters")
-            batch(sys.argv)
+            batch(sys.argv,"./")
             print("Done")
 
