@@ -40,7 +40,7 @@ def get_JSON(link,sleeptime,attempts):
         try:
             data = r.json()
         except:
-            print(link)
+            print("Error: Issue with JSON formatting")
     else:
         if r.status_code == 429: # too many request error
             print("Too many requests: waiting " + str(sleeptime) + " seconds.")
@@ -164,7 +164,7 @@ def scrape(args,sleeptime,attempts,goal,current):
                 try:
                     addtext += '\n\n\n' + page[i][nextfield]
                 except:
-                    print(link)
+                    pass
 
             text.append(addtext)
             maxscore = page[i]['score']

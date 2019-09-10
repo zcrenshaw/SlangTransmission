@@ -71,6 +71,14 @@ def count_influence(q,src,dst):
 
     df.to_csv(dst,index=False)
 
+def arith(src,cols,val):
+    # computes arithmetic on columns of given file
+    df = pd.read_csv(src)
+    for c in cols:
+        df[c] += val
+    df.to_csv(src)
+    return
+
 
 def manip():
     func = sys.argv[1]
@@ -139,6 +147,12 @@ def manip():
         folder = sys.argv[3]
         output = sys.argv[4]
         count_influence(q,folder,output)
+
+    elif func == "arith":
+        src = sys.argv[1]
+        cols = sys.argv[2]
+        val = sys.argv[3]
+        arith(src,cols,val)
 
     else:
         print("Not yet supported")

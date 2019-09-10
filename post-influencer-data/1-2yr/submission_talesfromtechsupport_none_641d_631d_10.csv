@@ -1,0 +1,46 @@
+text
+"When all online tests are invalidated, blame Mr. Robot
+
+
+For once, a TFTS that has nothing to do with a user!
+
+I manage the Linux labs at my college campus, but I also maintain the Windows and Distance Learning Center labs from time to time, especially during testing periods. During finals week, this can be incredibly frustrating, since sitting in a lab, watching students take a final is so much more boring than taking the final itself. I’m not even allowed to have a phone.
+
+Most Finals are boring, unrestricted ones, but a few online professional certifications and placement tests are very strict in their requirements. How we set up for these tests is to boot the computer into a temporary Live OS, which does not save any settings, and automatically opens Firefox full screen in Incognito mode.
+
+Firefox is the only thing that is allowed to run, and if the window closes, the computer reboots, resetting the OS back to defaults. If the user leaves the page set by the test taker, the browser closes. If they open a terminal or other program not allowed by that test (like a calculator) then the system is locked until a proctor (usually me) unlocks the screen.
+
+While the professor or administrator walks around, I watch everyone’s screens, along with three security camera feeds to make sure there is no cheating. All of this is recorded, so that we can validate anything later on if we need to.
+
+Just after the last exam, when I’m preparing to leave, the phone for the room rings. It’s my manager. The day gets progressively worse from there.
+
+
+$CIO - My manager (whose initials are CIO to the actual CIO’s annoyance)
+$Me - Me
+
+$CIO: Did you add any plugins to Firefox before these tests?
+
+$Me: No, it’s stock Firefox.
+
+$CIO: No it’s not. There’s a plug-in called Looking Glass that’s not supposed to be there.
+
+I check one of the computers and, sure enough, it’s there.
+
+$Me: I didn’t install that. (Reboots computer) Its not there on boot. Looks like some kind of automatic plugin installation.
+
+$CIO: Well (professional, very expensive certification test) was invalidated because of this plugin. They’re making everyone retake it.
+
+(Lots of panic, stress, and fruitless research later)
+
+$Me: looks like it was an automatic installation from Mozilla.
+
+$CIO: Really? I want to know exactly what this plugin does. Make sure that doesn’t happen with the next exam in ten minutes.
+
+$Me, now pissed off at everything: Gotcha. (Uninstalls Firefox, installs Chromium) (edit: and changed the name of Chromium executable to Firefox)
+
+$CIO: I’ll get the other test sorted out. That’s my problem now.
+
+
+TL;DR Firefox’s automated plugin installation invalidated a certification test, quick fix was to install Chrome.
+
+PS: The invalidated test was un-invalidated, so yay."

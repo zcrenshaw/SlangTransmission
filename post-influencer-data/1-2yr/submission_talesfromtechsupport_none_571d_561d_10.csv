@@ -1,0 +1,87 @@
+text
+"FWD: I need you to stop my employee from working. Immediately.
+
+
+In keeping with my tendency to share these stories immediately when I'm reminded of them, I must confess that I posted this once already as a comment in /r/gaming without even thinking of you guys. Sorry about that.
+
+What follows is a story that comes from my first few months at [medium-sized company]. I previously posted here to tell [a story about the time I poisoned a user] (https://www.reddit.com/r/talesfromtechsupport/comments/5gujya/you_poisoned_my_keyboard/), and [another story about that time I stealthily upgraded users to Windows 7 by moonlight] (https://www.reddit.com/r/talesfromtechsupport/comments/7yik78/windows_xp_and_old_pos_software_vs_my_boss/).
+
+So anyway.
+
+I was a tier 1 phone jockey and this was my first “adult job” after college, so you can imagine how surprised and nervous I was when one day I get an email with the subject line “FWD: DISABLE FACEBOOK NOW!!” 
+
+It was written just like that- in all caps, two (or maybe three) exclamation points. Inside, there was a long message chain containing an extended rant from our marketing executive (MKT), sent to the CEO, replied to, forwarded to the CIO, replied to, forwarded to my manager, and then kicked down to me with no explanation.
+
+My manager did this kind of thing a lot- rather than open a ticket in the ticketing system he insisted we use a certain way, or explain anything in his emails, he would simply forward us an email chain of a conversation he’d been having with some store or department manager, some executive, or some vender, and we’d have to read through all of it to figure out what he wanted. 
+
+This email was one of those. And since it had come from people up the chain from him, I had to read through all of his pathetic groveling and deferential boot-licking to reach the part where he made his unqualified promises about what I’ll do in how much time. 
+
+Eventually, I surmised the following:
+
+-MKT is upset that his employees are spending work time on social media.
+
+-He has decided that this is all IT’s fault.
+
+-He wants social media ""disabled on ALL computers."" 
+
+-He sent this complaint to the CEO, because it’s not good enough to contact IT and open a ticket to get something done, he has to try to get someone fired while he’s at it.
+
+Okay, fine. We actually had Websense, so I wrote up a ticket, opened up the admin console in Websense, and added Facebook’s URL to the blacklist. Done and done. 
+
+I reply-alled to the message chain and let the executives know that we’re good. Immediately I got hammered with replies from the CEO, my manager, and MKT (who had made the request). They all wanted to know why I disabled Facebook on *their* machines.
+
+Exercising all the restraint I had, I apologized and explained that when they said “disable Facebook on ALL computers” I didn’t realize that they meant for there to be exceptions to the rule.
+
+I grabbed one of our Tier-3 guys and he helped me set up MAC filtering in Websense. We made a group for the executives and managers to be excepted from the social media blackout, and then blocked twitter, instagram, and all the other common social media sites while we were at it.
+
+Thinking the issue has now been properly dealt with, I updated the executives, who seem placated, updated the ticket, and then closed it.
+
+15 minutes later, a red-faced young woman (SMM) appeared in the IT office. She’s from marketing and was upset because she couldn’t reach Facebook or Twitter. I gently explained that those had just been blocked at the request of her department’s exec.
+
+SMM: “But you’re NOT supposed to block ME! I’m a social media manager! It’s MY JOB to be on FACEBOOK. NOW I CAN’T WORK!”
+
+Me: “Oh. Hang on.”
+
+I placed a quick speakerphone call to MKT and got his admin assistant (AA).
+
+AA: “MKT’s office.”
+
+Me: “Yeah, can I speak with MKT? It’s about the Facebook blackout he requested.”
+
+AA: “Ooh yeah, he’s pretty upset about that.”
+
+Of course.
+
+Me: “Can I speak to him?”
+
+After a minute, she got him on the line.
+
+MKT: “Rathwood! Glad you finally got it right.”
+
+Me: “Sir? SMM is in my office right now.”
+
+MKT: “So? Tell her to get back to work.”
+
+Me: “Sir, she can’t. She says it’s her job to run the company’s social media pages and she can’t work now because of the block. Do I have your permission to unblock her?”
+
+MKT: “...”
+
+Me: “...”
+
+MKT: “You mean we’re paying someone to be on Facebook?”
+
+Me: “...she works for your department, sir.”
+
+MKT: “Unblock her for now, and tell her to come see me in my office.”
+
+Me: ""Okay.""
+
+Okay.
+
+I turned to look at SMM, and she was already walking out.
+
+ME: “Hey- are you alright?”
+
+She turned back to me. 
+
+SMM: “I’m fine. This is the third time this month that dinosaur has forgotten that I work here. I’m used to explaining my job to him.”"

@@ -1,0 +1,9 @@
+count,after,before,link
+5,451,441,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=tifu&aggs=subreddit&fields=aggs&metadata=true&after=451d&before=441d
+15,441,431,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=tifu&aggs=subreddit&fields=aggs&metadata=true&after=441d&before=431d
+7,431,421,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=tifu&aggs=subreddit&fields=aggs&metadata=true&after=431d&before=421d
+2,421,411,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=tifu&aggs=subreddit&fields=aggs&metadata=true&after=421d&before=411d
+9,411,401,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=tifu&aggs=subreddit&fields=aggs&metadata=true&after=411d&before=401d
+5,401,391,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=tifu&aggs=subreddit&fields=aggs&metadata=true&after=401d&before=391d
+6,391,381,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=tifu&aggs=subreddit&fields=aggs&metadata=true&after=391d&before=381d
+12,381,371,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=tifu&aggs=subreddit&fields=aggs&metadata=true&after=381d&before=371d
