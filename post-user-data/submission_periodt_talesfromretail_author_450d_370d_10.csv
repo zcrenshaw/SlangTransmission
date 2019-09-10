@@ -1,0 +1,9 @@
+count,after,before,link
+0,450,440,https://api.pushshift.io/reddit/search/submission/?&q=periodt&subreddit=talesfromretail&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=450d&before=440d
+0,440,430,https://api.pushshift.io/reddit/search/submission/?&q=periodt&subreddit=talesfromretail&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=440d&before=430d
+0,430,420,https://api.pushshift.io/reddit/search/submission/?&q=periodt&subreddit=talesfromretail&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=430d&before=420d
+0,420,410,https://api.pushshift.io/reddit/search/submission/?&q=periodt&subreddit=talesfromretail&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=420d&before=410d
+0,410,400,https://api.pushshift.io/reddit/search/submission/?&q=periodt&subreddit=talesfromretail&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=410d&before=400d
+0,400,390,https://api.pushshift.io/reddit/search/submission/?&q=periodt&subreddit=talesfromretail&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=400d&before=390d
+0,390,380,https://api.pushshift.io/reddit/search/submission/?&q=periodt&subreddit=talesfromretail&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=390d&before=380d
+0,380,370,https://api.pushshift.io/reddit/search/submission/?&q=periodt&subreddit=talesfromretail&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=380d&before=370d

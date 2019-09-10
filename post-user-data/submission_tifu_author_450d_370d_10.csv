@@ -1,0 +1,9 @@
+count,after,before,link
+686,450,440,https://api.pushshift.io/reddit/search/submission/?&subreddit=tifu&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=450d&before=440d
+705,440,430,https://api.pushshift.io/reddit/search/submission/?&subreddit=tifu&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=440d&before=430d
+709,430,420,https://api.pushshift.io/reddit/search/submission/?&subreddit=tifu&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=430d&before=420d
+691,420,410,https://api.pushshift.io/reddit/search/submission/?&subreddit=tifu&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=420d&before=410d
+719,410,400,https://api.pushshift.io/reddit/search/submission/?&subreddit=tifu&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=410d&before=400d
+819,400,390,https://api.pushshift.io/reddit/search/submission/?&subreddit=tifu&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=400d&before=390d
+809,390,380,https://api.pushshift.io/reddit/search/submission/?&subreddit=tifu&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=390d&before=380d
+731,380,370,https://api.pushshift.io/reddit/search/submission/?&subreddit=tifu&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=380d&before=370d
