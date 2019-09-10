@@ -1,0 +1,83 @@
+text
+"Ah yes, the 'fuck about with it until it works' method."
+OM's stupidity is big on this one.
+"Also known as ""shotgun debugging"""
+Give that customer a tinfoil hat!  You might want to have a drink.
+"Pictures. You gotta have pictures showing where to click. They can usually follow the pictures. Usually. Words are hard, pictures are fun!"
+This person probably has a serious mental health issue.
+"There's a fine line to balance between scaring them off the line before you fix it, and enabling their delusions..."
+"Not only a real phrase, also a real debugging technique, sometimes employed with effectiveness. Especially in big codebases with many interconnected parts, when ""Jeff who is the only guy who knew how this works, and also he left 3 years ago"" it is one of the tools of last resort."
+"So, as much as I would love to blame OM entirely, and to be clear, it _is_ OM's fault, the blame has more to do with bad UI design.
+
+When someone has to respond to a large number of similar inputs with the same reaction, they start doing it be reflex.  In the extreme end, they sometimes even stop _seeing_ the input.  It happens, they do the thing, and half the time they don't even remember that it happened and they did the thing.
+
+This is more or less the same thing behind highway hypnosis, which kills a decent number of people a year.
+
+Back to prompts, this is also why the Windows access control prompts got heavily scaled back, people stopped reading them, hell, they stopped _seeing_ them.  They closed them as quickly as possible, in exactly the same way, because they happened _way_ too often.  And people's brains are wired to handle that kind of thing without us having to think about it.
+
+People like to talk about how nice it is to have a consistent UI, prompts that all look more or less the same, with the same options in the same place.  And yeah, it looks and feels nice.  _Until users stop seeing the bloody prompts_, and instead just close them, immediately, without the slightest thought.
+
+This is a difficult problem, but it's only partially the user's fault.  They are still running on wetware that tries to keep them from going insane by handling the 'easy' stuff without their input."
+I had to explain this to one of my workers when we were creating documentation. We don't make documentation for people that are good at following directions; we make it for the lowest common denominators that can't breathe with their mouths closed.
+Huh. [It is a real phrase.](https://en.m.wikipedia.org/wiki/Shotgun_debugging) I learned something new.
+"I've had plenty of those...   
+
+
+Usually on networking issues, What are the options listed in the wireless network window?   
+
+
+""uhh... Save, and.... Cancel."""
+"Undiagnosed or untreated mental illness.  A lot of the tin foil hat types have paranoia, probably because of a chemical imbalance in their brain. Of course taking pills for that is ""what THEY want!"""
+"I'm sorry sir, we're actually the hell desk. We deal with idiot employees who have actually been trained to do their job, but prefer to use us an an excuse to avoid thinking and slack off. I would love to deal with a successful, intelligent person such as yourself for once, but I'm afraid I'm too embittered and emotionally stunted to be worthy of your time."
+"I am absolutely saving this one, something tells me it's the kind of troubleshooting a PFY should know"
+"I just wonder where this is all coming from?
+
+Does she have an diagnosed or under-treated mental issue?  Does she spend too much time reading conspiracy type materials?
+
+Whatever the cause for her paranoia, it does make your job far more difficult than it has to be."
+"If you use Windows, do you use windows step recorder? if you did not know about it, click windows icon, type steps recorder, and select windows step recorder. (best to use with only one monitor connected). when you click start, it will take screen shots for every mouse click, when you have finished, it will create a web page with screen shots, highlighted where you have clicked, with step by step instructions. ie User left click start, user left click ""C"" user left click Calculator."
+"No. Just stupidity. ADHD doesn't make you *that* impulsive.
+
+(And ADD is no longer a thing. ADHD has subtypes that cover it now. *Both* are terrible names for the actual underlying neurological disorder.)"
+"It is possible to search for hidden files with the ""$"" wildcard in the name?   I rmember we used to be able to find files that been buggered and they'd have a name like FILE.DOC could be found as $FILE$.TMP, but they were hidden."
+"I'm one of those weirdos that enjoys writing walkthroughs. I joke with my boss that the only two people that ever read them are me and that one user that already understands it and likes feeling justified in their knowledge. 
+
+My boss likes them as a CYA and has used the ""clear instructions were provided"" line many times when other dept heads complain about a lack of communication after one of their staff screw things up."
+"Actually sounds like OP approached it very methodically!
+
+I recently debugged an issue with source code that wouldn't compile even though 10 people couldn't spot a single error and the error message was nonsensical.
+
+I ended doing the same thing - slowly narrowing down the program until I was left with a single character, which turned out to be a Unicode nonbreaking space that broke it. In the editor it looked like a space, but the compiler treated it as non-whitespace."
+"I have learned to ask my Yes/No question in the first line of the email.  Otherwise, people tune out and ignore the ""Wall of Text.""
+
+Are you in Academia?  My ""highly educated"" faculty are similar.
+
+But, I did see an interesting trick from one of the faculty-instead of using our cloud sharing or carrying a flash drive, they create a draft gmail, drag the attachment to it.  Then when they get to the classroom, they just drag the attachment out of the drafts folder.  I guess the single click time savings from not pressing ""send"" adds up at the end of the month."
+"There's a slight possibility that the encoded font data in the document contained just the right sequence to cause either the printing code in the program to hiccup, or the printer driver to hiccup - though I don't think you hit the driver until after the print dialog appears (in Windows at least).
+
+Vaguely reminiscent of when people would send +++ATH0 as part of the text to see if your modem was stupid and would read that as the ""attention! hang up"" command that it was, or just pass it through properly."
+[removed]
+"""Not only did he not document any of this, but he not-documented it in a made up gibberish language he shared with his imaginary childhood friend. Needless to say, we have no idea what is going on with any of this part of the codebase."""
+"I don't want to fall low, so I don't need your follow directions"
+You'd be surprised with all the techs I know how many people don't do this.  They don't read from scripts here but it's like... use some common deduction and troubleshooting.  It would make people who borderline go postal over being on the phones have a much better day.
+"From what I saw when working the document it was just Black.  It wasn't a special color on the wheel, it was like Black +, or there wasn't another black in the list which could've indicated that there was ANOTHER special version of black there.  For all intents and purposes it was the normal black color and it wasn't like the person imported from another program either from what I recall.  It just.... didn't work.  And to this day I have yet to ever encounter something like that again."
+"Those are usually the temp docs office/other programs create while your editing a document and between ""actual"" saves. There's some other stuff going on in the background, but basically when office/adobe/whatever notices a file with that in the name it figures the program/computer crashed and you were left with a document you had been working on but hadn't been saved. That's what usually generates the ""hey we can restore this for you if you want"" dialog box.
+
+They also usually delete that file if you say ""no"" because it's taking up space and you just said it was worthless."
+Yeah. Classic schizophrenia symptoms.
+You mean the Iterative-Permutation Configuration Troubleshooting method. Advanced stuff.
+"Yep, this almost had me crying for the lady, imagine going through life with these kinds of paranoid delusions as your reality."
+Let me guess. Still your fault right? Lol.
+"My ex had extreme paranoia, someone was following us, touching this thing would result in a bad day, opening that closet would cause a ""ghost"" to attack her. Originally we were able to work these things out and they weren't that bad, but they just kept getting worse and worse and even though she had mental health professionals to help her she never told them the full story or she even lied to them, paranoia that they would send her to an Mental health Asylum"
+"If you ever find out what was so special about that specific colour, please post an update w/ an explanation!"
+Just an idea ... maaaaaybe send wellfare check to this person's house?
+"Exactly. If I had to guess, there's an 87% possibility of the file being in a temp folder somewhere. But I'm not gonna help her with that. 
+
+Sometimes you just gotta let 'em learn! Besides, it was something for a new employee - it's nothing she can't do over again."
+"&gt; Best part is that I have no clue why $OldAdmin decided to switch the setting off.
+
+$OldAdmin had a password saved in their personal vault and wanted to share it directly with someone, but couldn't. They did an search as to why, or maybe just looked through $FP's help, and found that it was because this policy was enabled. Since they had admin rights, they disabled it, and directly shared the password.
+
+Asking WHY the policy was enabled, what Shared Folders were, and/or whether Shared Folders would work instead and possibly be an even better option, didn't enter their head. They wanted to do a specific thing (share directly) and changed the thing that was stopping them from doing that."
+ADHD here. The disorder doesn’t make me impulsive. For me at least it just makes me slightly scatterbrained (attention deficit) and also hyper (hyperactivity disorder). So full ADHD me would click everywhere on a box like that because it might do something fun.
+I still remember the days when that level of idiocy would have been hard to believe... Now it's just kind of reassuring that I have brothers and sisters fighting the same fight.

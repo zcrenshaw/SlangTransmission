@@ -1,0 +1,31 @@
+text
+"Unicorns do exist.
+
+
+Some time ago, I got possibly the best bug report ticket ever filed.
+
+A piece of software I'd written would completely crap out under extremely
+specific circumstances, upon encountering web pages written in a way I thought
+completely insane. What I naively didn't realize is that, due to the
+extraordinary leniency of web browsers in parsing invalid HTML, a lot of web
+pages are written in a *completely* insane way.
+
+So, one user happened to run the software on one of these little HTML
+monstrosities, and it broke. An average user, if they would even consider such
+extreme measures as *reporting* a bug, would write something like:
+
+    Expected behavior: It works
+    Actual behavior: It doesn't
+    Reproduction steps: Visit a website
+
+I've seen way too many tickets like this. This user wasn't an ""average"" user
+though. This guy was a *unicorn*.
+
+The bug report included **a link to a tiny page hosted on a VPS of his that would cause the bug to occur**. He had
+enough knowledge and did enough testing on his own to *write a minimal example*
+that still triggered it.
+
+I still have that ticket printed out and pinned to the wall right above my
+desk.
+
+"
