@@ -206,7 +206,7 @@ def scrape(args,sleeptime,attempts,goal,current):
                 frame = {'author': pd.Series(users), 'count': pd.Series(counts)}
                 df = pd.DataFrame(frame)
                 return_data[0] = len(df.index)
-                print("Completed bucket")
+                print(".")
 
             nodes += 1
             if nodes % 100 == 0:
