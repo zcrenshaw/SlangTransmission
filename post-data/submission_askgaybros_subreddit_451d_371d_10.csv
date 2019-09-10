@@ -1,0 +1,9 @@
+count,after,before,link
+1685,451,441,https://api.pushshift.io/reddit/search/submission/?&subreddit=askgaybros&aggs=subreddit&fields=aggs&metadata=true&after=451d&before=441d
+1769,441,431,https://api.pushshift.io/reddit/search/submission/?&subreddit=askgaybros&aggs=subreddit&fields=aggs&metadata=true&after=441d&before=431d
+1661,431,421,https://api.pushshift.io/reddit/search/submission/?&subreddit=askgaybros&aggs=subreddit&fields=aggs&metadata=true&after=431d&before=421d
+1782,421,411,https://api.pushshift.io/reddit/search/submission/?&subreddit=askgaybros&aggs=subreddit&fields=aggs&metadata=true&after=421d&before=411d
+1595,411,401,https://api.pushshift.io/reddit/search/submission/?&subreddit=askgaybros&aggs=subreddit&fields=aggs&metadata=true&after=411d&before=401d
+1734,401,391,https://api.pushshift.io/reddit/search/submission/?&subreddit=askgaybros&aggs=subreddit&fields=aggs&metadata=true&after=401d&before=391d
+1633,391,381,https://api.pushshift.io/reddit/search/submission/?&subreddit=askgaybros&aggs=subreddit&fields=aggs&metadata=true&after=391d&before=381d
+1545,381,371,https://api.pushshift.io/reddit/search/submission/?&subreddit=askgaybros&aggs=subreddit&fields=aggs&metadata=true&after=381d&before=371d
