@@ -1,0 +1,121 @@
+text
+"When you're expected to lie to the FBI
+
+
+Players in this drama:  
+$Me: me  
+$BM: boss man  
+$FBI: FBI agent
+
+
+Some years ago, I get an offer for a side job. I nearly always have something going on the side, but it happened that I didn't right then. The guy who made the offer was a friend of an acquaintance. I didn't know anything about him and he lived about 4 hours from me. 
+
+We spend some time talking online, and it seems like a good gig. Basically, it was writing some shipping/warehouse software. He wanted me to travel down to meet him, expenses paid. I agreed. 
+
+When I got there, things seemed a little bit sketchy, but often people who are starting small businesses or running one-person businesses don't have much capital. So I didn't think too much about it. 
+
+We met in a restaurant. He told me about the job...again. I patiently listen to nothing new, wondering why I had to travel for this. Then he tells me I need to come meet his client. That his client won't sign the contract until we meet. Okay, fair enough. I think his client want's to see if I'm capable. 
+
+We go to the client's place of business. Right before we go in, this guy tells me not to worry about anything he might say. If I have any questions, ask him afterwards. 
+
+So, he represents me to the client as an employee. Other than that, things are fine. I don't get to see any of the computer equipment (the sysadmin isn't there). I don't get to see any of the existing software (because we aren't building off the existing software). 
+
+After we leave, I question the ""employee"" bit, and the guy says he doesn't want his client to know he's using contract labor. Well...okay. If you're just starting in business, you want to look bigger than you are. 
+
+We get down to brass tacks, and the guy has a whole elaborate system set up for work production and payment. I think it's overly elaborate, but whatever. I'm not planning to cheat the guy, and if he's paranoid, that's his problem. 
+
+He would front me some money, about a week's worth. Every day, I would upload the current source code to the cloud. He wanted to pay by the hour, so I would keep a time sheet of hours worked. 
+
+(Personally, I think this is plain stupid. If I give a price for completed work, then I carry the extra time for mistakes. If he pays by the hour, then he carries the price for mistakes. But some people pay for work. Some people pay for the time your ass is in the chair.) 
+
+Every two weeks, he would pay based on the time sheet hours. 
+
+This works out fairly well until the first time he missed a paycheck. I notify him that I haven't received payment and I keep working. When I hit the one week mark (the amount of the initial advance), I keep working but I stop uploading the source code. 
+
+I get a paycheck. 
+
+I start uploading the source code again. 
+
+Next time I send him a time sheet, I get a phone call. 
+
+&gt;$BM: You're cheating me! I can see it on your time sheet. There are three days here where you put down hours you didn't work.   
+&gt;$Me: What do you mean?   
+&gt;$BM: You didn't work these three days because I didn't send your paycheck. That's how you forced me to pay you when I didn't have the money.   
+&gt;$Me: I worked those hours. I just didn't upload the source.   
+&gt;$BM: From now on, you need to upload the source or I won't count those hours as work. But I'll go ahead and pay you this time, even though I don't believe you really worked those hours. 
+
+My paycheck finally arrived a few days late, but without the days I supposedly ""didn't work"". 
+
+I calculated where I was on hours worked vs. hours paid, taking into account the initial front money. It was good, so I kept working. When I reached the end of the paid hours, I stopped working, and stopped uploading. 
+
+I get another phone call:
+
+&gt;$BM: Why are you not uploading source?  
+&gt;$Me: I've run out of money. You didn't send a complete paycheck last time. If you want me to keep working, you need to pay me.   
+&gt;$BM: You're cheating me! Do you think I'm made of money?  
+&gt;$Me: This is what we agreed. If you'd rather switch to a pay for work delivered, I can do that.   
+&gt;$BM: No! You'll cheat me out of more money. I can get some kid out of high school to do this for less than I'm paying you. If you don't start working again, you will lose the whole project.  
+&gt;$Me: Why don't you go find that high school kid? 
+
+That was the end of that. Or so I thought.
+
+About a month later, I get a frantic phone call.
+
+&gt;$BM: You have to fix this!  
+&gt;$Me: Fix what?  
+&gt;$BM: The client's computer system has been ~~hac~~compromised. Everything's gone!  
+&gt;$Me: Don't you have another employee now? The one that took my place?  
+&gt;$BM: But he's just a kid. He can't fix this!! Can't you at least give me some suggestions?  
+&gt;$Me: What exactly happened?  
+&gt;$BM: It's the sysadmin. He got fired. He took down the whole system.  
+&gt;$Me: Why did he get fired?  
+&gt;$BM: We didn't need him anymore. The system was up and running fine. After he left, he remoted in and erased all the operating systems.  
+&gt;$Me: Well, you've got backups. Reload everything.   
+&gt;$BM: We can't. The sysadmin got the job because he had unlicensed copies of all the operating systems we needed. He used those to set up the network. Now we can't reload without buying licenses.   
+&gt;$Me: ....
+
+After I hung up, I had a good laugh, and realized that I'd dodged a bullet with that company. That was the end of that. Or so I thought. 
+
+Early one Saturday morning, I'm sleeping in. Enjoying a well-earned day off. Phone rings. 
+
+&gt;$Me: Hello?  
+&gt;$FBI: This is Special Agent xxxx from the FBI. I need to ask you a few questions about this company.   
+&gt;$Me: I don't work for them anymore.   
+&gt;$FBI: It concerns the computers that were ~~ha~~compromised.   
+&gt;$Me: I wasn't employed there when that happened.  
+&gt;$FBI: Yes, but $BM got some advice from you at the time? He says you can confirm the incident.      
+&gt;$Me: He did call me. I talked to him for about 10 minutes.  
+&gt;$FBI: Good. I need to verify exactly what he told you about the damage done.  
+&gt;$Me: He told me the operating systems had been erased.   
+&gt;$FBI: Yes. Can you estimate how much monetary damage was done by erasing the operating systems?  
+&gt;$Me: Well, none. They didn't own the operating systems, so it's not like any property was damaged or stolen.  
+&gt;$FBI: They didn't own the operating systems?  
+&gt;$Me: That's what they told me. They were running unlicensed copies.   
+&gt;$FBI: He told you that??  
+&gt;$Me: Yes. He told me that the sysadmin, the person who ~~ha~~compromised the system, brought the operating systems with him. After they fired him, he took the operating systems back. But he said they were unlicensed, so I don't know that they legally belonged to the sysadmin.   
+&gt;$FBI: Thank you for your cooperation.   
+"
+"You know sometimes words have two meanings
+
+
+
+This one could have come straight from the I.T. crowd, but it really happened.
+
+&gt;Helldesk: Hi, How can we help?
+
+&gt;User: I've got a problem with my computer.
+
+&gt;Helldesk: Are you getting any error messages?
+
+&gt;User: Yes, it says 'User is disabled'
+
+&gt;Helldesk: Ah, your account will be locked. No problem I'll have it fixed in just a few seconds.
+
+&gt;User: OK, but I'm not.
+
+&gt;Helldesk: Sorry, you're not what?
+
+&gt;User: Disabled.
+
+&gt;Helldesk: OK, let me explain.......................
+"

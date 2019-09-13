@@ -1,0 +1,107 @@
+text
+"I'm sorry, we only support browsers that don't exist
+
+
+Same company and website as previous tale here:
+https://www.reddit.com/r/talesfromtechsupport/comments/5ltdyz/why_consistent_password_policies_are_important/
+
+So there's this website used by a few thousand paying customers - something like $200/year. It's used by pastors to download material to use in their church services. We support the following browsers -keep in mind this is probably ~~2002/2003~~ 2006 (thanks /u/gargarlord and /u/BCdotWHAT):
+
+* Internet Explorer for Windows
+
+* Internet Explorer for Mac
+
+If you've never heard of Internet Explorer for Mac, be grateful. Anyway, Chrome did not yet exist, and Firefox either didn't, or was super early on and not that great. Then something happened. Microsoft killed IE for Mac. I don't mean they just stopped developing it. They pulled the download links, and more or less pretended it didn't exist. If you didn't already have it, there was no way to get it - if there was some sort of abandonware website or other repository for old software back then, I didn't know about it and couldn't find it.
+
+Our Mac browser support remained the same: IE only.
+
+&gt;$Customer: Hi, I'm having some trouble with your website.
+
+&gt;$Me: What browser are you using?
+
+&gt;$Customer: Safari
+
+&gt;$Me, through gritted teeth: Unfortunately we don't support Safari. You'll need to use Internet Explorer.
+
+&gt;$Customer: Oh, how do I get that?
+
+&gt;$Me: You can't.
+
+&gt;$Customer: ...what?
+
+&gt;$Me: We only support Internet Explorer on Macs. If you have a Windows computer, you can use that. If not, you'll need to get Internet Explorer.
+
+&gt;$Customer: Ok...this is my only computer, so how do I get it?
+
+&gt;$Me: You can't. They no longer make it. It's not available anywhere.
+
+&gt;$Customer: So how do I use your website that I'm paying for?
+
+&gt;$Me: You can't.
+
+&gt;$Customer: Do you not see the problem here?
+
+&gt;$Me: Ok look, maybe we can help each other out here. We really should support Safari, but we don't. There's no other option. If possible, can you please write me an email, and be as upset as you can - swear, threaten to cancel, threaten to sue, whatever you can. I'll take it to the powers that be and try to get this fixed for you.
+
+&gt;$Customer: You want me to swear? I'm a pastor!
+
+&gt;$Me: I know. Look, it's Thursday afternoon. Getting this pushed through before Sunday isn't going to be easy.
+
+&gt;$Customer: I'm sure God will understand.
+
+So I get this email from him, and it's everything I asked for - ranting and raving about how we're preventing him from doing God's work. Thankfully, he didn't complain about me at all. I take it to the web development team - same $Dev as in the previous story linked above.
+
+&gt;$Dev: So what's not working?
+
+&gt;$Me: [problem I can no longer remember]
+
+&gt;$Dev: I'm pretty sure it works. [Opens Safari and tests successfully.]
+
+&gt;$Me: Wait, we don't support Safari.
+
+&gt;$Dev, rolling eyes: I know. It works great, it's what I use all the time, faster than IE. But [$VP of something or other] won't approve the 30 minutes it'll take me to fix it for newer versions of Safari. I just don't upgrade mine so I can use it.
+
+Thankfully, I had just helped $VP with a weird problem with his computer, and he was super grateful. I walked over to his office, and he happened to be free. It was about 3pm on a Thursday, and we closed at 4.
+&gt;$Me: Sorry to bug you, but...well, you should read this.
+He reads the email, and his eyes go wide.
+
+&gt;$VP: This is from one of our customers?
+
+&gt;$Me: Yeah, he was trying to finish his sermon for Sunday and-
+
+I didn't even finish my sentence before he was calling $Dev's manager. By 4:45, our website officially supported Safari and I was on the phone with $Customer to deliver the good news.
+
+I'd like to think God understood.
+"
+"We just purchased fifty new laptops and need them ready by first class tomorrow!
+
+
+I do IT Hardware support for a college.  Coming in one morning I hear my phone ding for a new email as I am pulling in off the freeway.  I pull into the parking lot and pull out my phone to see the following email.
+
+“Our department ordered fifty new laptops that just came in this morning.  We need IT to install the latest Windows on them along with the following software (and a long list of software follows).  These computers need to be ready to go by 10 AM tomorrow morning so we can use them for the first class.”
+
+I check to see if this was forwarded by my Boss or his Boss.  Nope, it was sent directly to me.  No ticket, no purchase order information, I didn’t even remember seeing an order for new laptops in any department come through the system in the last month.  So I go to the office and show my Boss who reads the email and tells me that he never had a request for new laptops so he has no idea what it is about.  After a few minutes of trying to call the department with no answer I agree to walk over and see what this was about.
+
+When I get to the Department Office I finally track down someone who knows what is going on and she leads me to one of the classrooms with a pile of boxes in the center of the room.  My heart just sinks.
+
+There before me, a pile of new 7 inch Windows tablets with attaching keyboards sat.  I pick one up and look over the specs.  Low end tablets, barely enough memory to run Windows 10 (installed) but would never run Windows 7 (We haven’t upgraded the school yet, it was still a new OS) and is nowhere near able to run any of the software that they were requesting as each unit had about 16GB of storage.  
+
+Needless to say, I was a little scared about this.  I asked her how these were even ordered through our system and she tells me that they by-passed the system and ordered from a web company to get a better deal.  I know that there was no reasoning with her so I ask if I could take one down to the office to get a look at it and she agrees with the stern comment of “These need to be ready by tomorrow!  Make sure it happens!”
+
+Back at the office I show off their new toy to the rest of the staff and my Boss.  None of them are happy, there is no way we can install any software on these let alone connect them to our network so the students can log into them.  My Boss emails the Department Head asking why they didn’t go through IT to get the computers and she responds with the same answer I got earlier, they were cheaper this way.  He lets her know that we couldn’t fulfill the request and that they would be better off returning the computers and that we would work on getting them ones that would work with our network and software.  Well they can’t do that because the website had a no-return policy.  Not only that, but they hadn’t used a purchase order for it, they used the department credit card.  
+
+So now we are stuck with fifty Windows 10 tablets that the department can’t really do anything with and the Department head is demanding answers as to why no one told her that we couldn’t use those.  For some reason they keep emailing me instead of talking to my Boss so I am getting the front end of the disaster here.  
+
+We finally get to a work around.  The tablets are set up on the WiFi network and we have to create a generic user account for each tablet along the lines of “DepartmentTab01” and then link that user name to the MAC Address of the tablets so that no one would be able to log into the network with another computer.  They were delivered to the department a week later than they wanted.  
+
+I wish it stopped there, but of course it wouldn’t.  
+
+First day with the tablets a trouble ticket comes in saying none of the tablets would connect.  Get to the classroom and the teacher had written one of the user names on the board and was trying to have everyone connect to the WiFi with that one user name.  What is bad is that we had a printed set of login instructions hanging right by the board that she used.  
+
+Then they wouldn’t charge.  Turns out the the tiny barrel plug that these things used had to pushed in all the way to get a connection.  Even just a little short of the mark and they wouldn’t charge.  None of the tablets had been plugged in properly over the course of about two weeks.  
+
+
+And we still get random request for software to be installed on these.  The students won’t even use them because the keyboards are just too small to type on unless they have the hands of a seven year old.  
+
+Why do departments do this to us?  I really wish we had a purchase system in place where all computer requests go through us.  
+"

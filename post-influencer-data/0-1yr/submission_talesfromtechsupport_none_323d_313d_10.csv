@@ -1,0 +1,120 @@
+text
+"""Want a Beer?""
+
+
+First, I don't usually work in or around ""tech support"" at least not the in-home, fix your computer type. However the company that I'm employed with deals with technology on a daily basis, specifically, managing GSuite accounts. It's also a very small company (&lt;10 employees). I'm a CS Major, however, I've received CISCO ITE certs (Hardware/Software + Networking) as well as being a licensed G Suite reseller. I'm not the smartest, but I know my way around most OSes, recovery software etc.  
+
+
+$Boss: CEO of the company  
+$Friend: Bosses friend  
+$Me: .. Me?  
+$Husband: Friend's husband  
+
+
+9:30 at night and my phone rings.  
+
+
+$Me: ""Hey $Boss, nothing is wrong.. right?""  
+
+
+$Boss: ""In relation to work? No, everything is fine. I'm actually at $friends house right now. Her computer isn't working. Something about C-H-K-D-S-K \*spelled out...\*. It just keep rebooting, and going back to it. I thought you might now what to do, given you're in Computer Science.""  
+
+
+$Me: ""They don't teach us this in CS, however, I can probably help. You said it's rebooting, and starting over again? How far is it through, and at what stage?""  
+
+
+$Boss: ""Stage 5, 97 of 100%.""  
+
+
+$Me: ""OK, stay on the line. When it reboots, and starts chkdsk again, just mash the A button. It'll continue to the OS at that point.""  
+
+
+$Boss: ""Ok, I'm in Windows \[7\], but now it's frozen, it won't do anything.""  
+
+
+$Me: ""It takes a minute to fully load. Leave it be for 5 minutes and call me back.""  
+
+
+\*5 minutes and a phone call later\*  
+
+
+$Boss: ""Yeah, it restarted, on its own. It's gone back to the chkdsk loop again. Can you have a look at it tomorrow?""  
+
+
+Me: ""Sounds like something is dying in the computer. I have class tomorrow, but I'll drop by and have a look at it. I can look at it anytime after 10AM. Do you want to meet at the office or her place?""  
+
+
+$Boss: ""Her place. She lives at &lt;address&gt;""  
+
+
+\*Next day. I show up \~10minutes early (9:50), with a spare 500GB HDD I had lying around the house, an install disc for Windows and some recovery software (HBCD, which has PartedMagic and MiniXP)\*  
+
+
+$Friend: ""Hi, are you $MyName?""  
+
+
+$Me: ""That'd be me. $Friend, right? $Boss should be here shortly, mind showing me the computer?""  
+
+
+$Friend: ""It's right here. It's been in this ""C-H-K-D-S-K"" (spelled out, yes) loop since last night."" \*Boss shows up, for unrelated reasons\*  
+
+
+$Me: ""No problem. Any important files on your computer? Family photos, financial records that need to be moved ASAP?""  
+
+
+$Friend: ""Yes. We have a bunch of family photos, as well as I have all my business images, financial records etc on the computer. They're all under my user account.""  
+
+
+$Me: ""No problem. I'll recover your documents first, then I'll see what's wrong. I'm not an expert with this, but I have some experience. I can't promise that I'll recover them all, but I'll do my best. Do you have a spare computer around so I can confirm that recovered documents are intact? I have my laptop, but I'd prefer to keep your records and whatnot off my computer, just for security sake.""  
+
+
+$Friend: ""Yes! Here's my Macbook. Can I get you a coffee or anything?""  
+
+
+Me: ""I'm OK, thank-you though.""  
+
+
+I managed to get all of the super important files, in tact. Copied them to her Mac, and set off with finding out what's wrong.  
+
+
+Me: ""\*Sigh\*, looks like your hard drive is dying, well, that's what S.M.A.R.T says at least. Good news is, I brought one with me. I figured this was going to happen. You're going to get a new OS as well. I'll reinstall your programs shortly after, and make sure you're ready to go. I'm concerned though, because I know the accounting software you use is a royal pain to get transferred without the original CD and serial number.""  
+
+
+\*Starts calling $AccountingSoftwareTechSupport. 1hour later. $Friend's husband has come home at some point, still not sure when he got home.\*  
+
+
+$Me (mildly frustrated that I'm STILL on hold...): ""Hey $Friend, you have a new to you hard drive, and windows has been installed. Adobe Illustrator, Office 365 and Simply Accounting have all been reinstalled. Simply Accounting is on the trial version, because I'm still on hold with them. I have the new database setup for you in the program, with the latest backup I could find. Give everything a check and make sure everything is there. Once you're all good with everything, I'll pack up. I'll write down some instructions for your accounting software. You'll have to call them at a later date and arrange to transfer the license. Just be sure to mention you no longer have access to the original documentation, due to lost paperwork/crashed computer. They may ask about a phone number, email address, etc, you'll need it on-hand when you call.""  
+
+
+$Husband: ""$MyName, how old are you?""  
+
+
+$Friend: ""Oh! $Me, this is my $husband. $Me, $Husband. $Husband, $me.""  
+
+
+\*Slightly perplexed at the question..\*  
+
+
+$Me: ""20."" (Which 19 is legal age where I live)  
+
+
+(And with my boss right beside me): $Husband: ""You want a beer or anything? We have some local craft, and some more well-known brands (Molson Canadian, Coors light, Budweiser). We also have wine, if you're interested.""  
+
+
+\*Internally: They're offering me BEER?! Stares at $Boss, who is not drinking.\*  
+
+
+$Boss (Sensing my surprise): ""No rules against it from the company's perspective."" (I was on company time, but this was being done as a favour to her friends.)
+
+  
+\*Kind of surprised\*: $Me: ""Ugh... I mean... I'm good thank you. I still have to drive home, and I'm on a no tolerance license for BAC whilst driving. Plus, I'm on the motorcycle in your driveway. Alcohol and balance don't compliment each other unless your goal is to fall over. \*nervous laughter\*""  
+
+
+$Husband: ""Ah, no problem. Thank-you by the way, for fixing the computer. It means a lot to us. If you want, we can give you a beer or two to take home and enjoy.""  
+
+
+$Me: ""Yeah, that'd be awesome. There is two copies of all your data, one on the Mac and one on the PC. So, if anything should happen, your data will be safe. Just make sure that any documents you create from this point are saved in a different location, like a USB stick.""  
+
+
+  
+So, not only did I manage to save all their records, photos. I sit here, sipping some local-craft that they sent me home with (AND my boss has decided to give me an extra bonus for helping on such short notice, on a day that I never normally work.) Happy ""customers"", happy boss, and happy me! Win-win-win!"

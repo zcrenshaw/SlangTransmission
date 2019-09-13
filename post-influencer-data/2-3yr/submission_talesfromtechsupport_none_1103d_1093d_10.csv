@@ -1,0 +1,155 @@
+text
+"Hi, I am still off sick but I am not.
+
+
+&gt; $Me  - Hello, IT.  
+&gt; $Usr - Hi, I am still off sick but I am not.  
+&gt; $Me  - Oh, did you mean to call HR or is there an IT issue?  
+&gt; $Usr - It's an IT issue. I am back at work now but I am still sick.  
+&gt; $Me  - I don't understand the issue.  
+&gt; $Usr - I have tried to log into $HRsystem but it has me listed as off sick.  
+&gt; $Me  - Ah, I see, You need to add an end date to your sickness.  
+&gt; $Usr - But I am back now.  
+&gt; $Me  - That's ok, you need to fill in the date field with when you came back.  
+&gt; $Usr - I am back now.  
+&gt; $Me  - Ok, did you start back at work today?  
+&gt; $Usr - Yes, I am back now.  
+&gt; $Me  - Do you have the $HRsystem open in front of you?  
+&gt; $Usr - Yes.  
+&gt; $Me  - Can you see the field for 'Date returned to work'?  
+&gt; $Usr - Yes.  
+&gt; $Me  - Click the little calendar icon and select the date you returned.  
+&gt; $Usr - But I am back now.  
+
+*Are you? Are you really? I am pretty sure you've left your brain cell at home though*
+
+&gt; $Me  - So select $TodaysDate from the calendar that pops up.  
+&gt; $Usr - Why?  
+&gt; $Me  - So that the $HRsystem knows that you're back at work and not still off sick.  
+&gt; $Usr - But I am back now.  
+
+*Are you a rubbish chat bot sent to test me?*
+
+&gt; $Me  - You need to tell the HR system when you came back so it unlocks your profile.  
+&gt; $Usr - Can't it tell?  
+&gt; $Me  - How would it tell?  
+&gt; $Usr - Well I am in the building and logged into my computer, is that not enough?  
+
+*This is a test, has to be a test, am I getting secret shoppered???*
+
+&gt; $Me  - The systems aren't linked in that way. People come into work all the time when off on holiday or sick to drop things off/collect things. If the system logged that as a day in work then holiday and sick pay would be all messed up. We also have a number of remote users who are never in the office.  
+&gt; $Usr - So how do I sort this out?  
+
+*ARE YOU KIDDING ME!?*
+
+&gt; $Me  - Fill in the date field!!!!!
+
+*I need to get out of this call!*
+
+&gt; $Me  - Can I remote onto your system and help you sort it.  
+&gt; $Usr - Would you mind. It might be easier.  
+
+*Too F'in right it'll be easier*  
+
+&gt; $Me  - Ok, I am on and I'll just add today's date in here and we're all set.  
+&gt; $Usr - So I am back now?  
+&gt; $Me  - Yes, you're no-longer being shown as off sick.  
+&gt; $Usr - Can you reset my password while I've got you on?  
+
+*Please please please IT gods, don't do this to me*  
+
+&gt; $Me  - What's wrong with your password?  
+&gt; $Usr - Nothing, but I got the about to expire message when I logged in and I want to you to reset it for me.  
+&gt; $Me  - You can change your password yourself by clicking the change password link when you see that screen or wait for it to expire and you'll be forced to do it when you next log in.  
+&gt; $Usr - I don't want to change my password.  
+
+*You did this to me...*
+
+&gt; $Me  - You have to change your password every 60 days.  
+&gt; $Usr - Can't you just give me another 60 days?  
+&gt; $Me  - The policy of changing it is for security.  
+&gt; $Usr - My password is very secure.  
+
+*Ok $Usr, I want to play a game...*
+
+&gt; $Me  - Ok, what's your current password?  
+&gt; $Usr - It's $actuallyquitesecurepassword.  
+&gt; $Me  - Ok, now that you have told me your password it is no longer secure and I must insist you change it immediately.  
+&gt; $Usr - You work in IT you knew my password anyway!  
+&gt; $Me  - No, all passwords are secure. I can reset passwords but I can not look at them. As I am still connected to you I will help you change it now.  
+
+Proceed to open the password change menu for $User. $User fills in the fields and gets an error saying that new password is a previously used password and thus can't be allowed.
+  
+&gt; $Usr - It won't let me change it.  
+&gt; $Me  - You didn't change it, you just typed it in again?  
+&gt; $Usr - I don't want to change my password!  
+&gt; $Me  - You have too. It is company policy.  
+&gt; $Usr - Passwords are hard to remember.  
+&gt; $Me  - Just pick a couple of random words and then add a number and a symbol.  
+&gt; $Usr - what do you mean?  
+&gt; $Me  - Like DeskMugPhonePencil1! Just pick a few things you can see from your desk and ta da! Easy to remember.
+
+*$Usr's new password is 100% going to be DeskMugPhonePencil1!*  
+
+&gt; $Usr - Ok that's done then.  
+&gt; $Me  - Ok enter the details on screen then.
+
+**New password accepted**  
+*Thank F@ck!*  
+
+&gt; $Me  - That's all sorted for you then.  
+&gt; $Usr - Great.  
+&gt; $Me  - I'll disconnect the remote connection.  
+
+*Freedom*  
+
+&gt; $Usr - I just thought.  
+
+*Oh balls*  
+
+&gt; $Usr - I have been back since last Thursday so will that all be right?  
+&gt; $Me  - You watched me fill in your return date as today because you said it was today.  
+&gt; $Usr - I am back today but I came back last week.  
+&gt; $Me  - Go in $HRsystem and change the return date to last Thursday.  
+&gt; $Usr - How do I do that?  
+
+*Screw you IT gods!!!*
+
+&gt; $Me  - I'll remote back in and sort it.  
+  
+&gt;:'( :'( :'( :'( :'( :'( :'( :'( :'( :'( :'(
+"
+"No shoot him! I'm the real IT! He's the clone!
+
+
+Here's a weird one that happened the other day...
+
+*Phone rings*
+
+&gt; Me: Hello this is the IT department.
+
+&gt; Evil Clone: Uhhh, no this is the IT department, what can I help you with?
+
+&gt; Me: No sorry there's a mistake there, this is the IT department you've called, what seems to be the trouble today?
+
+&gt; Evil Clone: Sorry I think there's some confusion here, you've called the help desk for (REDACTED COMPANY).
+
+&gt; Me: You're right I am confused because I work the help desk for (SAME REDACTED COMPANY).  My phone rang so I answered it.
+
+&gt; Evil Clone: My phone ran too...so I answered it.
+
+&gt; Me: So now here we are...talking to each other...
+
+&gt; Evil Clone: Are you working from the (REDACTED STATE) branch?
+
+&gt; Me: No, I'm working in the (REDACTED STATE ON THE COMPLETELY OPPOSITE SIDE OF THE COUNTRY) branch.
+
+&gt; Evil Clone: This is weird...
+
+&gt; Me: Yeah...soooo talk to you later then?
+
+&gt; Evil Clone: Sure, have a good shift.
+
+&gt; Me: You too.  Bye.
+
+Seriously...who was phone?"

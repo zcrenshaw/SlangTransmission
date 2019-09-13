@@ -1,0 +1,51 @@
+text
+"The oddest ticket I've ever worked.
+
+
+Sometimes, people pry apart my spreadsheets and tools and code for various reasons. And when they do, they find a hidden bit of code. I put it everywhere, as a sort of signature. People wonder what it is and they ask me. And I get to tell them this story.
+
+~
+
+I was a tier I remote support tech. This was one of my first officially IT jobs, and I was a young, fresh-faced, wide-eyed kid with a working knowledge of some kind of code and the ability to install Java with over a 50% success rate.
+
+*ring ring* went the phone. I perked up. Another customer desperately in need, on the brink of disaster, had called upon me to single-handedly resolve their problem and leave them 110% satisfied. A problem I alone had the keys to fix (so long as it was within the exceptionally narrow purview of the types of problems I was trained to handle)!
+
+""Thanks for calling Tech Support Megacorp! My name is Clickity, can I have your name and client number, please?""
+
+There was a long pause and then the person slowly gave me their info. I plugged it into my system and BAM. I looked at the client's info: they were based out in Washington State. A very remote office, easily three or four hours' drive from their nearest deskside support analyst. If I couldn't fix their issue, they might not be up and running for days.
+
+*I was their last hope.*
+
+""So our computer's been running really slow,"" he guy starts out, and I jump on it.
+
+""I see! Let me see if you have any hanging processes going on? Do you know what version of java you're running? Have you recently uninstalled or reinstalled any programs?""
+
+No to all of these. our remote session was lagging for sure. But I couldn't find out what was the cause. 
+
+""See it started after this storm..."" the guy went onto a ramble about the weather and how they've been dealing with landslides and other unrelated things. meanwhile, I keps scrounging for data in the system. The processor was just running so slow.
+
+""...and it's been hot and the computer smells pretty funny.""
+
+I slopped. ""Smells funny? have you...um..have you cleaned it recently to get dust out of it?"" I felt like a Genie-oos. Once he vacuumed that up he'd be all good to go.
+
+There was a long pause while the guy presumably took the case off the PC. then-- ""Agh! Oh god! aaaaaahgh!"" *Slam. Slam.* ""Over there!"" Strings of profanity. Then quiet.
+
+""Sir?"" I asked after a moment. ""Are you still there? is everything ok?""
+
+""No!"" he shouts. ""there's a hole in the wall, and it looks like they got in after the storm...some...god, they've built a *hive*."" 
+
+""What?"" 
+
+He repeated himself. ""So...yeah...can you like, get someone out here with a new PC or something? I know it's hard to get someone out here and all...""
+
+Undeterred, I assured them I'd have someone out as soon as I could. I typed up the ticket and sent it on its way, and I never heard how it got resolved. But I will never forget that ticket as I sent it on its way:
+
+&gt;Computer completely filled with bees. Sending to deskside support.
+
+~
+
+I learned something important that day. Never take a problem at face value or assume you have all the pertinent info, no matter how usual it may seem. Listen when the customer gives you background info, some of it might be important. And never, ever, choose to work in deskside repair in the mountains.
+
+And that is why, in every code or spreadsheet I've ever written, somewhere you will find the phrase ""Computer completely filled with bees"". To remind myself that no matter how much I feel like a Genie-oos, there's always room for being completely wrong and completely surprised.
+
+**TL;DR**: Customer's PC had a bug I wasn't able to fix."

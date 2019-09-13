@@ -1,0 +1,75 @@
+text
+"""I need you to fix Google Bing immediately!""
+
+
+Another tale from the out of hours IT desk...
+
+**Me:** Service Desk
+
+**Caller:** GOOGLE BING ISNT WORKING IS THE SYSTEM DOWN ??? ITS VERY IMPORTANT I USE THE BING
+
+*Note: yes, caller actually said ""the bing""*
+
+**Me:** I'm sorry - can you confirm which system you're referring to as I'm unfamiliar with that
+
+**Caller:** Google Bing! Really how can you not know this
+
+**Me:** Google Bing is not a system we support out of hours nor in hours. This sounds like a mash up between two different search engines. What exactly is happening?
+
+**Caller:** I need Google Bing to do my job! This is unacceptable. I can't find Google Bing anywhere on my PC. How dare you remove this! I need you to fix Google Bing immediately!
+
+**Me:** May I remote in to take a look
+
+&lt;spend 5 mins setting up remote connection&gt;
+
+Turns out that caller had a shortcut on her desktop called ""Google Bing"" - this opened the Bing Search homepage in Google Chrome *shivers*. She'd accidentally changed the name of the shortcut from ""Google Bing"" to something else and hence could not find it.
+
+**Me:** okay - that has been renamed now so you're good to go
+
+**Caller:** next time don't mess around with my computer! I know you guys changed this, I'm not stupid! I have a certificate of proficiency in computering
+
+**Me:** okay thanks for calling *click*
+
+*Note: yes caller really said ""computering""*
+
+I died a little inside after taking this call."
+"Bad mouse took down a network, and almost got us banned.
+
+
+I owned a computer shop. We donated to a local county nature center by installing a network in the campus, which consisted of several one-story buildings elevated a few feet above the ground on pilings. We ran the cables and installed the network drops (RJ ports) in the required locations, and installed and configured the routers. We have learned that it never works to give things for absolutely free because then there is no end to what people will ask for, so we asked them to pay the wholesale cost of the cable… that’s it. Everything else, including labor, was free.
+
+About a year later they started having random ports go intermittently bad, and the problem seemed to be getting worse. They asked us to troubleshoot.  We went out, found the problem was that rodents had bitten into some cables in multiple locations. Sometimes but not always this severed one of the wires at the point of the bite. If the severed wire touched even after being severed, the connection would work, sometimes. 
+
+This intermittent fault took several hours to figure out. Since they had not actually bitten chunks out of the cables, just bitten into it, the cable appeared undamaged visually. The way we found the problem was to run a hand down the cable looking for a kink or something and feeling the little nick. Close examination showed the bite. Once we knew the problem, it required rewiring a few runs and telling them they had a bad mouse problem, get an exterminator. 
+
+The diagnosis and repairs took 16 man-hours on-site (two people, all day). For this we charged only for our actual cost of the replacement wire itself.
+
+About 30 days later I get a call from the county accounts payable.  
+
+AP: “We have found conclusive evidence of fraudulent billing on invoice (the bill for the network diagnosis and repair) from your company. Since the amount is under $100 and this is the first instance of a problem from you, if you agree with the assessment and promise never to do this again, we will ban you from doing business with the county for one year. If you agree, we will send paperwork to that effect.”
+
+Me: “(!!) No way will I agree to that. This was a donation of our time, and we only charged for the wire so it wasn’t a freebie. We did nothing wrong. Why do you think we did?”
+
+AP: “We ran the diagnosis and bill by our IT department as a random check. They said there was no possible way your explanation of what was wrong and what you did to fix it could be true. You can dispute this, and we will have a hearing. But if we do this and it goes against you, you can be permanently banned from doing business and may even face charges of fraud.”
+
+Me: “I want the hearing.”
+
+(At the hearing, before a county board of something or other)
+
+AP to IT guy. “Look at this invoice. Do you remember us asking your opinion of this? What was that opinion.”
+
+ITGuy: “Yes. It said the network was losing connectivity to specific drops, and the problem was due to a bad mouse. I said there was no way a bad mouse would have that effect, especially on other computers on other ports.”
+
+CouncilGuy to me: “Do you disagree with this? Can you explain how a bad mouse could do that?”
+
+Me: “Yes. It bites the wires.”
+
+ITGuy: “…What?”
+
+Me: “Look at the invoice. It does not say ""a computer had a defective mouse."" It says there was ""a bad mouse problem."" Rodents. Bit. The. Wires. We installed new wires. We donated our labor to do so, and provided the wire at cost.”
+
+ITGuy: “That… does make sense.”
+
+AP: “Well, OK. We’ll drop this one. But we’re going to be watching you!”
+
+"

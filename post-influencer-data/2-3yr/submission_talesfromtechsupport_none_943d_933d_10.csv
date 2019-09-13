@@ -1,0 +1,142 @@
+text
+"I know IT better than IT
+
+
+So a few years back, I was working in a manufacturing company as IT manager. Like many industries, we had a number of machines with embedded computer systems. For the sake of convenience, we called these ""production machines"", because they produce stuff. By and large, these PC's are just normal desktop PC's that have a bunch of data acquisition cards in them connected to a PLC, or a second network card connected to an ethernet capable PLC. Invariably these PC's are purchased and configured when this production machine is being commissioned, and then just left as is until the production machine is retired... In some cases, this can be as long as 20 years. Please bear in mind that this is 20 years inside a dusty, hot factory environment.
+
+
+I've been in manufacturing environments before, and this concept is not new to me. Thanks to a number of poignant lessons in the past, I make it my business to understand these PC's inside and out. I like to keep them on a tight refresh cycle, or when it's not practical (in the case of archaic hardware or software), keep as many spares as possible. Also, regular backups are important - you just have to understand that unlike a normal PC, it can be difficult to do and plan it well in advance. More often than not, these PC's aren't IT's responsibility - they fall under engineering or facilities. Even so, these guys understand that IT runs just about every other PC in the business, and welcome any advice or assistance that IT can provide. Finally, these PC's are usually tightly integrated into a production machine, and failure of the PC means the machine stops.
+
+
+And so we have today's stars:
+
+Airzone: Me, the new IT manager. 
+
+TooExpensive: The site's facilities manager. He's in charge of the maintenance of the site, including all of these production machines. He's super paranoid about people trying to take his job, so he guards all his responsibilities jealously and doesn't communicate anything lest they get the drop on his efforts. Oh, and he has a fixation about not spending company money - even to the point of shafting the lawn-mowing guy out of a few hours pay - hence the name.
+
+VPO: Vice president of operations. The factory boss. No nonsense sort of guy.
+
+OldBoy: We'll get to him, but his name is derived from being a man in his 70's.
+
+
+I'm new, but in my first few weeks I've already had a number of run-ins with TooExpensive. I'm a fairly relaxed guy, but I have no qualms about letting someone dig their own grave and fall into it - and in the case of TooExpensive, I'd be happy to lend him my shovel. My pet hate was when organising new network drops, I will always run a double when we needed a single. We're paying working-at-heights money already, and a double drop is material cost only. i.e. Adding $50 - $100 material on a $4000 single drop cost. He'd invariably countermand all my orders and insist on singles. And then a few weeks / months later, I'd have the sparkie in again to install the second drop, at another $4k.
+
+And then there was the time that he was getting shirty because I was holding up a project of his.. Well sorry, if you are running a project that requires 12 - 16 network ports, you'd better at least talk to the IT guys prior to the day of installation. Not only will you not have drops, you won't have switch ports. And if you didn't budget for them, or advise far enough in advance that I could, then you can wait until I get around to it. Failure to plan is not an emergency.
+
+So you could see that we didn't exactly gel together well.
+
+Which brings us to these production machines, and the PC's nested within. Every attempt for me to try and document, or even understand  them was shut down by TooExpensive. 
+
+&gt; *Me*: Hardware and software specifications? 
+
+&gt; *TooExpensive*: That's my job, get lost. 
+
+&gt; *Me*: Startup and shutdown procedures? 
+
+&gt; *TooExpensive*: That's my job, get lost. 
+
+&gt; *Me*: Backup? 
+
+&gt; *TooExpensive*: That's my job, get lost.
+
+&gt; *Me*: Emergency contacts? 
+
+&gt; *TooExpensive*: That's my job, get lost.
+
+
+You get the picture. It resulted in a strong and terse email from TooExpensive to leave it alone. He had all the documentation, contacts, backups, and didn't need, or want my meddling, and I was not to touch any production machine's PC under any circumstance.
+
+Move forward a few months and I'm helping one of the factory workers on their area's shared PC. It's located right next to one of these production machines. It's old. The machine itself was nearly an antique, but the controls system had been ""recently"" upgraded. It had co-ax network of 2 PC's - one NT4 primary domain controller, and a NT4 workstation, and a network PLC (also on co-ax). The machines were pentiums running the minimum specs for NT4 to run, with a control application whose application logic was configured entirely through a propriety database. I had actually seen this software in a different company, so I had some basic familiarity with it. The co-ax was terminated on a hub with a few cat5 ports on it to connect to our LAN and an old hp laserjet printer. These particular production machines are rare, only a few of them exist in the world. We bought this one from a company that had gone out of business a few years earlier.
+
+It was test&amp;tag day and TooExpensive was running around a sparkie to do the testing. My earlier instruction to the sparkie was to not disconnect any computer equipment if it was not powered off. And so it came time to test this production machine's PC. The sparkie wasn't going to touch it while it was on. Luckily TooExpensive came prepared with his thoroughly documented shutdown procedure: yank the power cords. The test passed, new labels were applied to the power cord, he plugged it back in and turned it back on, then ran off to his next conquest without waiting for the boot to finish.
+
+10 minutes later, the machine operator starts grumbling. I have a quick peek, and see that the control software had started, but the screen was garbled and none of the right measurements were showing. TooExpensive is called over, and he talked one look, pales, and then runs off. 
+
+10 minutes later, the operator looks at me and asks for help. I call TooExpensive's mobile, and it's off. I called VPO's mobile and suggest that he comes over immediately.
+
+10 minutes later, the operator, VPO, and I are looking at this machine. It's fucked. There's the better part of a million dollars worth of product to be processed by this machine, and the nearest alternate machine is in Singapore, belonging to a different company. And if the processing isn't done within soon, the product will expire and be scrapped. 40% of revenue is from product processed by this machine. We're fucked.
+
+10 minutes later, we still can't get onto TooExpensive. We can't talk to him about the ""backups"" or any emergency contacts that he knows about. We can't even get his phone to ring.
+
+So as I have said, I have used this software before and have a basic understanding. I know enough that the configuration is everything, and configuration is matched to the machine. But I also knew a guy who did some of the implementations. A call to him gave me a lead, and I followed the leads until about 4 calls later, I had the guy who implemented this particular machine. OldBoy had retired 10 years earlier, but VPO had persuaded him to come out of retirement for an eyewatering sum of money.
+
+A few hours later, OldBoy took one look at the machine and confirmed that the database was fucked. We'd need to restore it from backup. TooExpensive is still not contactable.
+
+&gt; *Me*: Let's assume for a moment that there is no backup. What do we need to do.
+
+&gt; *OldBoy*: Normally I'd say pray, buy you must have done that already because I haven't kicked the bucket yet.
+
+To cut a long story short, we had to rebuild the database. But not from scratch. OldBoy's MO was when setting up a machine, when he was done, he'd create and store a backup database on the machine. The only issue was that 20 years of machine updates needed to be worked out. It also just so happens that through sheer effort, I am able to compare a corrupted database file to a good one, and fool with it enough to get it to load in the configuration editor. It's still mangled, but we are able to use that as a reference to build the lost config. 
+
+All up, it took 4 days to bring this machine back online. But we did. To be honest, I certainly wasn't capable of doing this solo, and without my efforts to patch the corrupted database file, OldBoy would not have been able to restore 20 years of patches that we had no documentation for.
+
+And what of TooExpensive?
+
+After OldBoy and I started working on the problem, he showed up again. He ignored any advice about a backup (because obviously there wasn't any), and instead demanded regular status updates for him to report to VPO. The little shit had screwed up the machine, run off to hide, and now a solution was in progress, was trying to claim the credit.
+
+When it was all running again, OldBoy debriefed VPO on the solution. I then had my turn with VPO.
+
+&gt; *VPO*: So Airzone. Thanks for your help. Your efforts have un-fucked us. 
+
+&gt; *Me*: No worries.
+
+&gt; *VPO*: And now we get to the unpleasant bit. TooExpensive claims that you didn't follow procedure when shutting down the machine, causing it to crash. He also claims that you hadn't taken any backups, and it was effectively your fault.
+
+&gt; *Me*: And when we tried to call him?
+
+&gt; *VPO*: He claims he was busy contacting his emergency contacts.
+
+&gt; *Me*: I see.
+
+&gt; *VPO*: I don't believe a word of that shit. Unfortunately it's your word vs his. If I had the evidence, I'd fire him.
+
+&gt; *Me*: *(opening the email TooExpensive had sent me about meddling on my phone)* You mean this evidence?
+
+
+Half an hour later, I got the call to lock TooExpensive's account and disabled his access card.
+
+
+Edit: Wow, this story seems to have resonated with so many people here..  And thanks for the gold, kind stranger!"
+"I need to you incubate something on my computer.
+
+
+**The day I used the Nuclear option**  
+  
+&gt; $Me  - Hello IT.  
+&gt; $Usr - Hi, I need your help.  
+&gt; $Me  - OK, What's the problem?  
+&gt; $Usr - I need to you incubate something on my computer.  
+*oh what fresh hell is this?*  
+&gt; $Me  - What do you mean?  
+&gt; $Usr - Look, if you can't help can you put me through to a senior tech!?  
+*OH f##k you*  
+&gt; $Me  - It's not that I can't help it's that I need more information about your problem before I can help.  
+&gt; $Usr - It's simple, there is something on my computer and you need to put it in incubation for me!  
+&gt; $Me  - What type of file is it?  
+&gt; $Usr - I don't know, I can't do anything because the program needs admin rights, that's why I need you!  
+&gt; $Me  - Have you downloaded a file or been on a dodgy website?  
+&gt; $Usr - I don't need the 4th degree here, I just need get this incubated and we can both go on with our day!  
+&gt; $Me  - If you right click on the green W at the bottom right of the screen and select 'Scan Now' it will run a check for anything bad and we can go from there.  
+*I have jumped onto the AV console to have a look*  
+&gt; $Usr - I can't do anything with that as when I click it it says 'Please contact the network administrator to access' blah blah.  
+&gt; $Me  - I need you to right click on it not left click.  
+&gt; $Usr - I KNOW WHAT I AM DOING, IT SAYS I CANT!  
+*Clearly I need to escalate this to the 'help a moron' division*  
+&gt; $Me  - There is no need to raise your voice, I am trying to help.  
+&gt; $Usr - It's simple though, I need your admin rights so that I can move something to incubation. It's not hard.  
+&gt; $Me  - OK, I will remote in and have a look. Please click the Rescue Me icon on your desktop.  
+&gt; $Usr - FINALLY, you're going to do what I asked for in the first place!  
+*I am done with you!*  
+*Waves at manager as I have spotted something*  
+  
+&gt;*Preparing Nuclear response |||||||||..90% loaded*  
+  
+&gt; $Me  - There is no such thing as incubation or incubator on your computer. You mean quarantine. You believe you have downloaded a virus or opened a malicious website and got yourself some malware or worse, this doesn't happen on it's own. You have all of the tools needed to diagnose and hopefully remove the infection. You have 2 buttons on your mouse one on the left and one on the right but refuse to click the correct one in the correct place. 
+I have taken over your machine and I am currently running the scan for the issue. I can also see from your open internet pages that you have been trying to access a number of torrent sites. There are many many malicious adverts and links on those sites that are designed to trick you or catch you out and get you to visit illicit sites or download questionable files. You are in breach of company policy by using your company property for questionable and illegal activity. This will be logged and reported. The scan has now completed and found and removed 5 infections and I can see from my console that your system has blocked and automatically defeated 10s of threats or attacks today so this is clearly an ongoing issue for you.  
+&gt; $Usr - What...  
+&gt; $Me  - I am now going to escalate this to the IT manager who has been monitoring this call and would like a word.  
+*Click*  
+   
+$Usr was very quickly summoned to attend a meeting with HR and an appropriate Manager and I believe asked to accelerate themselves  and then elevate themselves while travelling at speed because IT Manager reviewed their activity a bit more thoroughly including their internet use when on the company network/VPN.  
+  
+$Usr then tried to sue for unfair dismissal. And IT Manger actually laughed out loud when he was told that the reason was 'Unfair invasion of privacy'."

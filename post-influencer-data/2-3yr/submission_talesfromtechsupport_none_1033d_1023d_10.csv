@@ -1,0 +1,82 @@
+text
+"Yes, please tell me about your security violation
+
+
+It's time to repay my lurking with a story which will hopefully provide some degree of catharsis for all:
+
+
+
+This occurred about 5 years ago, when my company (~300 employees) had just been acquired by a much smaller company (~50 employees) with no IT staff or corporate infrastructure to speak of. We were in the process of rebuilding the full merged corporate environment, but had yet to roll out new images to our APAC offices. For reference, I was the IT manager for the Americas and APAC.
+
+
+
+A user ($AssClown, $AC for short) from our Bangalore office (originally part of the 50 person company) had flown in for cross-training, and was using a hot desk. Not 10 minutes after sitting down, he was back up and at my desk:
+
+
+&gt;$AC: ""Hi, Vzh? Do you have a second?""
+
+&gt;$Vzh: ""Of course, how can I help you?""
+
+&gt;$AC: ""I need admin access on my computer.""
+
+&gt;$Vzh: ""I'm afraid we don't provide admin access to corporate equipment, as that would be a violation of our security policies. What are you trying to accomplish that requires admin access?""
+
+&gt;$AC: ""I need to install [dev tool].""
+
+&gt;$Vzh: ""That should be available to you already, as it is part of our standard build. If you're having difficulty accessing it, please raise a ticket and one of our engineers will come by to help you out as soon as they are free.""
+
+
+&gt;...
+
+
+&gt;$AC: ""Ok, but I need admin access.""
+
+&gt;$Vzh: ""[dev tool] does not require admin access. Please raise a ticket for support and someone will be over to assist shortly.""
+
+&gt;$AC: ""But I also need to install [other dev tool].""
+
+&gt;$Vzh: ""[Other dev tool] is also already available on that machine.""
+
+&gt;$AC: ""But you don't understand, I really need admin access.""
+
+&gt;$Vzh: ""No, you really don't. I would be happy to explain that to your manager instead if you would prefer.""
+
+&gt;$AC: ""BUT I HAVE IT ON MY DESKTOP IN BANGALORE, I DON'T UNDERSTAND WHY I CAN'T HAVE IT HERE""
+
+&gt;$Vzh: ""...why do you have admin access on your desktop in Bangalore?""
+
+&gt;$AC: ""Everyone does, I NEED YOU TO GIVE IT TO ME NOW""
+
+&gt;$Vzh: ""No. Now please return to your desk.""
+
+
+..some time later, $AC has now raised a **SEV 1** ticket for admin access, and I have an email from his manager explaining that not having admin access is preventing $AC from getting his work done. Cue the following email, which gives me distinct pleasure to this day:
+
+
+&gt;""Dear [Manager],
+&gt;
+&gt;
+&gt;Please be advised that I have re-priortized this ticket as Severity 5 [lowest priority], and subsequently closed it. $AC will not be receiving admin access now or at any point in the future. Admin access is a violation of the security policies that have been distributed to and acknowledged by all employees, including yourself and $AC.
+&gt;
+&gt;
+&gt;Given that it is not clear that you have read the security policies, you and $AC have been scheduled for mandatory security training next week. Please ensure that you have completed all modules by next Friday, as we will need to flag you and $AC for non-compliance if you have not.
+&gt;
+&gt;
+&gt; $AC, please treat this email as your first warning regarding use of our ticketing system. Raising this kind of ticket as a Severity 1 is wildly inappropriate, and has the potential to disrupt support for critical functions. The IT team supports multiple offices and datacenter environments, and the severity rating system for inbound tickets is intended to reflect the global impact of the issue raised. A Severity 1 ticket would be appropriate for an entire datacenter or office going offline, not for wanting the ability to install junk on your machine. Please ensure that you *actually read* the severity categorizations on the front page of [ticketing system] next time you use it.
+&gt;
+&gt;
+&gt;Kind regards,
+&gt;$Vzh""
+
+
+Needless to say, the Bangalore office mysteriously lost their admin privileges that afternoon."
+"Why do we have to pay for printing?
+
+
+I work in IT in higher education. One time, we saw this huge stack of like 250 pages in the ""you forgot to pick up your printouts here pile"". Start flipping through it - it was nothing but horizontal lines covering the entire page. We're like WTF, is something broken?
+
+Oh no, it turns out that the student was printing lined notebook paper rather than buy a $0.99 notebook.
+
+*That* is why you have to pay for printing.
+
+(xpost /r/college)"

@@ -1,99 +1,99 @@
-1 submission q=thot subreddit=askreddit aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10
-2 submission q=stan subreddit=askreddit aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-3 submission q=periodt subreddit=askreddit aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-4 submission q=periot subreddit=askreddit aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-5 submission q=deadass subreddit=askreddit aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-6 submission q=def subreddit=askreddit aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-7 submission q=defo subreddit=askreddit aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-8 submission subreddit=askreddit aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-9 submission q=thot subreddit=askmen aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-10 submission q=stan subreddit=askmen aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-11 submission q=periodt subreddit=askmen aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-12 submission q=periot subreddit=askmen aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-13 submission q=deadass subreddit=askmen aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-14 submission q=def subreddit=askmen aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-15 submission q=defo subreddit=askmen aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-16 submission subreddit=askmen aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-17 submission q=thot subreddit=askwomen aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-18 submission q=stan subreddit=askwomen aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-19 submission q=periodt subreddit=askwomen aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-20 submission q=periot subreddit=askwomen aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-21 submission q=deadass subreddit=askwomen aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-22 submission q=def subreddit=askwomen aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-23 submission q=defo subreddit=askwomen aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-24 submission subreddit=askwomen aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-25 submission q=thot subreddit=askgamers aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-26 submission q=stan subreddit=askgamers aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-27 submission q=periodt subreddit=askgamers aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-28 submission q=periot subreddit=askgamers aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-29 submission q=deadass subreddit=askgamers aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-30 submission q=def subreddit=askgamers aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-31 submission q=defo subreddit=askgamers aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-32 submission subreddit=askgamers aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-33 submission q=thot subreddit=talesfromtechsupport aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-34 submission q=stan subreddit=talesfromtechsupport aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-35 submission q=periodt subreddit=talesfromtechsupport aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-36 submission q=periot subreddit=talesfromtechsupport aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-37 submission q=deadass subreddit=talesfromtechsupport aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-38 submission q=def subreddit=talesfromtechsupport aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-39 submission q=defo subreddit=talesfromtechsupport aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-40 submission subreddit=talesfromtechsupport aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-41 submission q=thot subreddit=talesfromretail aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-42 submission q=stan subreddit=talesfromretail aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-43 submission q=periodt subreddit=talesfromretail aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-44 submission q=periot subreddit=talesfromretail aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-45 submission q=deadass subreddit=talesfromretail aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10
-46 submission q=def subreddit=talesfromretail aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-47 submission q=defo subreddit=talesfromretail aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-48 submission subreddit=talesfromretail aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-49 submission q=thot subreddit=roastme aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-50 submission q=stan subreddit=roastme aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-51 submission q=periodt subreddit=roastme aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-52 submission q=periot subreddit=roastme aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-53 submission q=deadass subreddit=roastme aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-54 submission q=def subreddit=roastme aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-55 submission q=defo subreddit=roastme aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-56 submission subreddit=roastme aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-57 submission q=thot subreddit=tifu aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-58 submission q=stan subreddit=tifu aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-59 submission q=periodt subreddit=tifu aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-60 submission q=periot subreddit=tifu aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-61 submission q=deadass subreddit=tifu aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-62 submission q=def subreddit=tifu aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-63 submission q=defo subreddit=tifu aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-64 submission subreddit=tifu aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-65 submission q=thot subreddit=askgaybros aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-66 submission q=stan subreddit=askgaybros aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-67 submission q=periodt subreddit=askgaybros aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-68 submission q=periot subreddit=askgaybros aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-69 submission q=deadass subreddit=askgaybros aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-70 submission q=def subreddit=askgaybros aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-71 submission q=defo subreddit=askgaybros aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-72 submission subreddit=askgaybros aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-73 submission q=thot subreddit=asknyc aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-74 submission q=stan subreddit=asknyc aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-75 submission q=periodt subreddit=asknyc aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-76 submission q=periot subreddit=asknyc aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-77 submission q=deadass subreddit=asknyc aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-78 submission q=def subreddit=asknyc aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-79 submission q=defo subreddit=asknyc aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-80 submission subreddit=asknyc aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-81 submission q=thot subreddit=relationships aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-82 submission q=stan subreddit=relationships aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-83 submission q=periodt subreddit=relationships aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-84 submission q=periot subreddit=relationships aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-85 submission q=deadass subreddit=relationships aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-86 submission q=def subreddit=relationships aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-87 submission q=defo subreddit=relationships aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-88 submission subreddit=relationships aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10
-89 submission q=thot subreddit=AMA aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-90 submission q=stan subreddit=AMA aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-91 submission q=periodt subreddit=AMA aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-92 submission q=periot subreddit=AMA aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-93 submission q=deadass subreddit=AMA aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-94 submission q=def subreddit=AMA aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-95 submission q=defo subreddit=AMA aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10  
-96 submission subreddit=AMA aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=410d before=0d 10
+1 submission q=thot subreddit=askreddit aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10
+2 submission q=stan subreddit=askreddit aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+3 submission q=periodt subreddit=askreddit aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+4 submission q=periot subreddit=askreddit aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+5 submission q=deadass subreddit=askreddit aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+6 submission q=def subreddit=askreddit aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+7 submission q=defo subreddit=askreddit aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+8 submission subreddit=askreddit aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+9 submission q=thot subreddit=askmen aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+10 submission q=stan subreddit=askmen aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+11 submission q=periodt subreddit=askmen aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+12 submission q=periot subreddit=askmen aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+13 submission q=deadass subreddit=askmen aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+14 submission q=def subreddit=askmen aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+15 submission q=defo subreddit=askmen aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+16 submission subreddit=askmen aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+17 submission q=thot subreddit=askwomen aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+18 submission q=stan subreddit=askwomen aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+19 submission q=periodt subreddit=askwomen aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+20 submission q=periot subreddit=askwomen aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+21 submission q=deadass subreddit=askwomen aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+22 submission q=def subreddit=askwomen aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+23 submission q=defo subreddit=askwomen aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+24 submission subreddit=askwomen aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+25 submission q=thot subreddit=askgamers aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+26 submission q=stan subreddit=askgamers aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+27 submission q=periodt subreddit=askgamers aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+28 submission q=periot subreddit=askgamers aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+29 submission q=deadass subreddit=askgamers aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+30 submission q=def subreddit=askgamers aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+31 submission q=defo subreddit=askgamers aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+32 submission subreddit=askgamers aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+33 submission q=thot subreddit=talesfromtechsupport aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+34 submission q=stan subreddit=talesfromtechsupport aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+35 submission q=periodt subreddit=talesfromtechsupport aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+36 submission q=periot subreddit=talesfromtechsupport aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+37 submission q=deadass subreddit=talesfromtechsupport aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+38 submission q=def subreddit=talesfromtechsupport aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+39 submission q=defo subreddit=talesfromtechsupport aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+40 submission subreddit=talesfromtechsupport aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+41 submission q=thot subreddit=talesfromretail aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+42 submission q=stan subreddit=talesfromretail aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+43 submission q=periodt subreddit=talesfromretail aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+44 submission q=periot subreddit=talesfromretail aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+45 submission q=deadass subreddit=talesfromretail aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10
+46 submission q=def subreddit=talesfromretail aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+47 submission q=defo subreddit=talesfromretail aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+48 submission subreddit=talesfromretail aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+49 submission q=thot subreddit=roastme aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+50 submission q=stan subreddit=roastme aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+51 submission q=periodt subreddit=roastme aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+52 submission q=periot subreddit=roastme aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+53 submission q=deadass subreddit=roastme aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+54 submission q=def subreddit=roastme aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+55 submission q=defo subreddit=roastme aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+56 submission subreddit=roastme aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+57 submission q=thot subreddit=tifu aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+58 submission q=stan subreddit=tifu aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+59 submission q=periodt subreddit=tifu aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+60 submission q=periot subreddit=tifu aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+61 submission q=deadass subreddit=tifu aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+62 submission q=def subreddit=tifu aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+63 submission q=defo subreddit=tifu aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+64 submission subreddit=tifu aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+65 submission q=thot subreddit=askgaybros aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+66 submission q=stan subreddit=askgaybros aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+67 submission q=periodt subreddit=askgaybros aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+68 submission q=periot subreddit=askgaybros aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+69 submission q=deadass subreddit=askgaybros aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+70 submission q=def subreddit=askgaybros aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+71 submission q=defo subreddit=askgaybros aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+72 submission subreddit=askgaybros aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+73 submission q=thot subreddit=asknyc aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+74 submission q=stan subreddit=asknyc aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+75 submission q=periodt subreddit=asknyc aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+76 submission q=periot subreddit=asknyc aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+77 submission q=deadass subreddit=asknyc aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+78 submission q=def subreddit=asknyc aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+79 submission q=defo subreddit=asknyc aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+80 submission subreddit=asknyc aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+81 submission q=thot subreddit=relationships aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+82 submission q=stan subreddit=relationships aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+83 submission q=periodt subreddit=relationships aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+84 submission q=periot subreddit=relationships aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+85 submission q=deadass subreddit=relationships aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+86 submission q=def subreddit=relationships aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+87 submission q=defo subreddit=relationships aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+88 submission subreddit=relationships aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10
+89 submission q=thot subreddit=AMA aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+90 submission q=stan subreddit=AMA aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+91 submission q=periodt subreddit=AMA aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+92 submission q=periot subreddit=AMA aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+93 submission q=deadass subreddit=AMA aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+94 submission q=def subreddit=AMA aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+95 submission q=defo subreddit=AMA aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10  
+96 submission subreddit=AMA aggs=none metadata=true size=1000 fields=title,selftext,score sort_type=score sort=desc score=<10000000 after=413d before=3d 10
 
 
   

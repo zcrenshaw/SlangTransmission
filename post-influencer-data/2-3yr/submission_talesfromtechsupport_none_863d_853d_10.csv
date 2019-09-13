@@ -1,0 +1,37 @@
+text
+"Modern Warfare needs 1TB of RAM...
+
+
+Hi all, mandatory LTL, FTP. On mobile so formatting will be a bit sketchy and disclaimer, not in Tech Support but hopefully will be eventually after completing my Comp-Sci degree.
+
+Was in a TeamViewer session with a colleague but 10 brief minutes ago when I discovered to my distaste that his 2TB HDD was filled to the brim as was his 120GB SSD. Upon inquiring what was using such immense portions of precious digital real-estate, I was met with the standard ""I'm not sure, it's always been like that. I just delete stuff when it's too full to function."" Type response...
+
+Enter WinDirStat to save the day. For those of you unaware, this little app displays the contents of your drives in a graphical layout, with the size usage of each file proportionately scaled to the others.
+
+Normally one can expect a large block of medium sized files, some downloaded videos, a few steam games, but never in my years have I opened the application to find one GIANT M**********ING MONSTROSITY of a block consuming well over half the poor 2TB drive, barely leaving other little files to squeeze in around the edges, clawing desperately for some left over 1's and 0's to call home.
+
+The seasoned among you will already have guessed, but this file was none other than the villain of the piece, the dark and shady 'pagefile.sys'. Our hero (yours truly) swam through the dark recesses of the system configuration in search of the settings pane that would confirm my hunch, all the while my colleagues eyes growing wider with understanding and guilt. Eventually I found it. The page file options were set to 'Manual Configuration', and that manual configuration was a default size of 1TB, with permission to expand to 1.2...
+
+My colleague offered an explanation for his actions. Apparently some four years ago he fancied himself a game of Modern Warefare and was displeased to find it kept crashing. Rather than just quit some background applications or buy some more memory, he decided the best solution was to boost his page file size. First a GB, no good. Maybe 2GB. No dice. Eventually he must have just opted for 1 followed by a random amount of zeros, happening to be an entire TB.
+
+Years passed and he didn't notice the change day to day as the page file gradually grew fatter, gorging itself on any scraps of excecutable it could find. Slowly expanding to occupy 1.2TB of his total 1.8. and that... Is how he has lived... Without question... For 4 years.
+
+A page file size drop and reboot later and he was a happy camper, and I had my first TFTS post.
+
+TL;DR: Friend wanted to play a game, lacked sufficient RAM. Sacrificed most of 2TB HDD to the page file gods as an eternal offering.
+
+EDIT: Wow, this blew up overnight, thanks for making it a good first post all! :) Also, I've seen a lot of people ask why I'm doing Comp-Sci for tech support/wanting to go into tech support in the first place. Truth is I oversimplified things, I didn't think it was relevant but the specifics are, I'm doing a bachelor of Information Science, with a double major in Computer Science and Information Technology. Because, honestly I don't know specifically what I plan to do after graduating, just that I love IT and want to do something in that field. As for why tech support... After reading this sub-reddit, it sounds like it should keep me entertained!"
+"No, Ethernet does not make a good coat rack.
+
+
+Here I am, another calm morning before the storm. I sip away at my Dr. Pepper and take a bite of donut. The queue is clear and the emails are quiet. Then, as is to be expected, the phone rang. I clear my throat and pickup the receiver with a cheerful ""Hello this is (me) how can I help you?"" 
+
+""Good morning, my computer won't connect to the internet.""
+
+We run through some basic troubleshooting, have you restarted the computer, is the cable plugged in, are the dummy lights on, is your computer turned on. Still nothing so I resign myself to a brisk walk down the hall to see what's going on. 
+
+As I enter the room I begin double checking everything we talked about over the phone. The cable is plugged into the computer, the indicator lights are on, but they keep flickering out for a second. Seeing this I begin tracing the cable back to where it's plugged in. This room is setup terribly by the way so the Ethernet cable is run around the room so the person can have their desk where they want it. 
+
+As I trace the cord I find out that it goes through a closet (not a network closet but a closet closet) and then out the other side and into the wall jack. I go to check the connection and notice the cable is tight, really tight, like I can't move it an inch tight. The effects of my Dr. Pepper start to take effect and the connections are forming. I open up the closet and find the culprit. There are coats hanging from the Ethernet cable. We're talking big, heavy coats. The poor cable was under so much strain that it was being ripped apart. I quickly removed the coats, making an internal joke about getting a load balancer for all the traffic on this line, and then made the person aware that Ethernet does not make for a good coat rack. 
+
+Once the weight was removed everything started working again and I was off to finish my breakfast."

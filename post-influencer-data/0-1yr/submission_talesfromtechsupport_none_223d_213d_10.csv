@@ -1,0 +1,55 @@
+text
+"The Lampoltergeist
+
+
+This one is from my dad (let's call him $thomas), a facilities technician in a big hotel, his speciality is welding and boiler taming, but anything that is electrical, mechanical, or is bolted to the ground but should be bolted on the ceiling, it was his job. 
+
+
+A bit of context: This is late 90s and, this being a third-world country, the Golden Age of IT lasted well into the mid 90s, those with 'the knack' being treated as demigods so they would not be bothered with menial tasks or invoke the wrath of the avatar of BOFH, and reigned supreme in the realm of the Central Data Processing Department. Their butlers were better paid than most techies. THEY HAD BUTLERS!
+
+
+Or so I was told, and that's what drove me to IT. 
+
+
+Now on the issue. Guests complain that the TV in a certain room keeps changing channels on its own or even turning on/off at random. Room service is called to change batteries. No dice, so they produced another remote. Nada, TV still possessed. $thomas is called to remove and replace it. Until this is done, guest already checked out so everybody assumed problem solved.
+
+
+The next day...
+
+
+&gt;$coworker: Hey $thomas I have good news and bad news. The good news is that the TV you removed from that room is in perfect working order. The bad news is that the TV you put there is showing the same problem.
+
+
+Huh. Odd. Check on guest and room, another TV set replaced. No more complaints, guest checked out, everybody's happy.
+
+
+Next day... no incident. New guest, no complaints. So that's one in the bag. But later in the week the complaints come back. At this point hotel manager just give them another room and other staff are free to come by at any time to figure out what kind of tech ghost is inhabiting that particular room.
+
+&gt;$thomas: I think we should call IT. I know it isn't their job, but this looks like interference mumbo jumbo, they should figure this faster than us. One of them even has an electrical engineering degree, no?
+
+
+&gt;$manager: Forget about it, their time is too precious, this must be something simple and we're tackling it at the wrong angle.
+
+
+After this, dad decides to spend some of his ""free"" time hanging around and checking a few variables. He even had the bright idea of checking if intense sunlight was at blame here, but this occurs mostly at night. Especially at night.
+
+
+Figured it out yet?
+
+
+Well they didn't, time was up and they needed the room. As expected, guest calls and dad is already wheeling a ""new"" TV like Sisyphus rolling a boulder uphill. Turns out this time the complaint wasn't the TV: It was a burnt lamp - those 40W lightsaber form factor fluorescent cancer canisters. While the lamp was replaced, dad noticed the TV was working just right. Turn it on... and the magic smoke ghost takes residence in the remote.
+
+
+&gt;$guest: What happened? TV was working fine until you turned on the light!
+
+&gt;$thomas (speech 100): It's, uh... ballast interference. Yeah, I might need to... replace the lamp ballast. Yeah. I can do this now if you want.
+
+The electrical ballasts from that time weighed almost a pound and you had to dismantle the fixture to access it, which could be messy.
+
+&gt;$guest: (after turning on and off the lamp a few times and testing the remote) Nah I'm good, you can do this after checkout. I prefer to watch with lights off anyway, thanks!
+
+Time to cash on that lie. Ballast replaced, the ghosts are actually gone! Yay! But just to be sure let's do some scientific method... the ""ghost ballast"" is passed around other techs to check it for themselves, who managed to replicate the issue in most rooms. After this incident, this was put in their field manual, the ballast was labeled ""CURSED UNIT - DO NOT USE"" (probably kept around for hazing), and MO was to replace older ballasts should this happen again.
+
+Dad would bring this up from time to time to see if computering proficiency would actually help with this. Three semesters in CS later, and a quick read on ballast electromagnetic interference in the IR spectrum... yup, IT/EE guy could have had a _very_ educated guess on the issue.
+
+Anyway... problem solved, issue is reproducible and documented, IT is none the wise and that's what counts in the end."
