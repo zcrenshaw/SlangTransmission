@@ -1,0 +1,1 @@
+8first comment subreddit=askreddit aggs=author fields=aggs metadata=true agg_size=1000 after=86d before=6d 10  
