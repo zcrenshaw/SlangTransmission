@@ -50,7 +50,8 @@ def get_JSON(link,sleeptime,attempts):
             print("Error: Not in JSON format")
             print(r.headers.get('Content-Type'))
             print(r.text)
-            data = None
+            sleep(sleeptime)
+            data = get_JSON(link,sleeptime,attempts-1)
 
     return data
 
@@ -220,8 +221,6 @@ def scrape(args,sleeptime,attempts,goal,current):
             nodes += 1
             if nodes % 100 == 0:
                 print(str(nodes) + " accesses complete")
-            if nodes%2000 == 0:
-                print(df)
 
         except Exception as e:
             print('FAIL')
