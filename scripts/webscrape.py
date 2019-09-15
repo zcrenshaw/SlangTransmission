@@ -50,7 +50,8 @@ def get_JSON(link,sleeptime,attempts):
             print("Error: Not in JSON format")
             print(r.headers.get('Content-Type'))
             print(r.text)
-            data = None
+            sleep(sleeptime)
+            data = get_JSON(link,sleeptime,attempts-1)
 
     return data
 
@@ -193,7 +194,7 @@ def scrape(args,sleeptime,attempts,goal,current):
                     arg_copy[-2] = zone[0]
                     arg_copy[-1] = zone[1]
                     section_data = scrape(arg_copy,sleeptime,attempts,0,0)[2]
-                    df = df.merge(section_data,on='author',suffixes=['_l','_r'],how='inner')
+                    df = df.merge(section_data,on='author',suffixes=['_l','_r'],how='outer')
                     df = df.replace(to_replace=np.nan,value=0)
                     df['count'] = df['count_l'] + df['count_r']
                     df = df.drop(['count_l','count_r'],axis=1)
@@ -213,8 +214,6 @@ def scrape(args,sleeptime,attempts,goal,current):
                     users.append('')
                     counts.append(0)
 
-                print("Users ",len(users))
-
                 frame = {'author': pd.Series(users), 'count': pd.Series(counts)}
                 df = pd.DataFrame(frame)
                 return_data[0] = len(df.index)
@@ -222,8 +221,6 @@ def scrape(args,sleeptime,attempts,goal,current):
             nodes += 1
             if nodes % 100 == 0:
                 print(str(nodes) + " accesses complete")
-            if nodes%2000 == 0:
-                print(df)
 
         except Exception as e:
             print('FAIL')
