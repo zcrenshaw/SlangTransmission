@@ -212,10 +212,6 @@ def scrape(args,sleeptime,attempts,goal,current):
                     users.append(a['key'])
                     counts.append(a['doc_count'])
 
-                if len(users) == 0:
-                    users.append('')
-                    counts.append(0)
-
                 frame = {'author': pd.Series(users), 'count': pd.Series(counts)}
                 df = pd.DataFrame(frame)
                 return_data[0] = len(df.index)
