@@ -190,8 +190,8 @@ def scrape(args,sleeptime,attempts,goal,current):
                 sections = ceil(total/(max*.8))
                 dates = create_subs(args[-2],args[-1],sections+1)
                 for i in range(sections):
-                    if i%100 == 0:
-                        print("{}% complete".format(i/sections,1))
+                    if i%100 == 0 and i > 0:
+                        print("{}% complete".format(round(i/sections*100,3)))
                     zone = create_labels(dates[i],dates[i+1])
                     arg_copy[-2] = zone[0]
                     arg_copy[-1] = zone[1]

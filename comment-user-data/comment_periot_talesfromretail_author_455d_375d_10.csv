@@ -1,0 +1,9 @@
+count,after,before,link
+1,455,445,https://api.pushshift.io/reddit/search/comment/?&q=periot&subreddit=talesfromretail&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=455d&before=445d
+1,445,435,https://api.pushshift.io/reddit/search/comment/?&q=periot&subreddit=talesfromretail&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=445d&before=435d
+1,435,425,https://api.pushshift.io/reddit/search/comment/?&q=periot&subreddit=talesfromretail&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=435d&before=425d
+1,425,415,https://api.pushshift.io/reddit/search/comment/?&q=periot&subreddit=talesfromretail&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=425d&before=415d
+1,415,405,https://api.pushshift.io/reddit/search/comment/?&q=periot&subreddit=talesfromretail&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=415d&before=405d
+1,405,395,https://api.pushshift.io/reddit/search/comment/?&q=periot&subreddit=talesfromretail&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=405d&before=395d
+1,395,385,https://api.pushshift.io/reddit/search/comment/?&q=periot&subreddit=talesfromretail&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=395d&before=385d
+1,385,375,https://api.pushshift.io/reddit/search/comment/?&q=periot&subreddit=talesfromretail&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=385d&before=375d
