@@ -1,9 +1,0 @@
-count,after,before,link
-25,451,441,https://api.pushshift.io/reddit/search/comment/?&q=defo&subreddit=askreddit&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=451d&before=441d
-36,441,431,https://api.pushshift.io/reddit/search/comment/?&q=defo&subreddit=askreddit&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=441d&before=431d
-24,431,421,https://api.pushshift.io/reddit/search/comment/?&q=defo&subreddit=askreddit&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=431d&before=421d
-25,421,411,https://api.pushshift.io/reddit/search/comment/?&q=defo&subreddit=askreddit&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=421d&before=411d
-29,411,401,https://api.pushshift.io/reddit/search/comment/?&q=defo&subreddit=askreddit&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=411d&before=401d
-21,401,391,https://api.pushshift.io/reddit/search/comment/?&q=defo&subreddit=askreddit&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=401d&before=391d
-27,391,381,https://api.pushshift.io/reddit/search/comment/?&q=defo&subreddit=askreddit&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=391d&before=381d
-28,381,371,https://api.pushshift.io/reddit/search/comment/?&q=defo&subreddit=askreddit&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=381d&before=371d

@@ -4,6 +4,6 @@ count,after,before,link
 1,435,425,https://api.pushshift.io/reddit/search/comment/?&q=thot&subreddit=askgaybros&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=435d&before=425d
 2,425,415,https://api.pushshift.io/reddit/search/comment/?&q=thot&subreddit=askgaybros&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=425d&before=415d
 6,415,405,https://api.pushshift.io/reddit/search/comment/?&q=thot&subreddit=askgaybros&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=415d&before=405d
-1,405,395,https://api.pushshift.io/reddit/search/comment/?&q=thot&subreddit=askgaybros&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=405d&before=395d
+0,405,395,https://api.pushshift.io/reddit/search/comment/?&q=thot&subreddit=askgaybros&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=405d&before=395d
 5,395,385,https://api.pushshift.io/reddit/search/comment/?&q=thot&subreddit=askgaybros&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=395d&before=385d
-2,385,375,https://api.pushshift.io/reddit/search/comment/?&q=thot&subreddit=askgaybros&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=385d&before=375d
+4,385,375,https://api.pushshift.io/reddit/search/comment/?&q=thot&subreddit=askgaybros&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=385d&before=375d

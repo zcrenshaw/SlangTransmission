@@ -43,7 +43,7 @@ def get_JSON(link,sleeptime,attempts):
             print("Error: Issue with JSON formatting")
     else:
         if r.status_code == 429: # too many request error
-            print("Too many requests: waiting " + str(sleeptime) + " seconds.")
+           # print("Too many requests: waiting " + str(sleeptime) + " seconds.")
             sleep(sleeptime)
             data = get_JSON(link,sleeptime,attempts)
         else:
@@ -191,7 +191,7 @@ def scrape(args,sleeptime,attempts,goal,current):
                 dates = create_subs(args[-2],args[-1],sections+1)
                 for i in range(sections):
                     if i%100 == 0 and i > 0:
-                        print("{}% complete".format(round(i/sections*100,3)))
+                        print("{}% complete".format(round(i/sections*100,2)))
                     zone = create_labels(dates[i],dates[i+1])
                     arg_copy[-2] = zone[0]
                     arg_copy[-1] = zone[1]

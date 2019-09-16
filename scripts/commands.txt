@@ -1,0 +1,9 @@
+time python3 webscrape.py stitchothers.txt ../comment-user-data/
+time python3 webscrape.py firstothers.txt ../comment-user-data/0-1yr/
+time python3 webscrape.py 2to1others.txt ../comment-user-data/1-2yr/
+…..
+time python3 webscrape.py 3to2others.txt ../comment-user-data/2-3yr/
+time python3 webscrape.py shard4first.txt ../comment-user-data/0-1yr/big/
+
+
+

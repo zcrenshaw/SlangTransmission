@@ -1,9 +1,9 @@
 count,after,before,link
-16,455,445,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askgaybros&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=455d&before=445d
-22,445,435,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askgaybros&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=445d&before=435d
-9,435,425,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askgaybros&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=435d&before=425d
-30,425,415,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askgaybros&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=425d&before=415d
-16,415,405,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askgaybros&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=415d&before=405d
-15,405,395,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askgaybros&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=405d&before=395d
-10,395,385,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askgaybros&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=395d&before=385d
-18,385,375,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askgaybros&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=385d&before=375d
+15,455,445,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askgaybros&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=455d&before=445d
+21,445,435,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askgaybros&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=445d&before=435d
+13,435,425,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askgaybros&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=435d&before=425d
+28,425,415,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askgaybros&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=425d&before=415d
+15,415,405,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askgaybros&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=415d&before=405d
+14,405,395,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askgaybros&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=405d&before=395d
+12,395,385,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askgaybros&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=395d&before=385d
+16,385,375,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askgaybros&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=385d&before=375d

@@ -3,7 +3,7 @@ count,after,before,link
 2,445,435,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=roastme&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=445d&before=435d
 1,435,425,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=roastme&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=435d&before=425d
 5,425,415,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=roastme&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=425d&before=415d
-7,415,405,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=roastme&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=415d&before=405d
+8,415,405,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=roastme&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=415d&before=405d
 10,405,395,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=roastme&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=405d&before=395d
-4,395,385,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=roastme&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=395d&before=385d
+3,395,385,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=roastme&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=395d&before=385d
 7,385,375,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=roastme&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=385d&before=375d

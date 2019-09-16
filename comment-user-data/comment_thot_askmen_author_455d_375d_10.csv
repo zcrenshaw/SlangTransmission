@@ -2,8 +2,8 @@ count,after,before,link
 11,455,445,https://api.pushshift.io/reddit/search/comment/?&q=thot&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=455d&before=445d
 6,445,435,https://api.pushshift.io/reddit/search/comment/?&q=thot&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=445d&before=435d
 2,435,425,https://api.pushshift.io/reddit/search/comment/?&q=thot&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=435d&before=425d
-4,425,415,https://api.pushshift.io/reddit/search/comment/?&q=thot&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=425d&before=415d
-8,415,405,https://api.pushshift.io/reddit/search/comment/?&q=thot&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=415d&before=405d
-5,405,395,https://api.pushshift.io/reddit/search/comment/?&q=thot&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=405d&before=395d
-7,395,385,https://api.pushshift.io/reddit/search/comment/?&q=thot&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=395d&before=385d
+5,425,415,https://api.pushshift.io/reddit/search/comment/?&q=thot&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=425d&before=415d
+7,415,405,https://api.pushshift.io/reddit/search/comment/?&q=thot&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=415d&before=405d
+6,405,395,https://api.pushshift.io/reddit/search/comment/?&q=thot&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=405d&before=395d
+6,395,385,https://api.pushshift.io/reddit/search/comment/?&q=thot&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=395d&before=385d
 10,385,375,https://api.pushshift.io/reddit/search/comment/?&q=thot&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=385d&before=375d

@@ -1,0 +1,68 @@
+56 comment subreddit=roastme aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10  
+57 comment q=thot subreddit=tifu aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10  
+58 comment q=stan subreddit=tifu aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10  
+59 comment q=periodt subreddit=tifu aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10  
+60 comment q=periot subreddit=tifu aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10  
+61 comment q=deadass subreddit=tifu aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10  
+62 comment q=def subreddit=tifu aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10  
+63 comment q=defo subreddit=tifu aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10  
+64 comment subreddit=tifu aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10  
+65 comment q=thot subreddit=askgaybros aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10  
+66 comment q=stan subreddit=askgaybros aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10  
+67 comment q=periodt subreddit=askgaybros aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10  
+68 comment q=periot subreddit=askgaybros aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10  
+69 comment q=deadass subreddit=askgaybros aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10  
+70 comment q=def subreddit=askgaybros aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10  
+71 comment q=defo subreddit=askgaybros aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10  
+72 comment subreddit=askgaybros aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10  
+73 comment q=thot subreddit=asknyc aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10  
+74 comment q=stan subreddit=asknyc aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10  
+75 comment q=periodt subreddit=asknyc aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10  
+76 comment q=periot subreddit=asknyc aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10  
+77 comment q=deadass subreddit=asknyc aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10  
+78 comment q=def subreddit=asknyc aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10  
+79 comment q=defo subreddit=asknyc aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10  
+80 comment subreddit=asknyc aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10  
+81 comment q=thot subreddit=relationships aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10  
+82 comment q=stan subreddit=relationships aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10  
+83 comment q=periodt subreddit=relationships aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10  
+84 comment q=periot subreddit=relationships aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10  
+85 comment q=deadass subreddit=relationships aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10  
+86 comment q=def subreddit=relationships aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10  
+87 comment q=defo subreddit=relationships aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10  
+88 comment subreddit=relationships aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10
+89 comment q=thot subreddit=AMA aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10  
+90 comment q=stan subreddit=AMA aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10  
+91 comment q=periodt subreddit=AMA aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10  
+92 comment q=periot subreddit=AMA aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10  
+93 comment q=deadass subreddit=AMA aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10  
+94 comment q=def subreddit=AMA aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10  
+95 comment q=defo subreddit=AMA aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10  
+96 comment subreddit=AMA aggs=author fields=aggs metadata=true agg_size=1000 after=416d before=6d 10
+
+
+  
+
+word list:
+thot
+stan
+periodt / periot
+deadass
+def / defo
+
+
+subreddit list:
+AMA
+askreddit
+askmen
+askwomen
+NOT askgamers
+askUK
+talesfromtechsupport
+talesfromretail
+roastme
+tifu
+askgaybros
+asknyc
+relationships
+
