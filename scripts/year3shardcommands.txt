@@ -1,0 +1,7 @@
+python3 webscrape.py shards3to2/shard3.txt ../comment-user-data/2-3yr/
+python3 webscrape.py shards3to2/shard4.txt ../comment-user-data/2-3yr/ 
+python3 webscrape.py shards3to2/shard5.txt ../comment-user-data/2-3yr/ 
+python3 webscrape.py shards3to2/shard6.txt ../comment-user-data/2-3yr/ 
+python3 webscrape.py shards3to2/shard7.txt ../comment-user-data/2-3yr/ 
+python3 webscrape.py shards3to2/shard8.txt ../comment-user-data/2-3yr/ 
+python3 webscrape.py shards3to2/shard9.txt ../comment-user-data/2-3yr/
