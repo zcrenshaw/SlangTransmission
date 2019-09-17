@@ -1,1 +1,1 @@
-32shard3 comment subreddit=askreddit aggs=author fields=aggs metadata=true agg_size=1000 after=917d before=867d 10  
+32shard3 comment subreddit=askreddit aggs=author fields=aggs metadata=true agg_size=1000 after=918d before=868d 10  
