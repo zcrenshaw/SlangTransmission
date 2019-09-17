@@ -1,0 +1,4 @@
+stitchshard.txt
+year1shardcommands.txt
+year2shardcommands.txt
+year3shardcommands.txt

@@ -1,0 +1,2 @@
+python3 webscrape.py shard4first.txt ../comment-user-data/0-1yr/big/
+python3 webscrape.py shard5first.txt ../comment-user-data/0-1yr/big/
