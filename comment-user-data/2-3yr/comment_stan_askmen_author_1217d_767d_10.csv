@@ -6,8 +6,8 @@ count,after,before,link
 1,1177,1167,https://api.pushshift.io/reddit/search/comment/?&q=stan&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=1177d&before=1167d
 2,1167,1157,https://api.pushshift.io/reddit/search/comment/?&q=stan&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=1167d&before=1157d
 4,1157,1147,https://api.pushshift.io/reddit/search/comment/?&q=stan&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=1157d&before=1147d
-0,1147,1137,https://api.pushshift.io/reddit/search/comment/?&q=stan&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=1147d&before=1137d
-2,1137,1127,https://api.pushshift.io/reddit/search/comment/?&q=stan&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=1137d&before=1127d
+1,1147,1137,https://api.pushshift.io/reddit/search/comment/?&q=stan&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=1147d&before=1137d
+1,1137,1127,https://api.pushshift.io/reddit/search/comment/?&q=stan&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=1137d&before=1127d
 4,1127,1117,https://api.pushshift.io/reddit/search/comment/?&q=stan&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=1127d&before=1117d
 2,1117,1107,https://api.pushshift.io/reddit/search/comment/?&q=stan&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=1117d&before=1107d
 2,1107,1097,https://api.pushshift.io/reddit/search/comment/?&q=stan&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=1107d&before=1097d
@@ -22,8 +22,8 @@ count,after,before,link
 2,1017,1007,https://api.pushshift.io/reddit/search/comment/?&q=stan&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=1017d&before=1007d
 1,1007,997,https://api.pushshift.io/reddit/search/comment/?&q=stan&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=1007d&before=997d
 0,997,987,https://api.pushshift.io/reddit/search/comment/?&q=stan&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=997d&before=987d
-5,987,977,https://api.pushshift.io/reddit/search/comment/?&q=stan&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=987d&before=977d
-5,977,967,https://api.pushshift.io/reddit/search/comment/?&q=stan&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=977d&before=967d
+6,987,977,https://api.pushshift.io/reddit/search/comment/?&q=stan&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=987d&before=977d
+4,977,967,https://api.pushshift.io/reddit/search/comment/?&q=stan&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=977d&before=967d
 3,967,957,https://api.pushshift.io/reddit/search/comment/?&q=stan&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=967d&before=957d
 2,957,947,https://api.pushshift.io/reddit/search/comment/?&q=stan&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=957d&before=947d
 2,947,937,https://api.pushshift.io/reddit/search/comment/?&q=stan&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=947d&before=937d

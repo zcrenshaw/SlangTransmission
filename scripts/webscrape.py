@@ -50,7 +50,7 @@ def get_JSON(link,sleeptime,attempts):
             print("Error: Not in JSON format")
             print(r.headers.get('Content-Type'))
             print(r.text)
-            sleep(sleeptime)
+            sleep(sleeptime*5)
             data = get_JSON(link,sleeptime,attempts-1)
 
     return data
