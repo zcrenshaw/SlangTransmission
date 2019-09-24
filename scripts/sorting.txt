@@ -1,25 +1,27 @@
-mkdir AMA-y3
-mkdir askUK-y3
-mkdir askgaybros-y3
-mkdir askmen-y3
-mkdir asknyc-y3
-mkdir askreddit-y3
-mkdir askwomen-y3
-mkdir relationships-y3
-mkdir roastme-y3
-mkdir talesfromretail-y3
-mkdir talesfromtechsupport-y3
-mkdir tifu-y3
+mkdir AMA
+mkdir askUK
+mkdir askgaybros
+mkdir askmen
+mkdir asknyc
+mkdir askreddit
+mkdir askwomen
+mkdir relationships
+mkdir roastme
+mkdir talesfromretail
+mkdir talesfromtechsupport
+mkdir tifu
+mkdir askgamers
 
-mv -v *AMA*.csv AMA-y3/ | wc -l
-mv -v *askUK*.csv askUK-y3/ | wc -l
-mv -v *askgaybros*.csv askgaybros-y3/ | wc -l
-mv -v *askmen*.csv askmen-y3/ | wc -l
-mv -v *askwomen*.csv askwomen-y3/ | wc -l
-mv -v *askreddit*.csv askreddit-y3/ | wc -l
-mv -v *asknyc*.csv asknyc-y3/ | wc -l
-mv -v *tifu*.csv tifu-y3/ | wc -l
-mv -v *roastme*.csv roastme-y3/ | wc -l
-mv -v *relationships*.csv relationships-y3/ | wc -l
-mv -v *talesfromretail*.csv talesfromretail-y3/ | wc -l
-mv -v *talesfromtechsupport*.csv talesfromtechsupport-y3/ | wc -l
+mv -v *askgamers*.csv askgamers/ | wc -l
+mv -v *AMA*.csv AMA/ | wc -l
+mv -v *askUK*.csv askUK/ | wc -l
+mv -v *askgaybros*.csv askgaybros/ | wc -l
+mv -v *askmen*.csv askmen/ | wc -l
+mv -v *askwomen*.csv askwomen/ | wc -l
+mv -v *askreddit*.csv askreddit/ | wc -l
+mv -v *asknyc*.csv asknyc/ | wc -l
+mv -v *tifu*.csv tifu/ | wc -l
+mv -v *roastme*.csv roastme/ | wc -l
+mv -v *relationships*.csv relationships/ | wc -l
+mv -v *talesfromretail*.csv talesfromretail/ | wc -l
+mv -v *talesfromtechsupport*.csv talesfromtechsupport/ | wc -l

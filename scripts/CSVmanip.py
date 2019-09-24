@@ -37,12 +37,19 @@ def rolling_average(df,smoothing):
     df['avg'] = df['count'].rolling(window=smoothing, center=True).mean()
     return df
 
-def append_data(df1,name1,df2,name2):
-    # appends data together
+def concat(df1,name1,df2,name2):
+    # appends columns together
     # df1 input
     # df2 output
     df2[name2] = df1[name1]
     return df2
+
+def append_data(df1,df2):
+    # appends data together (row-wise)
+    # df1 input
+    # df2 output
+    df1.append(df2)
+    return df1
 
 def del_col(df,col):
     # deletes a column
@@ -150,7 +157,12 @@ def manip():
         incol = sys.argv[3]
         outfile = sys.argv[4]
         outcol = sys.argv[5]
-        append_data(prep_df(infile,False),incol,prep_df(outfile,False),outcol).to_csv(outfile)
+        concat(prep_df(infile,False),incol,prep_df(outfile,False),outcol).to_csv(outfile)
+    elif func == 'append-file':
+        # append file to end of other
+        infile = sys.argv[2]
+        outfile = sys.argv[3]
+        append_data(prep_df(infile,False),prep_df(outfile,False)).to_csv(outfile)
     elif func == 'del-col':
         # delete a column
         file = sys.argv[2]
@@ -179,7 +191,7 @@ def manip():
             # get term
             outcol = filename.split('_')[1]
             # append data
-            outdf = append_data(prep_df(filepath,True),incol,outdf,outcol)
+            outdf = concat(prep_df(filepath,True),incol,outdf,outcol)
             outdf.to_csv(outpath[:-4]+"_ALL.csv")
     elif func == "append":
         # append files together, output to oufile
