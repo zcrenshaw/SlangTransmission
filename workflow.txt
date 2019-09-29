@@ -12,6 +12,7 @@ GENERAL ORDER:
 
 Order of commands:
 searches
+count influence
 CSVmanip roll-avg-dir
 adjust time
 sorting
