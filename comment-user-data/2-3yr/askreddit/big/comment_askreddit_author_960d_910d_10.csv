@@ -1,0 +1,6 @@
+,count,after,before,link
+0,326701,960,950,https://api.pushshift.io/reddit/search/comment/?&subreddit=askreddit&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=968d&before=958d
+1,315817,950,940,https://api.pushshift.io/reddit/search/comment/?&subreddit=askreddit&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=958d&before=948d
+2,311374,940,930,https://api.pushshift.io/reddit/search/comment/?&subreddit=askreddit&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=948d&before=938d
+3,335673,930,920,https://api.pushshift.io/reddit/search/comment/?&subreddit=askreddit&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=938d&before=928d
+4,308073,920,910,https://api.pushshift.io/reddit/search/comment/?&subreddit=askreddit&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=928d&before=918d

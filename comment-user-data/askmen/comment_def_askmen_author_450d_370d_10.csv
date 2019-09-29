@@ -1,0 +1,9 @@
+,count,after,before,link
+0,15,450,440,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=455d&before=445d
+1,18,440,430,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=445d&before=435d
+2,16,430,420,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=435d&before=425d
+3,19,420,410,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=425d&before=415d
+4,19,410,400,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=415d&before=405d
+5,18,400,390,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=405d&before=395d
+6,15,390,380,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=395d&before=385d
+7,9,380,370,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askmen&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=385d&before=375d

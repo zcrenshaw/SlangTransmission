@@ -1,9 +1,0 @@
-count,after,before,link
-16,450,440,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askwomen&aggs=subreddit&fields=aggs&metadata=true&after=450d&before=440d
-22,440,430,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askwomen&aggs=subreddit&fields=aggs&metadata=true&after=440d&before=430d
-20,430,420,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askwomen&aggs=subreddit&fields=aggs&metadata=true&after=430d&before=420d
-12,420,410,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askwomen&aggs=subreddit&fields=aggs&metadata=true&after=420d&before=410d
-16,410,400,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askwomen&aggs=subreddit&fields=aggs&metadata=true&after=410d&before=400d
-18,400,390,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askwomen&aggs=subreddit&fields=aggs&metadata=true&after=400d&before=390d
-17,390,380,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askwomen&aggs=subreddit&fields=aggs&metadata=true&after=390d&before=380d
-10,380,370,https://api.pushshift.io/reddit/search/comment/?&q=def&subreddit=askwomen&aggs=subreddit&fields=aggs&metadata=true&after=380d&before=370d

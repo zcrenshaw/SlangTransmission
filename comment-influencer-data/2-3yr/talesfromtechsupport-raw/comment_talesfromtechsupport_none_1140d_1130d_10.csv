@@ -1,0 +1,329 @@
+,text
+0,"&gt;You two, my office. *Now.*
+
+
+Ahh sweet justice."
+1,Maybe have her look at [Rubber Duck Debugging](http://www.rubberduckdebugging.com)?
+2,"Hence, my flair. And I'm not even in IT."
+3,"It's like that one guy who automated his job for 7 years, played nothing but video games while on the job, and then forgot how to actually do his job after getting laid off."
+4,"You know you've been reading TFTS too much when you're skeptical of the dialog, but you totally believe the part about the  customer walking away from a laptop and never coming back."
+5,"Oh, yes. Props to Divo, actually; not all of them are willing to stand up for their people. He just should have gotten some details before he came down."
+6,"User: *drags icon*  
+PC: ""Copy / Move / New shortcut?""  
+User: ""Copy please.  IT says we should have multiple copies of our important stuff.""  
+me: ""Technically correct.  Here, have a [photo CD](https://s-media-cache-ak0.pinimg.com/236x/34/ba/2c/34ba2ccc13001960d48e8eeca0f8cbdc.jpg)"""
+7,"If I've learned one thing from working years in retail, it's that the customer is almost always wrong. But we have to suck it up anyway."
+8,"&gt; Me: What on earth did you think sending 8 print jobs to the card printer would do?  
+&gt; Them: I don't know, I just thought I would keep printing until it worked, like..breaking a dam?
+
+I'm afraid to ask what this guy does when his toilet clogs."
+9,"""I need legal advice and I'm not paying for it.""  
+
+""Ok maam. Yeah, this invoice they have is junk. Go tell them you ain't paying."" (Sniggers quietly)"
+10,"&gt;Except Eng. She's still smiling her blank, polite, 'I have been in the retail trenches and am dead inside' smile...
+
+This was my favorite part, and quite accurate.
+
+Source: Former retail employee, am dead inside."
+11,"If someone had a story about a naked man running into their store shouting ""SATAN! SATAN IS IN ALL OF YOU!"" and beating all the display items with the contents of a bag of frozen fish and then running out screaming oppression when anyone tried to intervene I'd honestly just accept it by default."
+12,"&gt;If he doesnt come back for it by the end of November we where thinking of factory resetting it and raffling it away at the staff Christmass party.
+
+He'll show up in January and yell ""WHERE IS MY LAPTOP?! I LEFT IT HERE AND YOU STOLE IT!""
+
+... in yet another store."
+13,My high school programming teacher introduced me to that concept. But he then went on to explain that he can't provide my class with the rubber ducks because the last class ruined it by throwing the ducks at the wall in frustration after realizing where they'd gone wrong...
+14,"""WHAT DO YOU MEAN YOU DON'T HAVE MY LAPTOP""
+
+""Sir you are at McDonald's""
+
+""F##K YOU ALL AND F##K THE CLOWN"""
+15,"I once had to track a weird bug that a user was reporting - apparently a bug that we knew was resolved, and nobody else was experiencing was appearing regularly for one particular user.  
+
+We had a system that would auto roll out updates every morning, and checking the logs we could see that his machine had the latest update.  
+
+Since he was still reporting the bug I went over to his desk, checked the file version of the exe, launched it, demonstrated that the bug wasn't there, and went back to my desk.
+
+Five minutes later he calls me back, as the bug is still there.
+
+I get him to demonstrate, and he launches the app from the quick launch, not the regular shortcut.  Sure enough, there's the bug.
+
+Check help &gt; about and it's a version from six months ago.  Wtf?
+
+After more head scratching someone finally notices that the icon in his quicklaunch isn't a shortcut at all, it's an old outdated copy of the exe, which the user had somehow managed to drag there months earlier."
+16,"&gt; JUST an IT guy
+
+Instant shitlist.  I saw someone pull that when I worked retail at a certain video rental behemoth.  One of my co-workers went and chewed them out, it was glorious.  That was when I decided that's not acceptable, period."
+17,"There's ""not knowing things"" and there's ""not knowing *things*""."
+18,Sounds like that PC may have been stolen man!
+19,Interesting way of backing up data... Restore My Data Week sure must be a 'fun' occasion.
+20,"The amount of people that don't know about those kind of short-cuts is insanely high. 
+
+Even when I am introduced to new(to me) software, I take to time to go through menus and see what's available for shortcuts. More than once I've gotten comments on how fast I pick up software knowledge. 
+
+It's really not that difficult."
+21,"""Be sure to let your manager know about the hundreds of thousands you lost by not clicking on the shortcut because it had moved."""
+22,"Oh, no, see, if he decides to look away, that's fine, that's whatever, he's a busy guy with stuff to do. And in this case, all he'd have to do is lean back to see it.
+
+Nothing can *stop* him from being able to see it, though, whenever he wants. Yes, it's hella pedantic to tell people to not walk in front of him, but if I tell you during a calm moment 'hey don't do that', you're more likely to remember it during a hectic situation when Shit Has Gotten Real and blocking his view for even a second or two could mean he misses a change that requires immediate response."
+23,"They did, I left it out because this was already long enough. That was Eng's personal sign-off for a long time, because people who didn't come to DCC often didn't know to ask before they entered. 
+
+And even fewer of them knew I had the authority to kick them out. Ah, the good old days."
+24,"From the titled I expected something ridiculous like marshmallows.
+
+I have no idea the story that would result in a server being filled with marshmallows. However, it would certainly be a good one."
+25,"&gt; shocked and also happy 
+
+Wait what, he realized his mistake and didn't yell at you? Inconceivable!"
+26,Store used Police! It was super effective!
+27,"When I owned and managed a dry cleaners, I once had a customer get very upset because he had an ink stain inside his shirt pocket when he picked it up. *Inside* his shirt pocket. He insists we must have put it there. I politely inform him that ink is not used in the dry cleaning or laundry process. He gets angrier and angrier and eventually calls the police.
+
+Half hour later (he was waiting outside the whole time), the police show up and talk to him for a while. Customer leaves without coming back in the store, obviously still upset. Officer walks in, laughing. Seems customer tried to tell him he ""never puts pens in his shirt pocket so it *must* have happened here"" while two ballpoint pens are sticking out of the pocket of the shirt he currently has on."
+28,"Or that the user has lost the post its they had stuck to the screen.
+
+Never attribute to malice what can be attributed to stupidity.
+
+And there's plenty of stupidity to go around."
+29,"&gt; the last class ruined it by throwing the ducks at the wall in frustration after realizing where they'd *ducked up...*
+
+In one place, we had the phrase ""we *tuxed* a bug"" - everybody had a Tux on their desk."
+30,"Eh. When it's that level of incompetency I usually assume it's a gift from a family member or something and they've just literally never used a PC. No real reason to attribute it to malice, right?"
+31,[removed]
+32,"The EW on watch that night would have thrown them out himself and then followed them to ream them out in the hallway. Loved the guy, absolute joy to work with, but he took zero shit from anyone outside the department."
+33,Well at least now you've got some pretty good evidence that there is at least one major security problem in your company. You should send that guy a Nigerian prince email. 
+34,"Well, that's just Tuesday."
+35,"https://web.archive.org/web/20160523114950/https://www.reddit.com/r/cscareerquestions/comments/4km3yc/finally_fired_after_6_years/
+
+There you go :)"
+36,"And people don't know how to handle it outside of retail. In a store, you expect everyone to be automatons, but outside of one, it throws people straight into uncanny valley. I love it."
+37,Apparently tech not working with no power is a very common (l)user complaint. It makes me sad for the future. 
+38,"&gt;$luser: But I really need this to work! Can't you find some way?
+
+TL;DR: ""Dammit sir, I'm a wizard, not a necromancer."""
+39,Just take a second and try to imagine a world where users had an icon on their desktop that represented the entirety of the internet.  That the internet was at the mercy and whim of the average user and it could appear or disappear at a moment's notice due to a stray keystroke. Now imagine that this exact scenario just went through this particular user's head and was immediately accepted as fact without even a moment's hesitation to question it.
+40,"&gt;$ait: Have we ever kept backups?
+
+&gt;$me: yes, in paper printouts (800+ pages)
+
+I really hope $ait isn't getting paid by the hour..."
+41,"Most of the time when I ask a user what the error says, the answer is ""mmmmmh it says it doesn't work"" or ""it says there's an error"". 
+
+The worst user I had : he called and refused to read what was on the screen because ""it's not my job it's yours, it doesn't work that's all"". I insisted and he blurted out ""OH WELL THANKS FOR NOTHING"" and hung up. He called back 2 minutes later, thinking he would get someone else on the phone, and told exactly in a quiet voice ""hello, when I try to read my mails I've this error that tells there's a problem with the network and that the server is unreachable"".
+
+I just answered ""yup, we spoke about that 2 minutes ago, so now that I know what the problem is, let's have a look at a few things..."". He never called back after that."
+42,Nice try Mr Gates. ;)
+43,"After reading about it, I would definitely want to hear s'more."
+44,"That's a billable hour minimum in my shop, don't take that crap."
+45,The only thing I can say for sure is that the city got a fat ass bill. 
+46,TL;DR: OP ran over a Worm with a Delorean 
+47,"God, yes. I've met some good ones, but the vast majority... yeah no.
+
+Fun fact: People in my department were trained, from very early on, to question every order an officer gave them and to have the balls to say 'I'm not doing that, because (reason here)' We had to, or people would die, because even officers make mistakes, and our officers expected it. We... kind of didn't always remember to flip the switch off when dealing with officers outside the division. It has resulted in some absolutely fascinating morning training."
+48,"Someone should fit keystone locks to that person's computer, and wait for the 'I can't Print! Someone has locked my computer to my desk and I need to print!' helldesk call."
+49,"Back in school there was always one kid in each class who knew how to hook up the VCR when the class had to watch a video.  I was usually that kid.
+
+My inner kid died a little reading that story.
+"
+50,"Hilarious.
+
+Also, I didn't realize how much the military is like Victorian high society.
+""So the Earl approaches the Duke to discuss the state of the folly on the western grounds, but in doing so he passes behind the King, which is *simply not done.*"""
+51,Punch the tower. Monitor is innocent.
+52,"&gt;we don't tell our customers to calm down.
+
+Yeah, definitely good that you don't have to deal with them anymore. No place of employment should ever just make employees take the abuse like that. If someone's being unreasonable and angry, you have every right to tell them to calm down, and fuck any employer who says otherwise with a rusty wirebrush sideways."
+53,I have a client that pays me to send a tech to watch her roll over end of year finance system files. $170/hour plus travel time and CBD parking. I value this kind of client.
+54,"I feel your pain - had a super exec who would loose his shit if one of the 50+ icons on his desktop were out of place. Icons for programs that didn't exist anymore. 
+
+Each time we upgraded his machine I had to breakout my thumb drive with a screen shot of his old desktop on it and begin to put dummy icons to non installed programs on his desktop to maintain the exact order he liked it in. 
+
+Shit like AOL 3.0 and Corel Draw.... as long as it stayed in order he was happy. Really only uses IE and Outlook on that list anyway...."
+55,"I once had an ""air mouse"" that worked that way (I can't remember the make, but I was sad when it stopped working), so maybe he saw someone using one and thought all mice worked that way. 
+
+Still, *I'm* a middle-aged guy, and as far as I'm concerned, there's no excuse for that sort of ignorance in this day and age."
+56,"I can't blame her. Many a time I came close to punching a little old la...I mean, screen."
+57,"replace wallpaper with screenshot, put only the shortcuts he uses on it, done "
+58,"That's hilarious, got a link?"
+59,"Funny, I was thinking
+
+&gt; Ma'am: I need Free Legal Advice, like in your Ad! &lt;blah blah blah&gt;
+
+&gt; Lawyer: Sure, I'm just going to need you to sign this form saying I can't be  held accountable for the Free Legal Advice™.
+
+&gt; Ma'am: Oh! No problem, I never read any of these damn things.  Too many on the computer already!  You should be saving trees!"
+60,A number of issues in my job have come down to people just clicking past messages without reading then and so screwing up. 
+61,"Yep.  R. Tippett. Crotchy old bastard.  Loved him to death.  I was the only one at our ISP that would talk to the ""short, one eyed, gimped bastard"". First time he came in, weirded out our receptionist.  He had lost an eye in Nam.  Fake eyeball was the American flag. First thing I asked him was ""Which eye do I need to look you in?  Best customer I ever dealt with.  Bless his soul.
+Still talk to his wife.
+   "
+62,"This was it, but it seems it was deleted?
+
+https://www.reddit.com/r/cscareerquestions/comments/4km3yc/finally_fired_after_6_years/"
+63,"They didn't call us ""Fuckin' nukes"" for nothin.  
+
+My favorite hello from out of department is when I gouged my head while pulling shore power.  I had my coveralls half down in the heat,  and as I made my way to medical with a superficial but really bloody wound,  I got ""shipmate!""  from behind me. I turned to reply,  and the horror from that freshly pressed lieutenant as he took in the blood and my dead eyes,  it was truly wonderful. 
+
+In his defense,  he immediately dropped the tone and asked to help,  but I was glad to remind him that actual work didn't just involve an iron and shiny creases in a uniform. "
+64,"&gt;Well. I got this and it will not work with PhotoShop. I need photoshop.
+
+And more often than not, they ""need"" it to do some basic cropping/conversion/whatever but ""Photoshop"" is the only name they know. "
+65,"Probably a dressing-down at full volume, a demand that LPO fix his pet walnut and the stink-eye for a few days. LPO would probably ban LRP from ever talking to an engineering guy again. LPR would make a few attempts to defend himself to LPO then go back to his division and sulk and bitch about how it was engineering's responsibility to see to the comfort of the personnel on board and they were failing their duty. 
+
+They didn't cause any damage and Divo put a halt to the whole thing without escalating for the sake of saving face, so nothing worthy of a write-up happened. If LPR kept this kind of shit up, he may get some one-on-one counseling for being an idiot. Really, the biggest blow was dealt to Divo's ego, because all of the officers know all of the officers, and EW isn't the type to let the new guy forget their first real interaction anytime soon."
+66,Please tell me you guys Sued the fuck out of the construction team
+67,Upvoted for that photo alone.
+68,"He said ""or"", not ""XOR""."
+69,I also noticed that it didn't seem like they asked for permission to enter.
+70,"&gt;Apparently she just needs a wall to bounce ideas off while she figures it out herself.
+
+No, she wanted someone there ready to talk to in case something went wrong and she couldn't figure it out... or she was hoping your tech aura would extend over the phone."
+71,indeed. would like to see how those big companies work without 'JUST IT'. or even 'JUST an IT GUY' since there are many dudus who are the only one knowing how certain programs work...
+72,"&gt;I will have you written up and sent to be retrained.
+
+Just do it. 4 calls in one day is just stupid."
+73,So you shot fiber to find the break and found a redneck shot the fiber and caused the break?
+74,PRESS ALT+F4 FOR CHAT ROOM ADMIN RIGHTS!
+75,"build a throne out of the corpses of the fallen and he might show up.
+http://i.imgur.com/3oEpTFi.jpg"
+76,"lol, if only i could go back and say that, would have been perfect."
+77,"They pulled a whole *20* **foot** section of ***underground*** fiber?
+
+Then, denied it? Wow. Just wow."
+78,"&gt; ""I think we understand each other now"" 
+
+understatement of the year"
+79,"&gt;Glad I wore pants, I'm prety sure he would have sensed it.
+
+No need to read the rest. Upvote."
+80,"Damn straight.
+
+PFFFT Oh my god. No, dude, I've done nearly the same thing. I stood up under a motor controller and split my head open. I walked into medical with my hand on my head and the HMC on watch gave me the most irritated look ever and demanded to know what I was doing there. My hair is dark so she couldn't see that half my head was coated in blood until I showed her my palm. She went pale. It was beautiful.
+
+But I gotta ask, what did you hit your head on? Shore power sucks but I don't recall that many sharp head-hazards."
+81,"I have been there, too, with a Sony laptop with no video.
+
+The owner was very happy with the diagnostic charge, and told me to just fix it if it was going to be less than $300.
+
+I called to let him know that it was working, should be ready soon, but I wanted to just go over a few more things.  I told him he was looking at about $150 unless some crazy additional probblem showed up.  This $150 included the work of disassembling and reassembling basically the either machine, plus testing for proper function of everything else.
+
+As soon as he got here to pick it up, he asked what was replaced.  When I told him that I didn't replace anything, but cleaned all of the ZIF ribbon connections on the bottom side of the board, his tone changed totally.  He then said something to the effect of ""Well then I guess that will be a lot less than $150.""
+
+I said that he had in fact authorized a charge of double that amount on the condition that I thought the repair was worth it.
+
+He actually also called the police, though my experience was a lot less nice than OP's.  They tried to tell me I could be charged with larceny by conversion and a whole number of other things.  They told me that I should just give it back to him and that there were ""perfectly good legal ways to work this out without holding his computer hostage.""  I basically had to educate the idiot cop about the concept of a mechanic's lien, which doesn't even require signed paperwork in most states.  I had a signed service form.
+
+I still have the machine on my shelf."
+82,"Can you come work at my office? Life would be so much more fun.
+"
+83,"It's not even users,  I have this exact same issue with colleagues.  
+Them: your script has thrown an error  
+Me: what error?  
+Them: an error  
+Me: read it  
+Them: ""do you want to complete this action""  
+Me:...  
+Them: so now what?  
+Me:...  
+Me:...  
+Me: [insert angry rant for the nth time]  
+  
+Some people just refuse to think."
+84,"""I'm sorry you are having difficulty logging on. Please understand that our website was designed by someone who was about to quit and they made it terrible on purpose and we can't fix it.  If you had an account it would have let you in by now, but 99.9% for sure you don't, because Fred was a douche and everyone hates us because of this website he maded.  Please bear with me for 2 minutes while we go through the process of making a new online account together""
+
+"
+85,Calls IT when the plumber's mailbox won't let him leave another message because it's full because it was 10 pm when he started calling.
+86,"Hollywood is simultaneously amazing and terrible at catching what the military is like. They're pretty good at juxtaposing the hell of service with the humanity of the people involved, but they're TERRIBLE at showing how things actually progress and what is involved with running the military. Which, I get, paperwork makes for a crappy story. 
+
+Really, the ramifications for any given action depend on who gave the order, what happened, whether anyone was hurt, whether any*thing* was hurt, and whether or not any laws were broken. 
+
+Most issues get you a write-up or counseling, and they keep track of that so if you have a long list, they have justification for shunting you out. The military has a set of it's own 'laws', the UCMJ, which is full of stuff like 'disrespect towards an officer, disorderly conduct, adultery, etc. Bad stuff, not necessarily illegal. That stuff gets tried by the captain, usually gets you confined to the ship or extra time added to your contract. Actual law-breaking goes through court martial, which is no-shit court, except everyone in the room is military and they hate you for wasting their time."
+87,"I think the UI in GIMP is horrible, so I use Paint.net for my light photo editing needs."
+88,"Dashing gentleman: I need to hack into his Mac address so I can broadcast his mouse into the printer and decrypt his hard drive
+
+Sexy lady: Okay, I'll write a GUI, pull up the keyboard and blow a hole in the firewall to keep them busy, stay safe
+
+Dashing gentleman: His drive is encrypted with 500-bit CIA, it'll take some time to monitor it
+
+Sexy lady: Don't worry, our GPU has 32bit boolean, we can crack 40 passwords per minute 
+
+Dashing gentleman: That's 2500 passwords per hour! Should be enough to decrypt it.
+
+Sexy lady: Watch yourself, they're using motherboard to check the security cameras, they can zoom and enhance
+
+Dashing gentleman: I also heard they've patched the OS so they can see live feed from unseen angles
+
+Sexy lady: make sure you don't get trigger the alarm when accessing his RAM, he has 2TB 7200rpm RAM and 5GB DDR3 VRAM
+
+Dashing gentleman: I'll replace his RAM with my 8GB SSD, should be enough to fool the PSU for a while
+
+Edit: holy shit, thanks for the gold /u/domewrecked, and now I live knowing that my best post is a bad script with a bunch of IT jargon"
+89,Butterbars. Given too much power and no knowledge. Always fun to see them taken down a notch. 
+90,"If you've worked retail or service, you know that's a hole with no bottom."
+91,[removed]
+92,"My last job, it was almost a rite of passage if you forget to lock your machine. First or second time, background becomes my little pony. Third time, my browser shortcut directories were replaced by a delayed shutdown script. This was back before the company upgraded to Windows 7. On XP, these machines were SLOW. So clicking on chrome and waiting two minutes for it to appear was not uncommon. So sitting there waiting for chrome to open, computer ""randomly"" shuts down. I'm confused. So, I boot back up, log in and wait, expecting someone to have introduced the delayed shut down into the startup processes. Nothing happens after five minutes, then I right click shortcut and discover the issue. 
+
+The FOURTH (and final time) I forgot to lock, the mouse sensitivity was dropped to its lowest settings. We had three screen setups, and my antagonists left the cursor on the far side. So when I unlock the computer, I end up having to move the mouse a good two feet across the desk to move the cursor only half way across a single screen. So pick up the mouse, move it back two feet, then put it down and do it again. I was angry, so I did this loudly. My supervisor is seated on the other side of the cubicle wall. He's absolutely losing his shit laughing. If I wasn't the victim, I'm sure I would have as well. 
+
+Moral of the story: NEVER LEAVE YOUR MACHINE UNLOCKED. 
+
+TL;DR: Left computer unlocked several times, lesson learned...hard. "
+93,"Did the company ever get informed that their ""IT referent"" had the IT knowledge of chocolate pudding and the common sense of half-squeezed toothpaste?"
+94,As some who has been fucked over by just approving everything the boss wants I hope they are
+95,"Hey I need a cake for my son's graduation. Can you put the picture from this usb stick onto it? 
+
+http://i.huffpost.com/gen/970154/thumbs/o-XTQEP9Z-570.jpg?4
+
+Perfect. Nothing wrong with that at all."
+96,"&gt; Me: Okay...and you restarted the computer, correct?  
+&gt; Them: Yeah, positive.  
+&gt; Me: ..are you sure?  
+&gt; Them: What kind of a question is that? Of course I restarted it!
+
+[Relevant Wonderella](http://nonadventures.com/2013/12/21/the-blue-screen-of-destiny/)"
+97,I think it would have been golden if they didn't ask for permission and you threw them out for it. :D
+98,"I work on industrial equipment. Often times I'll get a call like that:
+
+ ""Machine #x shows a fault please come fix it immediately! No,  I didn't look at the fault! It's broken come fix it!""
+
+Drive 2hrs one direction, find they hit the stop button,  clear fault,  drive home. 
+"
+99,"&gt; or she was hoping your tech aura would extend over the phone
+
+in my experience, it often does"
+100,IT budgets will never be underfunded ever again!
+101,"IT Director sounds like a fucking moron. ""lets just turn on windows updates on, whats the worse that can happen..."" Obviously he hasnt dealt with shitty updates completely crippling a computer and this one computer that runs a line shouldnt need the latest and great updates.
+
+Guy deserves to not be on payroll anymore"
+102,"&gt; He even had the gall to try and use me as reference
+
+Curiously, I just had one of those.  
+
+He's been gone three months, and I'm still finding little presents.  I imagine it's like reclaiming a home you've rented out to seemingly reasonable people, only to find that you're stepping in great cold lumps of dog shit everywhere you go."
+103,Sounds like a self-solving problem to me.
+104,Coffee and unadulterated rage do wonders for the human body.
+105,"Jesus, ouch. Head wounds are the worst.
+
+Fiducial accepts your sacrifice but always demands more.
+
+Okay, fun story. We were calibrating throttle control, so a lot of back-and-forth from the MMR and EOS. We didn't want to get all of our metal and loose clothing back on to make the walk, so we just wore the electrical safety gear. This was right after they banned the flimsy clear face shields, but before we got the heavy green ones. So, the only authorized face shields we had were the head gear for the arc flash suits. 
+
+So Jim walks out of the MMR wearing this stupid thing, and a topsider comes out of DCC at the same time. She stops, eyeballs the helmet, and leans in to ask ""Are those the helmets you guys use to start up the reactors?""
+
+Naturally, Jim's response is ""Yes, they are!"" And as soon as he gets to EOS, he borrow's the POOW's label maker to make a 'Reactor Start-up Helmet' label for it. The entire time I was on that ship, all three arc suit helmets had little white labels on it that only three people knew the origins of but everyone was willing to just accept."
+106,Apparently some of them do Olympic level squats before digging. Who knew?
+107,"Honestly,  its a bit hazy. I recall some jagged edge on a beam, but thats about it.  I just smacked into something,  and got a thin cut on my forehead. No scar to speak of,  but the kind of wound that just looks horrifying.  
+
+That job was so surreal. It was always so odd seeing the division on the ship.  The people who really did just have office jobs,  and then us.  Down in the bowls of the beast, acolytes of some unholy god.  
+
+Nothing like coming out of some endless maintenance on a critical system,  and then having someone try to dress you down for not shining your boots. Like,  ""motherfuckers,  I just spent 14 hrs using a steel beam and these very boots trying to unwedge a god damn stuck fan motor. Step the fuck away from me while I try to get some irradiated milk to eat my 3 yr old cheerios."" 
+
+"
+108,"Ahem.
+
+Shot fiber to find the break, found fiber shot by redneck fibber. "
+109,"If she really wanted to curse you, she should have sent you a few printers..."
+110,The walls in public schools are so bad that they were permanently damaged by the ducks.
+111,"My aunt does exactly that with her excel sheets, so I know how fun it is. 😩 "
+112,99% of the colleagues are nice people. :)
+113,"To be fair, I *will* support PCs *in exchange for* brownies.
+
+I love brownies."
+114,Scream test gone wrong. I love it. 

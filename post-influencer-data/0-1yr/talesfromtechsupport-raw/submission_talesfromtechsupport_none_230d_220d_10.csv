@@ -1,0 +1,55 @@
+,text
+0,"Phone system down? Must be a headset!
+
+
+This story is going to require a bit of setup, so apologies in advance: 
+
+I recently started working with a MSP that has a bit of a dysfunctional phone system. It's your standard Mitel 5000 system using standard hunt groups between us and our office in Portland. Our Portland reps are using softphones whereas we have standard Mitel phones, and so on. 
+
+Right when I first started, we were experiencing one-way audio issues where someone would call in and we couldn't hear them talking. It wasn't uncommon but, most of the time, they could call back and we'd move on. It was an issue brought up in multiple meetings with the techs (myself included) being rightfully pissed that they were stalling on a new phone system and refusing to fix this one. 
+
+Having had some Mitel system experience, I took a cursory glance and figured it had to be one of three things: the configuration of the phones themselves or the firewall, bandwidth problems or something was wrong with the Adtran they had hooked up to the system. 
+
+The big wigs ignore all my suggestions and, since I was brand new, figured I should shut my mouth and move on. No admin access for me, lots of regretti spaghetti. 
+
+At least, that was, until the phone system crapped the bed in a major way. I walked in on a very rainy Monday to find my manager freaking out and found out that, for some reason, now ALL the calls were experiencing audio issues. Sometimes one-way, sometimes dead silence for both parties. I'd made the mistake of mentioning my experience with Mitel, so she pounced on me the moment I walked in. 
+
+Me = Me (surprisingly) 
+SDM = The service desk manager aka panic mode x 100
+MBO = Monotone Bastard Operator
+
+SDM: ""Odin, the system is totally down! You have Mitel experience, right? Can you take a look?"" 
+
+Me: ""Uh, sure.  Have we contacted any vendors yet to check for outages?"" 
+
+SDM: ""We already rebooted the phone system!"" 
+
+Me: ""...OK.Have we rebooted the Adtran yet?"" 
+
+SDM: ""I don't know, ask MBO!"" 
+
+I do so. MBO is a pleasant gentleman, but I'm fairly sure he was a system admin when the world was young. The archaic knowledge in his head never failed to impress. 
+
+MBO: ""I restarted the Adtran, which fixed it for a few hours, but then it started happening again."" 
+
+Me: ""Alright. Do we have authorization to contact Mitel or Integra or Time Warner or ANYONE about this?"" 
+
+MBO: ""We didn't, but the second the CEO realized we couldn't take calls, he said do whatever we needed to do."" 
+
+We spend an hour troubleshooting with Phone Guy, who basically keeps taking people out of the hunt group, making a test call, then putting them back in, test call. Eventually, he takes our Portland reps out and the system starts working again (for some reason that he did not specify). So, not fixed, per se, but a workaround. 
+
+There are two hunt groups that are a bit odd in their setup. There is ours, which includes the entire service desk AND the Portland reps, that was messing up the whole system. Then, there is the Portland hunt group, which is basically the exact same thing but in reverse. The second hunt group that was configured for Portland works just fine, but ours does not. I have no access to the server to check the configuration, so I basically have to sit there and take tickets via email. 
+
+Once we're back up, the CEO storms in, demanding to know what happened. SDM immediately pipes up.
+
+Now, something that should be noted about SDM is that, while she is a sweet lady and constantly showers praise on me for being another lady doing tech support, she has absolutely no knowledge of technology. I'm sure many of you can imagine the dissent that having a service desk manager that doesn't know technology has caused among the veterans of said help desk.  I try to reserve judgment and keep an open mind. What she said here, however, was the first of many blows to that policy. 
+
+SDM: ""They took Portland reps 1 and 2 out! I bet it was because PR1 has that weird headset!"" 
+
+Cue the most uncomfortable silence in service desk history, wherein five grown men and one grown woman shot bewildered looks at one another and tried not to burst out laughing. 
+
+It still isn't fixed and we still aren't getting a new phone system, by the way. But SDM wants me to ""think about"" why the system is broken and come up with ideas. Like I did my first few weeks. 
+
+Sigh. 
+
+**TLDR: Phone system imploded. Must be because of a weird headset** "

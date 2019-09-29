@@ -1,0 +1,486 @@
+,text
+0,Make sure to report her tinder account 
+1,This is why feedback from colleagues is important...
+2,I honestly don't understand why any parent ever just barges in on their kids when the door is closed (unless they are a small child). That just seems like they're asking to see something they don't want to.
+3,I kept having to remind myself you couldn't have possibly gotten murdered because you had to be alive to write this up.
+4,"Ouch... I suggest you stop talking to her. It's one of the best ways to get over unreciprocated feelings. Best of luck, OP. "
+5,"I'm a real estate guy, done flips, manage properties. 
+
+Someone broke several laws, and you have a payday coming.
+
+If a bathroom was added unpermitted, it's an issue. 
+
+If a bathroom was added permitted and the city permitting guys didn't check something basic like this, it's a problem.
+
+I know hundreds of flippers, I can't see a single one doing this. But there are bad ones out there.
+
+It's possible they bought it not knowing too, though from your description it sounds like the flipper added it. But if they bought it with the problem, they are also victims.
+
+Essentially, whoever did the original and then didn't finish it and disclose it is going to be turning that shit into gold for you, and not of the reddit variety."
+6,"Dude youre lucky thats all that happened.
+
+I had a chick facebook message me wanting to smoke some green and fuck. I had maybe a hitters worth left and thats all. She wanted me to park on a certain part of the road near a local park. She was out there waiting and told me she wanted to walk through the back door of her house so her family doesnt notice. As we got to the back of her house two dudes jumped out and beat the shit out of me. One of them had me in a stranglehold and demanded I take everything out of my pockets. They stole my wallet, phone, keys, and the little bit of weed I had on me. One dude said if I ever talked to his girlfriend again hed kill me. They then beat me some more and all ran off. 
+
+Had the neighbors call the cops and few weeks later I managed to recognize her and her boyfriend at my work. Picked him out of a lineup and he got charged for felony theft. Got some jailtime and had to pay me $1,200 for everything they stole.
+
+The girl didnt get in any trouble at all even afer showing them the facebook messages of her trying to sell me cocaine and heroin."
+7,"The least you could do is to trash her phone number, sign her up for every sweepstakes entry you can find. fill out car and health insurance quotes just for fun and lastly get a friend to call her and pretend they are from the department of health tell her she needs to come in because someone she has been with has tested positive don't say for what let her go down and test for everything and wait weeks for the results "
+8,"Just had an emergency vet visit with our dog who acted the very same way as Leo. The vet tech right off the bat thought he had eaten some weed and was so convinced that she even convinced my partner also. Granted I don’t partake any of that, but when she left the room my partner started asking if I have any drugs in the house and it was ok if I did. Wish it was weed, but our little guy had a stroke. He’s all good now, just with old age. However I guess they have the same symptoms as being high as having stroke. "
+9,"Yeahhhh.... I’m between jobs. Freelancing. My only colleagues are a boxer mix, a three-legged Belgian Shepherd (not my fault) and two surly cats. "
+10,"Computer: ""Retire or delete this phone configuration?""
+
+Your script: ""Yes.""
+
+**EDIT** After the OP deleted the post someone asked me to put it in this (top, thanks all) comment.
+
+*TLDR; Computer support engineer for a device management company modifies a script to try and save time, ends up bricking 20,000 client smartphones, amazingly doesn't get fired.*
+
+&gt;This FU just happened this morning, I'm  sitting at my desk waiting for my boss to call me into his office. I  work at a company that runs an MDM service for customers. For those who  don't know what an MDM is, we manage our customers mobile devices, PC,  etc using 3rd party services like AirWatch, Mobile Iron.  
+&gt;  
+&gt;I'm a support engineer and it's my job to help customers when they call with issues, give them steps to resolve problems, etc.  
+&gt;  
+&gt;So  here comes the FU. I got an emergency call last night from a customer  who said none of their devices could get access to their corporate data.  They have 20000 iPhones and Android devices. Something on the backend  was broken and the device records in the service were broken.  
+&gt;  
+&gt;I  spoke to my developer, and he asked me to reproduce the customer's  configuration and see if I could reproduce the problem. Sure enough, a  few hours later I had on my test environment.  
+&gt;  
+&gt;The  dev did some more investigation and had spoken to the MDM vendor on the  phone and they told him to test out a script that would delete the  device record but once the device checked back in it would recreate  itself in the service and everything would be fine.  
+&gt;  
+&gt;He  gave me the script to test and I ran it on my account and everything  worked fine, except one little thing, the script prompted you every time  you deleted a device record and asked if you wanted to delete or retire  the device. After 20 seconds the script would automatically choose  “Delete”. Now deleting is fine, because when the device checks back in,  it gets recreated. Retiring is bad, because it unmanages the devices.  
+&gt;  
+&gt;So  me being a smart guy I figured I could modify the script to enter  delete every 3 seconds. I tested it out a couple times and it seemed to  work ok on my test account with a few devices.  
+&gt;  
+&gt;The  customer said it was ok to run on their account and my dev also  approved (without knowing I had modified it to run faster so I could  save myself sometime.)  
+&gt;  
+&gt;I take the script  and kick it off, it's going great. Plowed through about 200 devices when  the script goes haywire, throwing errors all over the place.  
+&gt;  
+&gt;I tried to close it out but my computer was acting up and it wouldn't close. I finally just unplugged the computer.  
+&gt;  
+&gt;After  I booted back up I loaded the customer's account and found it had run  19590 device retire requests. I couldn't breathe. I called my dev and  explained what happened and asked him what we could do. He replies ""Get  your resume ready, that's about it"".  
+&gt;  
+&gt;So  as I sit at my desk, probably for the last time I'm pondering how I  could be so stupid. The customer has 20000 devices that cannot access  email or corporate data without completely re-enrolling every device.  
+&gt;  
+&gt;TL;DR - Tried to save myself some time helping a customer and completely obliterated all their phones. Probably getting fired.  
+&gt;  
+&gt;UPDATE:  
+&gt;  
+&gt;Ok  I just got out of the meeting. I'm not fired. (THANK GOD). The DEV  saved my ass, told the bosses he wasn't clear about usage for the script  and should've been explicit with me how to use it and not to modify it.  
+&gt;  
+&gt;But, guess who gets to fly around the country and help this company's IT fix phones for the next month? ME!  
+&gt;  
+&gt;So  while my job is safe (for now) my wife is going to fucking kill me. We  have summer plans, vacation, all this shit now has to be cancelled. My  bosses made it very clear if I wasn't able to travel to help the  customer I might as well just resign.  
+&gt;  
+&gt;So I'm packing my bags soon and I'll be on the West Coast on Thursday after the holiday."
+11,THISTHISTHIS!!! They *will* ban her phone number. 
+12,"I am ashamed to admit that it's biology. 
+
+Turns out I'm mostly book smarts."
+13,"Hey I can work in Marketing, how 'bout these jewels.... 
+
+""Don't bother""
+
+""You'll never find us""
+
+""Just stumble by""
+
+""Enter us in the rear, of the mall""
+
+""Can't get here from there""
+
+""Hit us up by accident""
+
+Just spitballin' here.....ya know, see what sticks. "
+14,"That sucks OP, but good for you shooting down taking dave home. 
+
+If/when she talks to you again, make sure if you scold her it's for being a shitty friend and not for being interested in another guy. I'd be super pissed off if I was supposed to hang out with any friend and they ended up bringing their SO and treating me like their hired help for the evening. Not even as a romantic interest, just as a person you deserve more respect than that. "
+15,It's like they forget their child is also a person that needs privacy
+16,[deleted]
+17,"So your mom decides to take a prospective employer to your bedroom door and open it? No ""hey, take a seat in the kitchen and I'll go grab her""? You mother is either completely oblivious and void of all social norms and graces, or I don't believe this at all."
+18," ""The somewhere else you're looking for."" "
+19,We've updated our privacy policy
+20,"You didn't fuck up, you've been fucked with..."
+21,"&gt; Had the neighbors call the cops and few weeks later I managed to recognize her and her boyfriend at my work. Picked him out of a lineup and he got charged for felony theft. Got some jailtime and had to pay me $1,200 for everything they stole.
+
+justice!
+
+&gt;The girl didnt get in any trouble at all even afer showing them the facebook messages of her trying to sell me cocaine and heroin.
+
+...dude what the fuck???"
+22,[deleted]
+23,"Well, ok. How much of $0 do you think is fair? "
+24,"“Come somewhere else” sounds more inviting, albeit a little sexual."
+25,"I just got here.....
+
+and WTF. Is this a reality comedy show?"
+26,"This is exactly it. As a woman, I’m really pissed off on behalf of op and it brings back memories of all the times I’ve seen women take advantage of a guy who is obviously interested in them, only to take that free drink, free ride to/from another date, free meal, etc., and with the same breath, bitch about how guys take advantage of them and are creeps, etc. 
+
+It’s bullshit. Men have feelings, worries and insecurities just the same as women do and if you’re taking advantage of that, you’re an asshole. 
+
+I had a friend that I was pretty close with for a few years, ‘besties,’ if you will, and she would do this shit all the time.  I talked to her about how I felt and why. I tried to understand her side by asking why, but I never got a decent response that wasn’t brushing me off to change the subject.
+
+One night at a bar, we were both waiting to order our drinks when a guy approached my friend and asked if he could buy her a drink. She looked at me and I gave her the nod, implying that I was cool with her sitting with him to chat for a bit or to invite him to our table where my husband and a few other friends were waiting. 
+
+She accepted his offer and when he handed her the drink, she thanked him and then walked away. Unsure, the guy followed her to our table until she turned around and said, “NO. Stop following me!” She said it loudly as if the guy was harassing her and there were many inebriated white knights around us ready to spring into action to her defense, and so the poor guy walked away momentarily stunned and completely embarrassed,  defeated and probably a little scared to get his ass kicked.  My husband and our friends were confused for a moment. 
+
+I was pissed. I told her off and after talking to my husband briefly, I walked away to find the guy, hoping he hadn’t left yet. He was with a large group of his buddies but when I found him, I noticed he was sitting slightly apart from them, disengaged and quietly sipping his beer.  
+
+I went back to the bar, ordered a drink and approached his table. I was afraid for a moment that he was going to tell me off until I handed him the drink and said, “I’m sorry that my friend was an asshole to you back there. I know I’m not the girl you wanted to hang out with and I am happily married, but you seem like a nice guy and so I bought you this drink hoping to make amends. May I sit with you and chat for a bit?”
+
+He accepted and we hung out for the rest of the night, my husband joining us about 20 minutes later. We laughed so hard and had a great time and I hope I was able to ever so slightly take away the sting of my friend’s disrespectful and rude behavior. 
+
+My friend and I parted ways after that.
+
+Ladies, please don’t treat men like pieces of shit. Not all of them are focused on only sex and it’s really hard to be expected to make the first move most times when searching for companionship. Put yourself in their shoes and imagine the nerve it takes to approach a stranger you’re attracted to, hoping to have a chance to get to know them. Imagine how you would like to be turned down gently if the shoe were on the other foot. What my friend did that night was the equivalent of, “HAHAHA! Loser!”  Don’t be that girl. 
+
+If it’s not obvious, if a guy offers to buy you a drink for example, that’s his ‘opening line,’ before asking your name, etc. Be direct and polite if you’re not single or interested. Thank them for the offer, explain that you’re with someone and then DECLINE the drink graciously. Don’t accept the drink and then tell him because that makes you an asshole.
+
+It’s ok to ask guys for favors but again, be direct about it. Be forthcoming that you’re asking a favor and bringing a friend or boyfriend and explain what your expectations are. Treat him like the human being he is. Don’t imply anything. Don’t lead him wondering or excited and then embarrass and disrespect him in the moment. You’d fucking ugly cry if someone did that to you. Have some empathy. 
+"
+27,"My friend, you need to bang David to get back at her."
+28,"My friend calls this “idiot tax.” I’ve paid my fair share of idiot tax in my life, and a lot of it was well over $40 worth."
+29,"One time a chick who had been googly-eyeing my husband from the dance floor at the dance hall for months followed him to the bathroom. When he came out she asked him if he was there with his girlfriend. “Well, she’s not really my girlfriend,” he said. (Since we were married it was technically true.) She handed him her phone number folded up on a piece of paper. 
+
+On the way home, he confessed this whole thing to me and threw the paper out the window and we’ve joked about it ever since. We’ll be married 33 years next month, and it has never bothered me that he’s a bit of a flirt. However, had I been pregnant at the time, I’d have probably punched him in the throat. 
+
+She will get over it in time. But yeah, you should probably get a minivan."
+30,"when she asks for the pics, give low res with watermark and ask for a fee per pic she wants :) you never said it'd be free!"
+31,"As a child, I forgot my dog outside our door in the freezing snow for +30 minutes. When I rushed the door open, she was standing there shaking, icy and cold. Got her under a blanket and warmed her up in the bed, but 25 years later and I still feel like the worst asshole in the world, everytime it comes to mind. You feel bad cause you think you know people, who(m?) this could never happen to, but remember that nobody is dilligent ALL the time"
+32,Also buy the developer something. He just took some of the heat for you and blew up a little of the goodwill he has with the company to save your sorry ass.
+33,"I'm a GC, used to do flips until recently. 
+
+If any plumbing was done, at all, unpermitted, payday. Because there's absolutely no way an unconnected main drain gets missed by a plumbing inspection without someone severely fucking up."
+34,"buy your wife something, or all of the things."
+35,"One of my professors in college got scurvy. She was doing research in remote Egyptian desert and sandstorms stopped them from getting supplies for a while. They had plenty of preserved foods but no produce for a while. When we, with concern, asked what she did about it she casually waved it off and said she just took a trip to visit a friend in France and ate lots of plums and she was fine "
+36,This person knows how to get revenge. I like it.
+37,"Wtf??! 
+
+What about “secluded by design?”"
+38,"You’re not a bad dog owner. You made an honest mistake and did the right thing by bringing your dog to several vets to get immediate care.
+
+Just be more careful in the future man, could’ve been a lot worse, but just be happy that it wasn’t and don’t let it happen again."
+39,"Yeah - sorry to disagree with you - But a bad pet-parent woulda  fed the edible to their dog and laughed. You took it to MULTIPLE vets and spent decent $$ doing it.
+
+Accidents happen - and THIS happens actually quite a bit. While yes a TIFU, doesnt make you a bad dogdad!
+
+Edit. Turns out making you a bad dogDAD would be even harder and require surgery. My apologies."
+40,"Oh I'm so sorry! I was terrified it was something like that, but he's only a year old so it would have been super unlikely."
+41,"“TIMMY! I’m respecting your privacy by knocking, but asserting my authority as your parent by coming in anyways!”"
+42,"She hasn’t tried to contact me yet (nor have I to her), and I just feel that I need just a little time to compose myself so I don’t say anything that could cause serious drama. When we do inevitably talk though, I think you are right about talking to her as a friend, because it was a genuinely shitty thing to do as my friend.  
+
+Edit- fixed too many typos to list "
+43,I'll take 30%.
+44,I'm just waiting for Update #6 - Wife just dumped me for Sarah.
+45,"Rip, the best thing to do is try to wait it out I guess"
+46,"""How did you find us?"""
+47,"“Come here and eat our pizza you fucks.” 
+
+I would def go to a place with that as a slogan. "
+48,"Well, now you have all of reddit to help you. Where's our cut?"
+49,"I just sat down at my computer and put my headphones on, and started playing your video. It was muted, so I had to unmute my headphones, and I heard the sound of a guitar strum like a really awful dramatic story was about to happen."
+50,"With any luck, at least $40"
+51,Well that's basically 100%. What a rip off. Go somewhere else!
+52,Equalityyyy
+53,"You should have yell ""Still wanna Netflix and chill"""
+54,"The only part I find hard to believe is how someone could afford to buy ""a whole selection of dildos, vibrators and buttplugs"" just to prove a point then throw them away. Those things are expensive. "
+55,Hungry for apples?
+56,"I'd say this is more your Mom's fuck up than yours. Seriously, who just walks into people's rooms? Even if you weren't playing with yourself, you could've been getting dressed from your shower which still would have been hella embarrassing for all involved. Freaking *knock.*"
+57,"How much does it cost to get a new phone number again ?
+
+Edit: If a new number is 99 cents, then this is good enough for a trash site add. ""Billionaires hate her! Find out how she gets a 4000% ROI with one simple trick!"""
+58,20K employees who now have an excuse to not see their email on the holiday. You are going to be a hero. You are still screwed but you are a hero to a bunch of working schmoes who just shed their electronic leashes. Some will be elated and some will be confused and frightened of their new found freedom.
+59,"""The one old guy who was hanging around carefully got in his car and drove back to the HQ building, leaving us kids standing around wondering what was about to happen."" 
+  
+ 
+
+  
+I haven't loled irl from a reddit post in a long time. I had the image of zoidberg crawling away sideways in this scene lol"
+60,"Wow she def manipulated you, knowing you wouldn't have agreed if you know the dude was coming."
+61,"What’s the point of an inspector if they aren’t held liable for doing their job? 
+
+Brb going to be an inspector in NY. "
+62,"A lot of the great slogans sound a little sexual. 
+
+Nike's ""Just DO IT"" is vague enough... 
+
+The Dairy Counsel's ""Got MILK?"" ads look pretty suggestive...
+
+And then,  Volkswagen's ""Think Small,"" ya know, in regard to my penis. "
+63,Damn OP you lucked out 
+64,I think $40 is pretty reasonable for that valuable lesson. 
+65,"Hey sounds to me like you made out pretty good.  I know it sucks cause you liked her and all but look at
+It this way.  Would you really want to date a gal that would use somebody like this?  And you no longer
+Have to waste any more time on her.  "
+66,Rookie mistake. Never play music when living with others you can’t hear the footsteps if you do.
+67,"I think OP made this TIFU to get Reddit to spitball better slogans for him.
+
+That being said, nice work!"
+68,"In situations like this remember... they can't eat you.  
+Be honest and don't try to make excuses.  Take responsibility for your actions and that may be enough.  As an employer I like people who own up to their mistakes (and learn from them too!).  Good luck!"
+69,"u/ToTacoOrNotToTaco , the man who crawled through 500 yards of shit and came out clean the other end."
+70,"Just tell the client that you guys found a virus that had the potential of emailing confidential information without user consent.  You wiped their phones to protect them.  BOOM, hero."
+71,"Well, at least you have Sarah to fall back on.
+
+
+Edit- read the updates. Make that three way happen boss. The obvious outcome of all this is a three way.
+
+
+Edit- update 6...come on dude make it happen! "
+72,"What if it’s her writing this from his phone after she ate his brains?
+
+OP ded confirmed. "
+73,"Right now I'm just doing chores, cleaning and watching our daughter.  I'm afraid for my safety."
+74,“We’re behind the competition”
+75,Puppy tax! My floofers 1&amp;2: https://imgur.com/a/Qf9asgG
+76,OP forgot to charge for your uber and photography services. You missed a good business opportunity there. I hope you'll get it next time. 
+77,Another good way is to eliminate the subject.
+78,"Easy fix. Tell them you had a typo and you meant ""go somewhere OR else!""
+Wait.... "
+79,"For future reference:  In Vietnam ""Whatever you want"" translates to ""Give me the most expensive thing available""."
+80,When you roll a 1 in Charisma.
+81,"Q. What is the most sensitive part of the body while masturbating.
+
+A. You ears."
+82,As a turk I am ashamed of this scammer parasites. They are alot. And the trick is very old. They did the same trick to my uncle 15 years ago when he came to istanbul for the first time from his village. The only difference was: he actually enjoyed the drinks and he really had no money. As a result he was beaten by the guards and kicked out.
+83,"Sounds like it's time to make up an invoice.  Photography isn't cheap, not to mention the private chauffeur service."
+84,"I watched ' in a dark place ' during a power outage. It was pretty good.  
+No picture or sound though, but overall not that bad. 7/10"
+85,[removed]
+86,"If the mods remove this again I will be pissed, it's a really quality post.
+
+EDIT: Please stop filling my inbox with 'shitpost' jokes. I get it. It's funny because poop"
+87,I think this is gonna be my dog left in the snow moment. I cringe every time I look at him I feel so bad. He must have been so confused. 
+88,"How the fuck did you miss that, mate you had only 1 job "
+89,"Eat spinach, it has way more vitamin c than oranges! Also, make sure to eat fatty fish (like salmon) to maintain vitamin D levels.  
+I've been so low on vitamin D, I was constantly exhausted, and starting suffering from metal fog- forgetting words, not being able to construct sentences. This shit is important bro. 
+Good luck! (autocorrect suggests ""good lunch"", which also isn't wrong) "
+90,I believe this. My gf's family is exactly like this; it's a bit insane and kinda pisses me off
+91,Ayyyyyyy! Not bad! 
+92,[removed]
+93,"Well, at least you were able to self-diagnose yourself successfully! "
+94,"Well said. If I wasn't a dirt poor university student I'd gild you, but instead take !redditsilver"
+95,Sounds a lot like you didn't fuck up. Sucks to be that Russian girl though
+96,"Eliminate him from the pics with photoshop. Shop yourself in. She'll come to her senses, fall for you and not think it's weird at all.
+"
+97,"&gt;However, at this point, I am dead set on eating pussy.
+
+Do not eat the pussy in a situation like this. That's how you get herpes.
+
+Edit: wow this blew up. My highest up voted comment is about eating fast pussy and getting herpes... Hilarious. "
+98,"I'm gonna be real here, it really sounds like you probably don't want her as a friend. I'm really thinking about it, and the best case scenario is she's woefully oblivious to social norms or your feelings. Worst case, and more likely, is she was stringing you along. Painful learning experience, but an important one."
+99,"Former F-16 crew chief here. I had a pilot once tell me he was so puckered up, he was ""picking pieces of the seat cushion out of his ass for a week"". "
+100,"I can totally 1 up you on this. 
+
+I know someone that normally is not a good hearted person (Doesn't give homeless a dollar, only looks out for himself, etc) still a very decent man, but did not reap his wealth from random good deeds from the kindness of his heart. 
+
+He was driving through the city, it's pouring rain, like soaking (owns a private transport company, is picking up a client) and sees a young woman with nothing but a t shirt and skirt on or something. He's at the light, sees she's walking same way he's driving and asks if she wants a ride. 
+
+He tells her he's going to 80th st, she through the traffic noise says something about 80th as well, but does not get in his car talking about needing her cell phone or something. Light turns green, cars are honking, he shrugs and drives off. 
+
+Gets pulled over immediately for [edit:  soliciting] a prostitute, gets booked into a cell, tarnishing his perfect record,  bails himself out and has a terrible row with his wife over it. 
+
+Ticket stayed active for 6 months telling him to await court date but nothing came of it. Assuming they watched the video evidence and realized through his foreign accent, he was indeed telling the truth. 
+
+So tl;dr ..guy tries to be nice to random stranger first time in his life, immediately gets arrested and booked into jail. 
+
+
+"
+101,"""rent was too high elsewhere."""
+102,It means she has the common courtesy to provide closure.
+103,“Ur beat sorry” lmao
+104,I like how she fired the slushi into the sink.
+105,"That was intense, it's very rare that I get excited from a TIFU nowadays."
+106,"Oh yeah, classic scam. Watch Netflix Scam City. They cover this exact scam specifically in Turkey iirc.
+
+Edit: here is the episode https://www.dailymotion.com/video/x2r3qun"
+107,Here I thought the story would be about peanut allergies. 
+108,[techno music in distance]
+109,"TL;DR: Pickled some jalepenos, then jalepeno'd your pickle."
+110,You spent a hundred and seventeen us dollars on a whim and intended to throw them away?!
+111,"I was believing it until the updates.  I mean, if you're that pissed you don't send your man back out to the chick he was flirting with."
+112,***sigh***
+113,"I once watched the film Wall-E online, didn’t realise it was in a foreign language until speaking about it with friends after. I just assumed the humans on the ship were speaking some alien language. 7/10 would probably watch again."
+114,"Computer: *SWEATS PROFUSELY*
+
+
+Edit: Formatting"
+115,"Nah, if someone is using a legit picture and scamming as little as $40 that's their real number."
+116,"I believe that scurvy is reversible at any point, so you *should* be okay, but yes, do go see a doctor.  Or at least see the nurse on your college campus."
+117,"Invoice
+
+Photos - $020/picture Copyright fees - $015 Transportation - $020"
+118,"Sounds like unlawful arrest. I'd consult with a lawyer. (Consult should be free and take fifteen minutes, usually over the phone)"
+119,/r/UnethicalLifeProTips 
+120,"""American 285 Heavy, cleared for landing, 6 right, disregard the missiles tracking you.""
+
+""Disregard the *what*, now?"""
+121,"Wow, even you got gold for your generosity. This gilder is a very nice person.
+
+Edit: haha, looks like they're a very nice person indeed. Thanks for the gold mate."
+122,Now he has none
+123,"Ah, so you pulled a Ross.
+
+Although, in this situation, it's not as bad as Ross. You were six months removed from the relationship, you had both at least dated with other people and it seems like far more than just a break. Plus, you didn't try to hide it."
+124,This might have been microblading. It’s a form of tattooing but not permanent. 
+125,"If they really did tattoo your eyebrows(cut into your skin and put ink on it) you are not meant to wash your face for the next week to retain the ink/dye. Wash your face continuously, get that dye off/out of your skin. Exfoliating regularly may help to get rid of some of it out of the cuts. If they did proper tattoos at least Lazer removal is pretty cheap these days!"
+126,"Go somewhere else? What a stupid slogan.
+
+In response to this, I'm not e-mailing you back."
+127,Like the west world theme song?! That’s perfect!
+128,I fucked up by half-willingly getting myself in this dangerous situation in the first place. It might have ended with me being dead and my organs on the black market.
+129,"This happened to me once. I woke up to my dog being unable to use his back legs. He jumped up for a piece of cheese and his legs literally gave out underneath him. I called my parents sobbing, my dad drove 45 minutes out of his way to carry my limp Great Pyrenees mix down my spiral staircase and drive us to the vet.
+
+After I paid for overnight monitoring, my boyfriend called me and suggested that maybe my pooch got into the brownies he left in a bag on the floor. The dude left pot brownies in a bag on the floor with four dogs in the house and didn't think to tell me that before I dropped my dog off for what was probably the most confusing day of his life.
+
+It's been 5 years and my dog's still a perfect good boy. Don't feel bad, shit happens."
+130,"Just message back that you made a mistake and have something better. Might as well try fix a mistake then let it eat at you. 
+
+Worst case they cut ties which is what you think you’ve already had happen. So...fuck it. Go somewhere else with it. Also explain the reasoning behind the slogan in the first place. "
+131,*uses dad as a battering ram*
+132,"I know, this could have gotten way more out of hand. I did tell a friend where I was going first, and that I would ping him an hour later so that he knew I wasn't in trouble."
+133,Onto _her_ body. Not David's fault she's a psycho. 
+134,While unemployed. 
+135,"Yep, this is 100% a lawsuit in the making and I'm shocked this info isn't higher.
+
+They can't legally sell the house in this condition, assuming they knew about it (which it's hard to imagine they didn't). The drain is PVC so it's not old. "
+136,"Feel your pain. Just paid a $2000 bet bill for my cat who decided to sneak into my garage when our painters showed up. He hid in the engine compartment of my wife’s car and then was taken on a 30 mile drive until he fell out in traffic and ran off. 
+
+We found him two hours later with broken bones in his face and burns on his belly and feet. It was pretty bad and really messed my wife up. We’re still dealing with the after effects. 
+
+Like I told her, it happens with animals and it’s no ones fault. Just have to deal with it and get him well...and be a little more careful next time. 
+
+Glad you dog is all good now. "
+137,"This reminds me when I fucked up once,  me and my girlfriend were joking around about people we would like to sleep with. And I said the name of her cute friend. She looked at me with disbelief and said “ I meant famous people”..... never go first fellas."
+138,My man!
+139,"Huh. That's interesting. I've been struggling financially lately and haven't been taking very good care of my nutrition. I don't eat a lot of fruits and veggies, and have been experiencing rashes, sore gums, lethargy... Just googled scurvy after reading your post, and I think it might be safe to say I have it as well. Guess I'm gonna have to get some oranges or supplements or something."
+140,A smooth criminal
+141,Wow. I’m really sorry she treated you like that - completely unacceptable behavior. You didn’t fuck up; she’s a horrible human. 
+142,"No. Not an Amazon gift card. A bottle of scotch. 
+
+When a fellow human saves your life, you buy them a drink"
+143,He’s 13 not 5. Have him stay with family and fly out 3 days later. 
+144,"&gt;grab a sizable cup (ladies)
+
+Lmao, this cracked me up. I appreciate your humor."
+145,"Hell yeah. Getting robbed, and especially violently mugged is traumatic as fuck (been there, done that) so I'm sorry that happened to you, but I'm glad this story had a 'better' ending."
+146,$3k and everything. 
+147,"I guess the good news is your dog was high and not having a stroke. Could have been much worse. 
+
+Also I wouldn’t feel too bad. He was sniffing your trash, it’s not like you left it out in the open for him to potentially eat. "
+148,Unzips? 
+149,r/suicidebywords
+150,"""go somewhere different"" would've been a nice direction of saving his ass "
+151,Word of advice: Do NOT suggest you name your baby Sarah.
+152,"Lol, they are actually not that expensive where I'm from. I didn't go for the really expensive stuff and had six different items for under 100 euro and I was slightly drunk, because sober I wouldn't have bought them in the first place..."
+153,"Absolutely. Then took advantage of OP's manners by acting like it was meant to be a photoshoot, trusting that he wouldn't want to get confrontational and call her out on her shit. It's a scummy move to do to a stranger, never mind when the person actually likes you - hope OP isn't too heartbroken because this girl is trash "
+154,Was her name Sarah?
+155,"Because they find most stuff.  We had an inspector, everything looked good until I started to renovate the basement a year later and found that the main beam for the house was eaten apart by termites.  No way an inspector was going to find that without ripping your drywall down.  But he saw that my attic fan wasn't working and that our house was still hooked half up to well water, both of which we were compensated for by the seller."
+156,Take a wild guess
+157,"Reminds me of the time I worked at an aircraft company that was closely allied with the military.  It was situated literally across the street from Los Angeles International Airport. 
+
+They were working on a radar tracking system for missiles. And they actually had 2 dummy missiles hooked up to it... within visual range of the approach to LAX. They'd practice training those missiles on incoming airliners-- until the day one high-strung Viet Nam vet firewalled his 747 into an emergency go-around.  Someone pointed out to ~~Raytheon~~ the aircraft company that at  $27000 per hour to fly, a 15-minute go around in the pattern was quite costly. LAX Approach started issuing notices to approaching aircraft that the display was a DUMMY.
+
+The aircraft company eventually moved the simulator several miles away, to Palmdale."
+158,"I am gonna be SO CAREFUL from now on! I didn't even realize there were any left in there, one must have fallen out of the tin I kept them in and just hung around the bottom of the freezer until I cleaned it out."
+159,"""we skimp on rent to pass the savings to you!"""
+160,"Yeah, I'm back on my multivitamins but I figure if I'm dumb enough to let this happen, I  should probably see what else ive I've missed, lol. "
+161,WE WERE ON A BREAK
+162,Eat the food you stupid bitch
+163,"Honestly this
+
+If I was in his shoes, I wouldn't even comment on anything to her or David. She will make inevitable contact, OP then says yeah I have the photos done, they're *insert regular rate*, but since you're both ""friends"", I'll lower it for you guys.
+
+OP she fucking used you because she knew you liked her. Get your revenge by fucking with her, and you might even make some money.
+
+Girls like that have an ego, and she honestly might just pay so she doesn't feel like SHE was the one to get played.
+
+GOOD LUCK"
+164,"I mean, it's easier than self-diagnosing someone else."
+165,"&gt; I am sure that she needs my $40 more than I do.
+
+People need to stop with this. I have, unfortunately, been in the position to know some people like this in my younger days. They're just scumbags. Not down on their luck angels just trying to get by. Shitty people with no conscious and no remorse getting over on people they view as easy marks. 
+
+There's always the odd exception but for the most part people like her and her friend are just predators."
+166,This is evidence that OP is lucky to be alive. Sonic slushies are like a pregnant woman's nirvana. The fact that she sacrificed those perfect for chewing ice balls means she was seconds away from murdering the thing she loves most in this world and opted for the next thing she loves most at the last second. 
+167,I could not agree more.
+168,"Good luck man! Or, you could transfer the booking details and stuff to my name, I'd love to go to Portugal. 
+
+I'll send you a postcard, I promise."
+169,"I think Be Somewhere Else would have been a little better. Maybe try coming up with another slogan? Who knows, maybe the owners loved it? "
+170,After posting them on r/photoshopbattles
+171,"This is the best outcome you could have hoped for, you also have a chance to redeem yourself.
+
+Big props to the DEV that did all he could to not get you fired, you owe him big time.
+
+Also, dont write/modify a script to reactivate 20k phones - god knows they will catch fire when you are the one executing it."
+172,"This is a good idea
+
+Just tell her that you had the time to think about it yesterday after you got home. And that you felt uncomfortable, because you ended up being their driver and their photographer. That you can't give her the photos. But if she really wants the photos, she can pay for them.
+
+By doing this, you wont end up looking like a complete fool and retrieve some of your dignity.
+
+The girl is seems manipulative and hurtful to the point of not realizing it."
+173,I was carrying my cat down the stairs of my apartment complex in her bag so we could go to the vet and the strap broke and she tumbled down a flight of stairs and I haven’t forgiven myself even though she’s 100% fine.
+174,Photoshop your head on the guys body before you give her the pictures.
+175,Woop woop woop !
+176,Uhh pretty fucked up they arrested you on that. Seems super wrong to come and arrest you the next morning based off of what a random girl said 
+177,"Surely this bitch knew she was taking advantage of you. Don’t give her the photos.
+
+At least you acted with dignity."
+178,I'm not your girlfriend but my family is also like this. It drives me batshit since I'm very private and they want doors open or unlocked at all times. 
+179,"Nah, take her out and shop yourself in. Stare deeply into his eyes. Make the pictures as uncomfortable as possible and post to facebook. "
+180,"The original pic can be bought as a DLC for a mere $69.98 ~~($69.99)~~! Or she can unlock it in pieces by opening these $3 lootboxes, providing her a sense of pride and accomplishment. "
+181,r/inclusiveor
+182,"Dude... DUUUUdeeee...
+
+...makes me wonder how you'd feel finding out she pulled something like that on you..
+
+Edit: nowhere did i say he cheated
+
+Edit: itd be different if she wasnt 5 mos. Pregnant, miserable, in 100 degree heat taking care of their daughter. He had a bad stroke of luck, thats for damn sure, but he knew he was wrong. Yes, id be hurt. "
+183,"“Fucking stupid” will suffice, I’m sure."
+184,Life insurance policy paid up?
+185,Upvote for the throat punch. 
+186,"Invoice 
+
+Photos - $20/picture
+Copyright fees - $15
+Transportation - $20"
+187,Believe it or not two bell peppers have twice the vitamin C as a single bell pepper.
+188,"Hi everyone.  I'm glad everyone is enjoying this post.  Unfortunately, the comments have devolved primarily  into areas we really don't want to see here and this post has been locked.  Have a lovely day."
+189,As a dev I would rather have an Amazon gift card lol
+190,"[At least you didn't watch *Planet of the Apes* with no subtitles, listening to monkeys grunt for 2 hours.](https://www.reddit.com/r/tifu/comments/38ut4u/tifu_by_showing_my_dad_rise_of_the_planet_of_the/?st=jiy8znpg&amp;sh=6215e919)"
+191,The funny part is the desk guys total lack of fucks. Lol
+192,"My sister once left two STRONG brownies on the floor of her room..... my dog DEVOURED THEM. He promptly started pooing all over the place then fell unconscious. He ended up getting his stomach pumped and stayed a couple days, now he spazzes out sometimes but still 90% the old dog he used to be 
+
+Edit: I hated my sister a long time for this lol"
+193,Thanks! I'm currently staying with my parents for break so fruits and veggies abound. 
+194,"Lol your username means ""robbed"" in Turkish. It checks out.
+
+That's terrible about your uncle though. What a shitty thing to do."
+195,A lot of parents to this. It's like they don't think their kids need an privacy. Hell mine don't even knock and just walk in anyway. 
+196,"You mean “whoops the card got erased,” right? "
+197,that's the last thing you wanna do is give the wife a cash incentive 
+198,"You can get a payday out of most discrepancies in the contractual drawings. Its kind of a big issue in the industry currently, where you have firms buying up entire developments just so they can go thru them with a fine tooth comb to find what wasn't built to spec or code, then sue as many people as humanly possible.  Google construction defect lawsuits for more info on that.
+
+This typically includes the site plan, arch, mechanical, electrical, plumbing, structural, civil, geological, and landscaping. All those drawings had to go through technical review with the city/county, and carry signature blocks of approval from the government engineers &amp; planners. If reality doesn't match what they signed off on, thats typically a big deal. "
+199,What the heck haha *Go Somewhere Else* nice job 😂
+200,This reads like the script for an episode of something starring Kevin James.
+201,[deleted]
+202,Dev is going to do everything in his power to make sure everyone knows it wasn’t his fault.
+203,Am I the only one that thinks op acted inappropriate??
+204,"Lol yes, I followed up with them. They’ll for sure tease me about this."
+205,"This isn’t your fuck up, it’s your moms. She should have called home ahead to let you know she was bringing this woman to meet you, and she shouldn’t have opened the door to your bedroom with a stranger. She was totally out of line. "
+206,"Now, your mother is still on the wrong with no social graces. She should prep you before you meet the person. Even a text saying she's coming home with a friend that would get you an internship."
+207,"At a certain point in life you are given a set of choices, none of which you want but there’s no opting out. For me it was crawl through a swimming pool of human waste or give up and die in a swimming pool of human waste. I had no other options so I went with the choice that would allow me to tell a good story and laugh about it later. "
+208,"No.  Not at all.  They would have had to worked with the air force to do this type of test where you light up a military plane. 
+
+The Air Force would have planned a flight just for this type of test. Lighting up an unsuspecting pilot would be a big no no. "
+209,What a nice girl 
+210,"Joke's on them, you got a bunch of free drinks. Cool as a cucumber"
+211,I agree that's a terrible name for a boy
+212,"You wanna know the worst part? My other dog came down with a horrific, random and nearly fatal disease last month. As soon as she was home I bought pet insurance for all my animals. Checked it on Monday for Leo, doesn't kick in until 30 days after the purchase date. It had been 27 days."
+213,"read this story out loud and my friends all agree while its not grounds for a divorce and to split a family, it's a nasty little seed of distrust that's going to take some patience, finesse and a lot of communication from OP to kill it."
+214,Well I've only paid once and it was $1400 hopefully that's akin to a lifetime subscription or something
+215,"Jesus Christ!!! So how much did that cost to fix? Also, how much did it cost you spiritually?"
+216,"ive tried posting it here twice, once in r/offmychest, and on r/self. the post never lasts. idk what to do."
+217,Sounds like *she* fucked up.
+218,As someone who likes to be petty i wouldve drop them of at the place you chose to take pictures and took off

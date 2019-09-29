@@ -1,0 +1,35 @@
+,text
+0,"These are not the databases you are looking for
+
+
+We recently upgraded to Vmware 6.5 on a much newer hardware platform from 5.5 (Yeah I know...). As a result we have been doing a lot of system migrations and determining if different systems are no longer required. Also during this time we have been changing directory services from Novell to Active Directory.
+
+&amp;#x200B;
+
+I came in on Monday and my vcenter console for 5.5 was frozen. I restart the console not thinking anything of it. After the restart I was unable to login. Now the main reason we were migrating from Novell was because my predecessor was fond of custom code and many of his scripts would only work if he was there constantly massaging them. Often the broke or hung directory services. Since that vcenter was tied to Novell, I rebooted the NDS. No dice.  
+
+
+I then attempted to access the web interface and was able to login but was unable to see any assets.  At this point I am thinking ""Okay this feels like database to me."" I immediately sent a message on slack to the network, NOC and Database administrators and said ""Vcenter is down. I am able to login but am not receiving and assets. Please check your functional areas and verify there is no issue.""   
+
+
+The first person to reply was the DBA. ""The database is up and functional and other schemas are working within that DB server. I checked the connectivity and its fine."" I responded ""Are you sure? This feels like database to me."" He said nope ""I have other databases on this server and none of them are presenting any issue.""
+
+&amp;#x200B;
+
+My network admin chimed in next to tell me there were no changes to any router or switches recently and that he was able to TR a path to and from the vcenter appliance to the associated database, core switches and routers. The NOC admin checked the Novell servers and again found them to be functional.  
+
+
+I spoke to the DBA again. This time I was insistent that the issue was database related. He walks up the all to my office and I show him my console. He asks me a series of questions about the application. I tell him that the application has not changed. He then says ""Well it cannot be the database, but I will go back and check again.""  
+
+
+Again he comes back to my office and tells me ""Nope it is not the database. I can read the tables just fine where your assets are held. I suggest you contact VMware support. There is obviously something wrong within the console."" I told him that was not an acceptable answer. That this has to be database related. It was not pulling assets and I have proper connectivity.  
+
+
+He then tested the communication from my PC to the the associated database and said ""See I can connect. **IT IS NOT THE DATABASE!**""By this time I was able to gain access to the appliance administrative console. This is my fault. we have a password management system that is finicky at times (Again a product of my predecessor) and I just had not got around to fixing it. Anyway, I log into the appliance console and proceed to test the database connection from the console. And do you know what it said? **UNABLE TO CONNECT!**
+
+&amp;#x200B;
+
+HE looks and me and says ""Hmmmmm......I need to go and check something."" He goes back to his desk and comes back a few minutes later and tells me ""try it now."" Sure enough, it connects and I am able to pull my assets again. I asked him what did he do. he said. ""I was checking the MDF (which was fine) and not the LDF, which was full and he had no monitoring on it. He purged it and magically it starting working again. I looked at him and said ""But, it's not the database.....""   
+
+
+Needless to say, the rest of us on the infrastructure team are not letting him live this down. For the last couple days and probably for the rest of his life he is going to hear ""Hey, at least it is not the database!"""

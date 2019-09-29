@@ -1,9 +1,0 @@
-count,after,before,link
-2,450,440,https://api.pushshift.io/reddit/search/submission/?&q=stan&subreddit=askreddit&aggs=subreddit&fields=aggs&metadata=true&after=450d&before=440d
-2,440,430,https://api.pushshift.io/reddit/search/submission/?&q=stan&subreddit=askreddit&aggs=subreddit&fields=aggs&metadata=true&after=440d&before=430d
-4,430,420,https://api.pushshift.io/reddit/search/submission/?&q=stan&subreddit=askreddit&aggs=subreddit&fields=aggs&metadata=true&after=430d&before=420d
-3,420,410,https://api.pushshift.io/reddit/search/submission/?&q=stan&subreddit=askreddit&aggs=subreddit&fields=aggs&metadata=true&after=420d&before=410d
-4,410,400,https://api.pushshift.io/reddit/search/submission/?&q=stan&subreddit=askreddit&aggs=subreddit&fields=aggs&metadata=true&after=410d&before=400d
-3,400,390,https://api.pushshift.io/reddit/search/submission/?&q=stan&subreddit=askreddit&aggs=subreddit&fields=aggs&metadata=true&after=400d&before=390d
-1,390,380,https://api.pushshift.io/reddit/search/submission/?&q=stan&subreddit=askreddit&aggs=subreddit&fields=aggs&metadata=true&after=390d&before=380d
-1,380,370,https://api.pushshift.io/reddit/search/submission/?&q=stan&subreddit=askreddit&aggs=subreddit&fields=aggs&metadata=true&after=380d&before=370d

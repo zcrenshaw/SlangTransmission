@@ -1,0 +1,29 @@
+,text
+0,"I took a four year old ticket when I was bored and it spiraled out of control
+
+
+/u/whiznat asked me to post this story on this sub a month ago and I now finally got around to do it.
+
+I was working as a software developer in a very big office complex and was out of work on a Friday afternoon. So to have something to do (and garner some favors with the admins) I asked the head server admin if he had something to do. He printed me a ticket he has had in his inbox for four years that he never got around to.
+
+It was a scanner issue that the hardware techs blamed it on the custom software installed on the PC. 
+
+So I went down to the office and met the two ladies that submitted the ticket. They were genuinely happy that IT finally got around to fix the issue. They explained to me that every day the head office send orders to this branch, which they then distribute to the employees that are affected. This can be a new hiring policy or something as trivial as a logo change for some product. But the orders can extend the range of a couple hundred pages. So they scanned the orders with a special scanner, that fed into a custom built application where they entered the names of the employees that were affected. The employees could log into the web interface and download the scans of the instructions.  
+
+The issue was that they had to scan everything twice because the first scan always got corrupted. The second lady was only hired because the bug in scanning doubled the workload.
+
+I looked at the issue went back to the server admin, had him grab the code of the production server, (because the code was of cause lost) and increased a write timeout value so that the first scan was not called before the write on disk was completed. I deployed the fix on the Monday and the two ladies were happy. Also I taught them how to increase the font size on the computer, so they could better read what was on screen. I received free cake from them.
+
+So far so good, but then I asked: Why does the head office send hundred page letters with orders and lists of affected employees with the postal service when we all have email. The ladies told me: ""They switched to email seven years ago.""
+
+The software was so old, it was developed before it was viable to send 10 MB via email. But there was never a PDF upload field added to it, so those ladies printed out the PDF in order to scan it. Every day. All day.
+
+Also they forwarded the original emails to the affected employees because no one wants to login to a separate system to get instructions.
+
+Also the software used Active X Internet explorer components in order to connect to a mounted drive on a web server in order to do uploads. It was so insecure the admins set up a separate virtual network with a single server in it because they don't want simple clients to write directly to web servers.
+
+**In short: Two employees print out emails all day to upload it into a system no one used which was also a security nightmare.**
+
+So I asked my boss how I can get rid of two employees and he told me the only was via making a suggestion. I made it, had it signed off by everyone involved and submitted the idea, to reassign those two employees to something more  useful. 
+
+Two years later, after I had left the company, I got a nice letter, thanking me that my idea was accepted and I would receive a 100€ bonus. "

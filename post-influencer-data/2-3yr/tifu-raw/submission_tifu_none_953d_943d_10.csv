@@ -1,0 +1,224 @@
+text
+"TIFU by pooing outside
+
+
+My room mate takes forever in the bathroom. I was desperate to do a giant poo, and held on for as long as I could. The situation was about to hit critical so I went outside with some tissue and squatted in the corner of my yard to do my dookie. It was tremendous, such a large poo. Believe me, it was substantial. The highlight of my day.  I then dug a little hole and buried it so it wouldn't stink up the yard and attract attention, particularly the attention of my room mates pet dog.  A few days later I came home to find a trail of dirt and leaves inside the house. Then the smell hit me. His dog had dug up my poo and brought it inside and was eating it on the living room rug. I yelled at my room mate that the dog had pood inside and was eating it - he apologised profusely, then cleaned up my poo.
+
+TL;DR - i pooed outside, the dog brought it inside to eat, made my room mate clean it up. 
+
+Edit - hello internet friends, I am glad that you enjoyed my poo story. To clarify a few things
+1) my room mate was moments away from discovering his dog eating my poo anyway - I didn't have a chance to step in and clean it up, thus becoming the hero I wanted to be. I panicked, then decided to make the most of a shitty situation...ha. 
+2) it was very large. I have wondered what he thought of the dog : human poo size. His dog is a large mixed breed, but still. Thankfully, it has not been mentioned and I remain innocent. Perhaps I will tell him on my deathbed. 
+3) to the people accusing my story of being FAKE NEWS you are clearly part of the lying media. Sad! No, for real tho, it happened. No alternative facts here. I am guilty.
+
+"
+"TIFU by underestimating the power of a suction cup
+
+
+Gonna start this by saying this literally happened within the last hour. I'm a uni student, currently living with my girlfriend and four other housemates.  I, as do many people, like listening to music when I shower, so my girlfriend got me a waterproof Bluetooth speaker, with a suction cup to attach it to the shower wall. I used it happily for a couple days, but then they needed charging. Here's where the fuck up comes - I am not a mature man. I started playing with the suction cup, sticking it to all sorts of objects - my palm, the wall, unfortunately culminating in my forehead. What do you fucking know, the bastard thing won't come off. I ended up with it on my forehead for around three minutes before my gf managed to get her nails under it, and I've never seen her look so horrified. I am now the proud owner of a 5cm long, 2cm high bruise in the centre of my forehead, and I have a meeting with my personal tutor about my dissertation tomorrow. Whoop de fucking doo. 
+
+TL:DR - not a mature man, stuck a suction cup to my forehead, massive bruise ensued, important meeting tomorrow. 
+
+
+I'll post a picture in the comments.
+
+
+EDIT: For those asking,[here](http://imgur.com/QgDZtcH) is a picture of me with the speaker still on my forehead "
+"TIFU By getting caught exporting users from the active directory
+
+
+This happened a couple minutes ago. A while ago I found out a way to gain full domain admin privileges at my high school. It involved taking advantage of partial domain admin privileges and combining it with the local laptop's admin privileges. Anyways, needless to say one of the first things I did was hop on the Active Directory(where all the Users and their data for the domain are stored) and started getting people's lunch numbers and names. I mainly used this to mess with close friends. Today I found out that I could also export admin and teachers data too, here's where the fuck up begins. I began doing this in Physics and there were a small group of students huddled around me interested in what I was doing. The teacher was walking by and saw that I had the active directory window right next to a Excel sheet. He understandably took my computer and probably knew what I was doing(He probably has a pretty good understanding of computers since he's also an IT admin). I just finished my quiz as of typing this and waiting till the end of class to ask for it. I'll provide a update in about an hour.
+
+Tl;dr: I found a way to fuck with the active directory and got caught doing it, waiting to see what will happen.
+
+Update: Still haven't heard anything about my laptop yet, will update if I hear anything.
+
+Update 2: I'm not getting it by the end of the day, I'll post an update on Friday.
+
+Update 3: People seem to be questioning the legitimacy of my post. I want to clarify what I meant by partial admin privileges. The domain account itself has full admin privileges, but the devices assigned to the students prevent the programs that admins would use the admin privileges from being accessed. They prevented certain methods of getting a local full admin account(you can't just go to the control panel and add a new admin account), but what I could do was reset the local admin account password to whatever I like. Then I just had to install [this service pack](https://www.microsoft.com/en-us/download/details.aspx?id=7887) and I was able to activate the Active Directory. I might just come clean on how I did it in hopes that they reduce my punishment. 
+
+Update 4: Well, they definitively caught me. They arrange a disciplinary conference with me and my parents in the morning on Friday. I'll make sure to update again after that. I really thank you guys for the great advice. I decided to just come clean and be honest and tell them how I did it in hopes that they reduce the punishment. Also,       thanks for letting this hit the front page. 
+
+On the bright side if I get in some deep shit at least I'll have some internet points to show for it!
+
+Update 4.5: People are saying that I was already able to do it with other methods without the local admin account. When I tried it on the powershell it didn't work, but only after I set up RSAT(which I only recently figured out what you guys were referring too) and did the local admin thing I was able to access the AD.
+
+[Last update](https://www.reddit.com/r/tifu/comments/5vz47e/tifu_by_getting_caught_exporting_users_from_the/?st=1Z141Z3&amp;sh=0ac85e4c): made a new thread since this update is a little lengthy."
+"TIFU by turning a nice day paintballing into one of the most uncomfortable situations in my life (nsfw)
+
+
+TIFU because quite a few years ago I went paintballing with my school and it was a fairly mediocre event but being the person I am I wanted to make it sound way cooler than it was. I then decided to put up a Facebook post saying ""good day paintballing but 2 shots to the arm, 3 to the chest, 1 to the head and 1 to the nuts made it rather painful!"" So when when i get home I am explaining to my parents how my fun the day was but the shots to my body are quite sore and the one to my nuts is really sore but the comment got my parents concerned so they said I should probably inspect myself to make sure there is no damage done. I agree so I go to my room wait a few minutes and come back to tell my family the good knows that I will not need castrated anytime soon so my family are relieved. However, me being the idiot I am I jokingly say ""I wouldn't know what to look for anyway!"" Thinking I was just cracking a funny little joke but my parents get really concerned by this so my dad thinks the best route of action is for him to inspect my genitals just to make sure everything was healthy. The worst part of it all is while I had my dad inspecting my genitals I knew fine well no one here needed to suffer through this because I had lied about the paintball shot to the dick just to make the day out seem funnier than it was but I was to deep into the lie that if I told them I would of had a lot of awkward explaining to everyone why I lied about it all and 12 year old me deemed it a worse situation than I was already in so I just had to endure one of the most uncomfortable experiences of my life.
+
+Note: The reason my family was wanting to inspect was we had a family friend a year older than me who had to get their testicles removed due to testicular contortion as he played rugby
+
+TL;DR
+My dad had to inspect my genitals because of a lie I made to make me paintballing sound cooler than i actually was"
+"TIFU by giving a girl (whom I happen to really like) a lend of my pen
+
+
+I'm a pen chewer, and a chewing gum chewer. One day I was sitting in the library and had my pen in my mouth and things got messy and the chewing gum got stuck to the end of the pen. To save myself the embarrassment of trying to pull it all off, I quickly put the lid on the end of the pen, over the chewing gum, and put it in my pencil case.
+
+So, one month later, just when I think my life couldn't get any worse, this happens. I'm sitting in a 9am lecture bored out of my mind when this girl I really like asks if I have a green pen. 
+
+Now just some background info, this girl and I have been friends for 3 years now, I really like her and I'm quite certain she may like me too- nope, MAY HAVE LIKED me too. Anyway, she's what I'd call perfect, and really cool. 
+
+So because I'm a nice guy and I'm madly in love with her, I go to my pencil case and take out my green pen, and hand it to her. But, only after handing it to her I realise that the lid is on the end of it. It was 'the' green pen.
+
+The lecturer was chatting and the class was all silent paying attention to him, but all that was running through my head is what could happen if she takes the lid off. And what do you know, off comes the lid.. but somehow she didn't notice the chewing gum, she was just fiddling with the pen, swinging it as she put all her attention on the lecturer.
+
+I couldn't just yank the pen off her, I had to just hope that the lid went back on, but before I knew it that thing was in her mouth. Yes, she was also a pen chewer. Yes, the gum came in contact with her mouth. Yes she realised. Yes she took the pen out immediately. Yes she saw the old, white, sticky piece of gum that was stuck to the end of the pen. Yes my face turned into a tomato. Yes the 2 girls beside her saw what happened. 
+
+So at this point it couldn't possibly get any worse, but, since it's me, of course it did. She stood up abruptly, covered her mouth with her hand, ran out of the lecture, her friend followed, and I can only assume she threw up. I'm now sitting in the back of the library, and have been for the last 4 hours. Safe to say that TIFU.
+
+More to follow.
+
+***UPDATE***: Ok so apologies for the delay, thought I'd wait to see the situation evolve before filling you guys in.. Shortly after posting this on Reddit, one of her friends (the one who stayed behind) texted me and told me not to worry and that the 3 girls saw the funny side of it. Although I was still absolutely mortified, I decided to go to my next lecture where I would see the girls again. I got there early and sat at the back corner, saw the girls walk past me and go down towards the front. At this point I thought I fucked it all up and that they had no interest in even sitting with me, so when the lecture ended I got up and walked out on my own, with no intention of talking to anyone, BUT.. *pen girl*, let's call her chewie, caught up with me and called my name, she said she giggled and said ""I thought you might want your pen back"", before apologising and saying that what happened was between me and the 3 girls. Turns out she was more embarrassed than I was. Then we met up with a group for some food and as of now I can happily say, things are back to normal, provided I make it out of the friend zone. 
+Until next time my friends, thanks for the advice and the upvotes, you helped make my shitty day not so bad.
+Oh one more thing, yes, she did throw up. 
+And another thing, I'm doing a course where we have lots of diagrams and shit so we use green to label certain things.
+And for all the people wondering why she chewed a pen that wasn't hers, as a long term, actually EX long term pen chewer, it's force of habit, I do it without thinking, just like she did.
+
+
+TL;DR: Girl I really like is looking for a green pen, I give her my green pen which also has a month old piece of chewing gum on the end of it, I realise when it's too late, she doesn't see chewing gum, starts chewing on end of pen, realises, throws up."
+"TIFU by being home alone and slipping, burning, and concussing myself within 10 minutes.
+
+
+Obligatory: this was back in may when I moved in with my boyfriend in our new apartment.
+
+Boyfriend is a fire fighter and left me alone in the apartment for the first time in order to head to fire fighting practice. I thought all was good and I went about my nightly routine. Boy that was a mistake.
+
+So I began to unload the dishwasher, which I had filled to the brim with dishes and other assorted things that needed washing but that I was too lazy to wash, like the little knobs on the dials of the stove.
+
+The dishwasher had been done for a couple minutes and when I opened it, a small amount of smoke and a horrible smell came out. To my surprise, one of the plastic knobs had fallen to the bottom where it was resting on the element of the dishwasher.
+
+Now a normal person would see the plastic melting onto a hot object and think to themselves ""wow, that's a hot object!"" but instead I reached into the dishwasher and tried to grab the knob – my arms being short enough that I had to turn my head to reach it. I quickly realized it was not the knob I grabbed, but the scorching hot element. My skin made a sickening sizzle and I cried out in pain. Yikes.
+
+So I immediately run my hand under cool water, which helps for only a moment. For lasting relief, I turn to the freezer for some ice (knowing full well that you aren't supposed to ice burns). It seemed like the only reasonable solution that would help the searing pain radiating up my arm. 
+
+I open the upper door, reach into the frost and grab an ice cube tray. I pull it out, and (being my clumsy self) drop the tray so ice falls and scatters all over our floor. I cry out in anguish, and decide that the ice is still sanitary if I put it in something. So I go to open a drawer for a plastic ziploc bag, only to slip on a rogue ice cube and tumble to the ground, pulling the table cloth on the kitchen table in the process. This spills salt and pepper on the floor but luckily nothing else.
+
+My hand is throbbing at this point and my ass is sore. I crouch down and start shovelling ice shards into the small baggie. I finally feel like I'm going to get the sweet sweet relief of cold on my burn, so I stand up straight... only to smash the back of my head on the freezer door still hanging open. I immediately fall to the ground, as bread and peas start raining down around me. Tears are silently rolling down my cheeks as I look over and see that my baggie of ice had split open and ice was now mixed with bread crumbs and peas on the floor.
+
+After contemplating my life choices for a small while, I managed to clean all my mess, grab two frozen items (one for my head and one for my hand), and slowly shuffle my way to the couch, where I sat with my 'ice packs' until the door rattled and my boyfriend walks in, takes one look at me and says;
+
+*""Holy shit. You're a mess!""*
+
+
+TLDR: I forgot dishwashers had hot parts, burned myself, then concussed myself trying to treat the burn. 
+
+Edit: Spelling! Got = Hot  
+
+Edit: Got my first ever gold for being a mess! Hurray! Thank you stranger!
+
+Edit: A lot of people didn't know about the exposed element thing, I didn't either until I asked boyfriend why there was a hot thing in the dishwasher. Derp. Also, a commenter posted a dishwasher manual and mine is virtually the same on the interior! 
+
+Edit: yeah yeah yeah ""firefighting practice"" is funny. It's actually a training night! "
+"TIFU by wearing acrylic nails and driving.
+
+
+For context, I'm a 21 y/o female who once in a blue moon likes having cool nails. I got these cool nails that look [a lot like this](http://www.thepolishedmommy.com/wp-content/uploads/blogger/-_jBPMv1f28k/ULU5XPKHEWI/AAAAAAAAFeE/VCDDthOyLdU/s1600/kkcenterhk%2Bsilver%2Bnails.JPG). Super happy, looking super fly, whatever. 
+So about a week and a half later I'm driving to class and feel that i have a massive, itchy booger so with my cool new handy booger pickers, i decide to extract that fucker with my pinky finger. Feels great. Until the car in front of me slams on their breaks causing me also to slam on my breaks, finger two knuckles deep in my schnoz, effectively ramming my pinky up my nose. 
+I panic, lots of profanities happen. I call my mom, finger still in nose, who says to just pull it out, but I'm scared i'm going to pull out brains or something. 
+So I decide to man up and just pull it out, but my finger is a tad bit stuck. So against any proper medical advice I'm sure is out there, I pull it out. 
+/There is blood. 
+/There is no acrylic nail still on pinky. 
+Then I fully panic and drive to prompt care. 
+They extracted acrylic nail which was lodged in there not as bad as I thought, but I still panicked.
+Got a cool nose bandage out of it, though. 
+
+TL;DR-- acrylic nail glue not too good, picked a boogie, slammed on breaks, wound up dislodging nail in nose causing a nasty bruise and brutal nose bleed. Looked pretty badass. 
+
+"
+"TIFU by not wanting to get murdered
+
+
+So my best mate and I had been having a bash of a time drinking and being merry when we decided to hit up the old weed man and grab some grass, of course he offers to make us cocktails and get us high so who in saint Josephs name would say no. ""I'm already 6 beers in lad, I may be Irish but I am also a smart individual; I'm not driving anywhere."" Says Zach, i too had been feeling rather drunk as a Mediterranean skunk so our plans had almost been foiled but loe and behold! Uber! Our savior. 
+We call our Uber and wait outside sipping our beers from not-so-clever disguised coffee cups and as if it only took but a second our Uber was there waiting for us. ""Hey Man, would you mind taking us to the Wells Fargo right there? I'd like to pull out some money."" I say as my friend and I enter the vehicle. The man did not answer, merely giving a side glance. We drove to the end of the street, things seemed uneasy right from the getgo. ""Excuse me? Can you do that for us?"" I say. No answer. Just a sigh and more side glances. ""Are you alright?"" Again, another sigh. He tightens his grip as we pull up to a stoplight. Almost mechanically I ball my Keys into my fist to make some sort of key-fist mace. My friend and I exchange glances, he chokes up a little "" it almost feels like you're about to kidnap us haha"" he stammers. ""Yeah you're kind of freaking us out"" that's when I see his eyes dart to mine in the rear view. He looked as if he was ready to tickle my insides. I looked straight into my friends eyes ""Zach, I'm getting the fuck out of this car"" he nods and in one second we both eject at the red stop light. We begin to walk home as I get a text message. It is from my Uber ""what is your problem? "" That is when i see on the Uber interface ""Your driver is hearing impaired"". ""I'm deaf I cannot hear"" he texted me again.
+What's worse is the morning after I awoke to find a note on my door. Poor guy thought we were messing with him. I'm sorry Uber man, our perception of you only saw a Angry William Dafoe looking man ready to give us the old one two razzle dazzle. We were protecting our lives. 
+
+TL;DR Uber driver freaked drunk me out, decided to bail out only to find out he was deaf. My friend wants to add he also left his coffee cup in the gentleman car. 
+
+Here's the note for all the nosey  people out there http://imgur.com/tXMpT0v
+
+Update: My friend has not yet retrieved his coffee cup. "
+"TIFU by exposing myself to a Girl Scout Troop
+
+
+Wasn't today, but rather when I was about 14. 
+
+So I did Boy Scouts throughout basically my whole childhood. One particular camp, my troop had driven all day to get to a campsite. We arrived around 8:00 or so, and I was super tired. I got my tent set up right away, and went to bed while the rest of my troop hung out in a cabin nearby. It was a warm, humid July night, so naturally I slept in just my boxers. It was also the perfect condition for severe storms. 
+Boy Scout camps (at least the ones I went to) had a system for storms in which they would blast horns to warn the campers. I don't remember exactly how it worked, but it was universally understood that four consecutive blasts of the horn meant ""get to fucking cover now."" 
+About an hour or so into my sleep I wake up to, you guessed it, the four horn alarm. The rain was coming down like you wouldn't believe, the wind was intense, and I could hear the tornado warning sirens from the town down the road. I knew I had to get to cover as quickly as possible, but there really wasn't much besides the aforementioned cabin. Being a dumbass 14 year old, I wanted to stay dry so I started hopping down the dirt road in my sleeping bag towards the dim lights of the cabin in the distance. This worked until I hit a deep mud puddle, and I immediately fell over and was covered in mud. 
+At this point the storm around me was so intense that I was being battered by hail and twigs picked up by the wind. I was scared that the tornado was nearby (which I later found out that it was) so I crawled out of the sleeping bag and booked it as fast as I could towards the cabin. It was probably about a quarter of a mile away, and I was DRENCHED in mud. This made my already loose boxers very heavy and they kept falling down. I didn't care at this point. I was in full survival mode. 
+I finally reached the cabin and I stumbled towards the door, boxers around my knees, and swung it open. Out of breath, I stormed inside to find not my troop but a troop of 6-10 year old Girl Scouts, fully exposing them to my muddy dick and ass. They looked traumatized, but I quickly pulled my boxers up and apologized to the adult leaders, who understood and gave me blankets to cover up with. Turns out I had run to the wrong cabin, and the one that my troop was in had been in the opposite direction from my tent. As a secondary consequence of this fuck up, my friends had all thought I was dead. At that point, I wished I was. 
+
+TL:DR Got hit by a tornado and ran naked to the wrong cabin in cover, exposing myself to young girls. "
+"TIFU by drinking a Capri Sun
+
+
+This happenend last Saturday when I was about to leave from work. I work in a restaurant where the kids can play and adults can eat from the buffet or from the menu. When I was done I grabbed a Capri Sun from the bar to take with me so I can drink it when I'm in the car. But I grabbed the Capri Sun without asking because I thought that it was al right. But little did I know that I got a call on Monday from my boss(who wasn't there a the time). He tells me that he saw that I took a Capri sun on the security camera and asked the supervisor if I asked if I could grab one (what I have not done). So he basically told me one the phone that he couldn't trust me anymore and fired me. I worked there for 3,5 years and lost this job for a 1 euro capri sun.
+
+TLDR: Grabbed a Capri sun without asking and got fired because of it.
+
+**English isn't my first language so be gentle**
+
+*EDIT: grammar
+
+*EDIT2: Some people wantend more info. At the place there work around 60 people it isn't a chain just a place where you can make some simple money (even though I get minimum wage). In the time I have been there I worked every weekend, I even came I they called me if it was a busy day. But I guess he didn't care about me. By the way I like the colleagues I had there, but I never really liked the boss (like most of the colleagues). Have a good day!"
+"TIFU by possibly starting a rumour that I received a handjob from a student. [NSFW]
+
+
+So this happened on Monday in the school cafeteria. I'm an assistant English Language Teacher in Japan and I've been living and working over here for about 2 years. I'm not great at Japanese and the kids aren't great at English so miscommunication is more common than would be ideal.
+
+So as anyone who has ever started learning a second language can attest, the first words you learn are the swear words, the sex terms and anything else your dirty little gutter mind can find. In preparation for my students doing this, I took some good advice from a friend and started misinterpreting what the kids would say to me.
+
+Student: "" Sex!"" 
+Me: ""Six? You're six years old? No wonder you're so short"" Boom. Shut that kid down and burned him so hard he won't be talking about sex again until he has to explain it to HIS kids.
+
+Student: ""Penis!"" (Which they inexplicably pronounce as ""pen-nis"") 
+Me: Tennis? You want to play tennis? But the racquet is bigger than you? Boom. Japanese kids are short. This is easy.
+
+Student: ""Hand job!"" 
+Me: Hard job? Yeah I have a hard job. I have to teach you *points at student*
+
+Nuclear Explosion. All the kids start laughing as they think I said something along the lines of ""I got a hand job from you""
+
+So that backfired spectacularly and I will now go back to hiding in the corner hoping that the kids don't try and kancho my butthole or spread rumours about my sex life.
+
+TL;DR I teach English in Japan. I purposefully misinterpret rude words the kids say. I ""misheard"" hand job as hard job and pointed at a student that made my job hard which may have resulted in an unsavoury rumour involving me and the student sigh"
+"TIFU by preventing my partner from going to his friend's wedding
+
+
+TIFU...and this was a fuck up that I unknowingly planned. Four months ago we received an invitation for my fiancé's friend's wedding that was going to be hosted in the mormon Mecca of the US. At the time he didn't pay much attention to it because he was studying for the BAR and he couldn't handle much more than eating pop-tarts and playing minecraft. I knew BAR study would be awful for him so I tried my best to take unnecessary stressors away (not like that is possible with the BAR) by making sure that he had an endless supply of treats, food, water, redbull...etc...
+He did not have the time or energy to plan for the trip so I took it upon myself to find the best deal possible...and boy did I think I had found it! I was stoked to see that it would be $700 for our ENTIRE trip. It was at this point that I should have thought twice about that price...or perhaps anytime within the 24 hr cancellation period :-/
+Before confirming the website asked me, ""are you sure you don't want to buy traveler protection in case you end up canceling?"" Of course I said, ""yes I am sure! who the hell buys that anyway...right?""
+
+FFWD to today...the wedding is in 20 hrs and I JUST found out that I had only booked one flight. For one adult. A female. ME. God damn it. 
+
+TL;DR I booked a trip to celebrate a wedding and forgot to include my fiancé. "
+"TIFU by branding myself a neo-nazi
+
+
+Well this fuck up, as the tales usually go, didn't occur today. Technically it was around 10 years ago, but I've only realised today. So, from the top I guess.
+
+I come from a fairly spiritual family with pagan beliefs. There's a lot of interesting stuff when it comes to paganism in its many different forms. The mythology of different cultures, the symbolism, you get the idea.
+
+Anyway, my dad was married at the time and he had the inside of his wedding band engraved with runic symbols as a blessing from a friend. I was always pretty fascinated by this and thought it would be a great idea to get a tattoo of one of the runes on my chest, right by my heart. Sweet stuff, right? Just had to pick a rune to start with and find the cheapest tattooist nearby since I was (and still am) rather poor. The other runes could wait for now.
+
+With the rune picked I went off to the tattooist, showed them the picture and £15 later the tattooist slapped on some kitchen roll with a bit of tape on my very hairy chest (thanks mate) and said ""good luck"". Until now I had no idea why he was so reluctant to talk to me all the way through.
+
+Until recently I'd never be in a situation to be in public without my shirt on, but I've started taking my son swimming and going to the gym so now the tattoo is on display more than before. This wouldn't be a problem until I decided to look at the website that our beloved Pepe ended up on, where I found the rune of life took on a life of its own at some point. So yes, I unknowingly tattooed a neo-nazi symbol on my chest, by my heart, right where the National Alliance would probably love it.
+
+Here's the link anyways http://www.adl.org/combating-hate/hate-on-display/c/life-rune.html#.WK6wK8unxnE
+
+TL:DR went for a nice, symbolic tattoo, am now accidentally a nazi. Always research your tattoos.
+
+Edit: just wanted to say thanks so much for your responses to this. They've either had me chuckling or thinking and both are good in my book."
+"TIFU by wiping my ass with an umbrella.
+
+
+[removed]"
+"TIFU by wearing a weighted exercise vest to the airport...
+
+
+[removed]"

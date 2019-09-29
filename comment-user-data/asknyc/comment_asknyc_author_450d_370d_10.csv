@@ -1,0 +1,9 @@
+count,after,before,link
+1746,450,440,https://api.pushshift.io/reddit/search/comment/?&subreddit=asknyc&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=469d&before=459d
+1491,440,430,https://api.pushshift.io/reddit/search/comment/?&subreddit=asknyc&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=459d&before=449d
+1432,430,420,https://api.pushshift.io/reddit/search/comment/?&subreddit=asknyc&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=449d&before=439d
+1488,420,410,https://api.pushshift.io/reddit/search/comment/?&subreddit=asknyc&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=439d&before=429d
+1460,410,400,https://api.pushshift.io/reddit/search/comment/?&subreddit=asknyc&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=429d&before=419d
+1920,400,390,https://api.pushshift.io/reddit/search/comment/?&subreddit=asknyc&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=419d&before=409d
+1911,390,380,https://api.pushshift.io/reddit/search/comment/?&subreddit=asknyc&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=409d&before=399d
+1591,380,370,https://api.pushshift.io/reddit/search/comment/?&subreddit=asknyc&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=399d&before=389d

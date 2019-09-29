@@ -1,9 +1,0 @@
-count,after,before,link
-8390,450,440,https://api.pushshift.io/reddit/search/submission/?&subreddit=relationships&aggs=subreddit&fields=aggs&metadata=true&after=450d&before=440d
-8438,440,430,https://api.pushshift.io/reddit/search/submission/?&subreddit=relationships&aggs=subreddit&fields=aggs&metadata=true&after=440d&before=430d
-8597,430,420,https://api.pushshift.io/reddit/search/submission/?&subreddit=relationships&aggs=subreddit&fields=aggs&metadata=true&after=430d&before=420d
-8713,420,410,https://api.pushshift.io/reddit/search/submission/?&subreddit=relationships&aggs=subreddit&fields=aggs&metadata=true&after=420d&before=410d
-8548,410,400,https://api.pushshift.io/reddit/search/submission/?&subreddit=relationships&aggs=subreddit&fields=aggs&metadata=true&after=410d&before=400d
-8170,400,390,https://api.pushshift.io/reddit/search/submission/?&subreddit=relationships&aggs=subreddit&fields=aggs&metadata=true&after=400d&before=390d
-8236,390,380,https://api.pushshift.io/reddit/search/submission/?&subreddit=relationships&aggs=subreddit&fields=aggs&metadata=true&after=390d&before=380d
-8095,380,370,https://api.pushshift.io/reddit/search/submission/?&subreddit=relationships&aggs=subreddit&fields=aggs&metadata=true&after=380d&before=370d

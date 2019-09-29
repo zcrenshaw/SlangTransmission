@@ -1,0 +1,9 @@
+count,after,before,link
+0,450,440,https://api.pushshift.io/reddit/search/comment/?&q=stan&subreddit=AMA&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=465d&before=455d
+0,440,430,https://api.pushshift.io/reddit/search/comment/?&q=stan&subreddit=AMA&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=455d&before=445d
+0,430,420,https://api.pushshift.io/reddit/search/comment/?&q=stan&subreddit=AMA&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=445d&before=435d
+0,420,410,https://api.pushshift.io/reddit/search/comment/?&q=stan&subreddit=AMA&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=435d&before=425d
+0,410,400,https://api.pushshift.io/reddit/search/comment/?&q=stan&subreddit=AMA&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=425d&before=415d
+0,400,390,https://api.pushshift.io/reddit/search/comment/?&q=stan&subreddit=AMA&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=415d&before=405d
+0,390,380,https://api.pushshift.io/reddit/search/comment/?&q=stan&subreddit=AMA&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=405d&before=395d
+0,380,370,https://api.pushshift.io/reddit/search/comment/?&q=stan&subreddit=AMA&aggs=author&fields=aggs&metadata=true&agg_size=1000&after=395d&before=385d

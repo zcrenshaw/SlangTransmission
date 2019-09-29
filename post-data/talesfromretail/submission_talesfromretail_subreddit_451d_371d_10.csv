@@ -1,9 +1,0 @@
-count,after,before,link
-253,451,441,https://api.pushshift.io/reddit/search/submission/?&subreddit=talesfromretail&aggs=subreddit&fields=aggs&metadata=true&after=451d&before=441d
-275,441,431,https://api.pushshift.io/reddit/search/submission/?&subreddit=talesfromretail&aggs=subreddit&fields=aggs&metadata=true&after=441d&before=431d
-306,431,421,https://api.pushshift.io/reddit/search/submission/?&subreddit=talesfromretail&aggs=subreddit&fields=aggs&metadata=true&after=431d&before=421d
-285,421,411,https://api.pushshift.io/reddit/search/submission/?&subreddit=talesfromretail&aggs=subreddit&fields=aggs&metadata=true&after=421d&before=411d
-260,411,401,https://api.pushshift.io/reddit/search/submission/?&subreddit=talesfromretail&aggs=subreddit&fields=aggs&metadata=true&after=411d&before=401d
-236,401,391,https://api.pushshift.io/reddit/search/submission/?&subreddit=talesfromretail&aggs=subreddit&fields=aggs&metadata=true&after=401d&before=391d
-261,391,381,https://api.pushshift.io/reddit/search/submission/?&subreddit=talesfromretail&aggs=subreddit&fields=aggs&metadata=true&after=391d&before=381d
-288,381,371,https://api.pushshift.io/reddit/search/submission/?&subreddit=talesfromretail&aggs=subreddit&fields=aggs&metadata=true&after=381d&before=371d

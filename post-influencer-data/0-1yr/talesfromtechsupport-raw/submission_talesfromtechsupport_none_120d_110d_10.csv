@@ -1,0 +1,33 @@
+,text
+0,"No we don't want that. It's too expensive and we want something *bespoke*.
+
+
+*Bespoke.* The enemy of useful. 
+
+We built a database software. Our clients use this database software. It contains a bunch of information that's important to them. You know how it goes. 
+
+**Client:** It takes too long for our internal team to do all the admin of creating new people records. Is there any way people can sign up to the database themselves? Here's the specs of everything we'd need it to include. 
+
+**Me:** Actually, yes. We have a web portal solution for this already. It does what it says on the tin. They just fill in the online form, it pops their details straight into the database. You pretty much just switch it on. Here's the price. 
+
+**Client:** No, I'm afraid that's not what we want. We want a bespoke solution. One that's ours, so that we can build it how we want. 
+
+**Me:** Ok, but can I ask...for what particular purpose? Looking at your specs here, the portal does everything you need. We can even brand it to look like yours so no one could tell the difference. Also critically, this is directly fed into the database, complete integrated and configurable.
+
+*Client: No, I'm afraid not. Truthfully, we want to have more control over how it's developed. Also it's too expensive. Thanks anyway. 
+
+*8 weeks later*
+
+**Client:** We have a CSV file with lots of people on it. Any way we can import this information into the database on a regular basis?
+
+**Me:** Where is this file coming from? What's on it?
+
+**Client:  Well remember we asked a while back about getting people to register themselves? We created an online registration form. This creates a CSV which saves to google docs.
+
+*client proceeds to show me a wordpress template form, and everything on it is wrong*
+
+**Me:** ....Well we'd basically need to create a bespoke XML script that finds the file, maps out all the data and pings it into the right spots. This would need to be on a schedule and have a bunch of requirements to ensure the data is clean and not duplicated. It would need to be validated, truncated where necessary, etc. That will cost at least X much. 
+
+**Client:** What? That's insane, why is it so expensive? 
+
+*Because it's bespoke.*"

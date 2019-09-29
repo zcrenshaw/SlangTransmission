@@ -1,0 +1,30 @@
+,text
+0,"They're under embargo!
+
+
+I don't know if TFTS is exactly the right place for this, but it feels like it...
+
+
+Back in 2014, I was doing software development for a health insurance company. I was doing C# development and maintaining legacy ASP.NET WebForms code. This miffed me a bit, because prior to the interview, I was told I'd be writing new code, not maintaining old cruft. But, this was my first week-- I didn't want to rock the boat yet by complaining. 
+
+Since this was a .NET shop, the first thing I do after installing Visual Studio is install ReSharper, a Visual Studio extension made by JetBrains. I use ReSharper religiously. So much so, I buy my own commercial license so I don't have to worry if my current company won't buy it.
+
+Now, this part is important: JetBrains is based out of Prague, now Czechia, then the Czech Republic. 
+
+About 3 weeks into this gig, the VP of development comes at me, red in the face, literally yelling, ""WHY THE FUCK ARE YOU USING JETBRAINS?!?!""
+
+I'm like.... the hell? I tell him that I'm using ReSharper, a widely used, industry accepted IDE extension.
+
+He says, ""TAKE THAT SHIT OFF NOW OR I SWEAR TO GOD I'LL WALK YOU RIGHT FUCKING NOW.""
+
+... Wow. So I open up Control Panel and uninstall it right in front of him. He says that he did me a favor coming over here, because IT would have walked me out immediately, and I wouldn't have a job.
+
+Later the architect comes over and explains that we can't use products made in Czechoslovakia because it's a communist country and under embargo. It's 2014: I respond by saying that it's now the Czech Republic, they're democratic, and a member of the EU. He just says, ""Well, they are still under embargo. Look it up at the State Department.""
+
+I figure out that the only way they knew I was using the software was because it phoned home to check for updates. So I mapped the update server's DNS name to localhost in my hosts file. Worked there 8 more months running ReSharper, had no issues.
+
+On my last day, I decided to raise a stink. Right in front of the VP and architect, I straight up said disallowing ReSharper was a stupid, asinine policy. They got HOT and started talking about embargoes.
+
+I interrupted them and said, ""oh hey. Wouldn't you know, I have two copies of the US embargo list that I just printed off from the State Department this morning. I don't see the Czech Republic on there anywhere. I'm gonna go say my goodbyes and head out now.""
+
+Left them standing there looking REAL stupid."

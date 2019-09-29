@@ -12,16 +12,16 @@ mkdir talesfromtechsupport
 mkdir tifu
 mkdir askgamers
 
-mv -v *askgamers*.csv askgamers/ | wc -l
-mv -v *AMA*.csv AMA/ | wc -l
-mv -v *askUK*.csv askUK/ | wc -l
-mv -v *askgaybros*.csv askgaybros/ | wc -l
-mv -v *askmen*.csv askmen/ | wc -l
-mv -v *askwomen*.csv askwomen/ | wc -l
-mv -v *askreddit*.csv askreddit/ | wc -l
-mv -v *asknyc*.csv asknyc/ | wc -l
-mv -v *tifu*.csv tifu/ | wc -l
-mv -v *roastme*.csv roastme/ | wc -l
-mv -v *relationships*.csv relationships/ | wc -l
-mv -v *talesfromretail*.csv talesfromretail/ | wc -l
-mv -v *talesfromtechsupport*.csv talesfromtechsupport/ | wc -l
+mv -v *askgamers*.csv askgamers-raw/ | wc -l
+mv -v *AMA*.csv AMA-raw/ | wc -l
+mv -v *askUK*.csv askUK-raw/ | wc -l
+mv -v *askgaybros*.csv askgaybros-raw/ | wc -l
+mv -v *askmen*.csv askmen-raw/ | wc -l
+mv -v *askwomen*.csv askwomen-raw/ | wc -l
+mv -v *askreddit*.csv askreddit-raw/ | wc -l
+mv -v *asknyc*.csv asknyc-raw/ | wc -l
+mv -v *tifu*.csv tifu-raw/ | wc -l
+mv -v *roastme*.csv roastme-raw/ | wc -l
+mv -v *relationships*.csv relationships-raw/ | wc -l
+mv -v *talesfromretail*.csv talesfromretail-raw/ | wc -l
+mv -v *talesfromtechsupport*.csv talesfromtechsupport-raw/ | wc -l

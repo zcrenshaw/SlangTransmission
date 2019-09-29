@@ -1,0 +1,61 @@
+,text
+0,"Why sliding computers is a bad idea
+
+
+Way back in the day, when Compaq 286s and Mac SE 30s were top-of-the-line machines, I was the sole IT person in the company.  Man, that's almost 30 years now.  Time flies.  Dialog is obviously paraphrased from what was actually said.
+
+We had two computer rooms, one for PCs and one for Macs.  The consultants in the company would generally use the PCs to crunch their numbers (Lotus 1-2-3 for DOS if you can believe it) and the Macs to do word processing (good old MS Word 5.1 for Mac) and business slides (MacDraw) for presentations.
+
+Most of the Macs were 512K Macs with dual floppy drives, but we had just acquired an SE30 with a whopping 20 MB hard drive.  This baby was smoking fast, and was the preferred machine to work on for most.
+
+One day, I get paged to the Mac room.  I walk in and Bob is sitting there, looking fairly worried.
+
+""This error message is telling me that my file is corrupted.  You need to recover it; it's vital for a presentation tomorrow!""
+
+""Okay, I'll try my best.  Let me sit there and take a look.""
+
+Now, Bob was known for being a bit of a contrarian.  If you told him to do something, he'd find a way to not comply.  So instead of getting up and letting me sit in the chair in front of the SE 30, he reached over, put his hand on the side of the SE 30 and slid it over to where I was standing next to him.
+
+If you aren't familiar with SE 30s (or any of the original all-in-one Mac bodies), they are fairly light and top heavy machines.  While he didn't tip the SE 30 over, it's narrow footprint and rubber ""feet"" made it very prone to ""chattering"" when being slid.
+
+And that's exactly what it did while I was shouting, ""No, don't!"", lunging forward to stop him.
+
+Too late.  Instant sad Mac icon on the screen.
+
+""Well, you may have to postpone tomorrow's presentation.""
+
+""Why?  What happened?""
+
+""You toasted the hard drive.""
+
+""What?""
+
+""That chattering or bumping when you slid it caused the read/write heads to literally crash into the hard drive platters and physically destroyed the hard drive.""
+
+""No way.  Well, you have to fix it and recover the data.""
+
+""Not happening here.  You'd need a clean-room and lots of time and money.""
+
+""Find out how much and let me know how much.  The client will pay for it.""
+
+So, I went and spent about 2 hours investigating if there were any firms in the Boston area that would do this kind of HD recovery.  There was one (still in business today!) and they were not cheap.  If I recall, they quoted me a low 5-figure number and even then couldn't guarantee success.  They said that it was usually government agencies that needed such measures taken.
+
+I relayed the price figure to Bob and he flipped out.  He couldn't believe it would be that expensive, and started making noise about me making up the price, and generally hinting that he would try to get me in trouble for not just doing what he was demanding.  I think he even offered to negotiate the price with the data recovery firm.
+
+""Okay, Bob.  Let's go ask Dave.""
+
+Luckily for me, Dave, the president of the company (my boss) was quite tech savvy, and he shut down Bob's harangue pretty quickly.
+
+He finally asked Bob what had been lost.
+
+""About 15 pages of a presentation.""
+
+""Had you ever printed it out?""
+
+""...""
+
+""Bob?""
+
+""Yes, I have a printout from yesterday, but I had made a lot of edits.""
+
+""Well, do them again.  I'm not paying $10,000 for you to not have to redo edits you just made yesterday."""

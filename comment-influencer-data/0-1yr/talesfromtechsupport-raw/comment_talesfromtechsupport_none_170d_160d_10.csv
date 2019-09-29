@@ -1,0 +1,150 @@
+,text
+0,"In what twisted IT hell does ""wipe and reinstall"" mean anything other than what you thought?"
+1,"Remove the server from its mount, clean the dust off it with a cloth (wipe) and put it back in its mount (reinstall)."
+2,"Shit, even on my own machines, I Google programs to find out exactly what they are before uninstalling. I thought that was a common practice."
+3,"Nice.
+
+I had the nearly the same interaction some years ago.
+
+The Dean of a faculty called in the afternoon on the 23rd of December, about 1 hour before *everyone* leaves for the Christmas vacation. Mind you, vacation is serious business in Germany and the University wouldn't open again until the 5th of January.
+
+He asked wether ""the domain"" is ready for the new degree they were launching at the start of January.
+
+I told him ""No, what domain? What degree?"".
+
+He said to get it ready as fast as possible.
+
+When I told him that a) I am on the verge of leaving for the holidays for two weeks, b) nobody at the DFN doing the domain registrations is working for the same two weeks and c) the earliest his new domain would be ready would be in the mid of January, I could feel his head turn blue and then red through the telephone.
+
+And before he could start a tirade through the phone, I told him to put in a ticket and I would expedite the process as soon as I see it. This calmed him down and he promises to do at once.
+
+Little did he know that I already had shut down my workstation and was literally (in the true sense of the word) on my way out.
+
+But I kept my word: as soon as I saw the ticket when I was back from my vacation, on the 7th of January, I ""expedited the process"".
+
+He complained to my boss, but he was away even longer, returning the 12th."
+4,"No, but pointing out that I had to depend on it to avoid an outage meant that I finally got approval for a really server in the place."
+5,"""Look, ma'am, if you go to the doctor complaining about a sore wrist, when really your knee hurts, you're not going to get treatment for your knee..."""
+6,"“This is you’re job. Go and do it.”  
+“No.”  
+“Then we’ll find someone will. Your non-services are no longer required.”"
+7,"""You know they tell ya, never hit a man with a closed fist. But it is on occasion hilarious.""
+
+- Mal Reynolds"
+8,IT Department: Nobody acknowledges your existence until something breaks.
+9,"We had a very similar thing happen.
+
+Working at a law firm and we had after hours support. If they called the helpdesk it was firearded directly to a mobile that we answered. User calls the same number as during business hours. All through the pabx (important for later) 
+
+One day we get a call from an angry partner asking why no one answered the after hours mobile. One of his lawyers was calling for support and no one answered. Because he was unable to get support, he missed an important deadline.
+
+Boss asked on call tech who confirmed no calls or messages came in at the time stated. Boss pulls the log files of all calls to the helpdesk line via the pabx. Yes dear user we can see all calls made from and to any phone in the company. No calls made to the helpdesk the entire evening in question.
+
+Logs forwarded to angry partner. The next day, a termination request arrives in IT for the user.
+
+Don't mess with IT. We know where the bodies are buried. "
+10,"Unfortunately, it was proprietary software by the vendor so I doubt it would have shown up in a Google search. "
+11,"Yeah, and I think I'd probably say ""de-rack the server and clean the dust off of it"" because ""wipe and reinstall"" already has a very specific meaning in IT."
+12,"That was so goddamn *satisfying* to read.    
+"
+13,"Everything is going well: ""What are we paying these guys for?""
+
+System goes down: ""WHAT ARE WE PAYING THESE GUYS FOR?!?!?!"""
+14,We have a client like his that constantly fucks shit up and then blames us for outages. Unfortunately they're one of our biggest customers though
+15,So did you patch the vuln orrrr...?
+16,"Fire - exclamation mark - fire - exclamation mark - help me - exclamation mark. 123 Cavendon Road. Looking forward to hearing from you. Yours truly, Maurice Moss.
+
+[sigh of relief]"
+17,"Thats when you set his password requirements to 20 special characters,  no letters or numbers allowed."
+18,It's not my department says every department on the call. I live IT.
+19,"Excellent. The schadenfreude is so nice on this one. Once again, a lack of planning on your part does not make it an emergency on mine."
+20,"Agreed, but there's still a subset of people who use ""reset"" when they mean ""reboot"". "
+21,"In what world are DBAs **not allowed** access to production systems?
+
+If improvements are made to dev or test environments who the *bleep* applies the changes to production?"
+22,a story of manglement at its best.
+23,You literally just step on the premises and haven’t touched ANYTHING yet but there’s always this one angry middle aged woman in the office running straight up to you and asking you if you were just doing something with the server because her Excel just crashed and today is not a good day to be „playing around with computers“.
+24,That's when you do a sneakernet investigation.
+25,"The appropriate response, ""We happily support the Dell printers you are authorized to purchase."""
+26,"This is my new favourite line, and article 13 be damned I'm stealing it."
+27,"Wholesome ending on TFTS?
+What mad rabbithole have I entered? "
+28,"Had a VERY similar situation. I, as IT manager, received a call from a user who had missed their production deadline due to a malfunctioning processing machine acting up. These needed rebooting from time to time (later we find out the software's process had a memory leak that slowly built up). Anyways, they call me stating that they had called the oncall technician number (which is a extension at work that is forwarded to the mobile phone of the tech on call for that week) over an hour ago with no response. He was not satisfied and would be noting the reason for the delay in the night's production report. He demanded that I chastise the employee and immediately resolve the problem.
+
+After a few moments I convinced them to call the oncall number again and if they do not answer to give me a call back. They made the call.
+
+My mobile phone rang again and I answered ""Hello"".
+
+""(My name) is that you? Why did you answer?""
+
+With a smile, ""Because I am on call. How can I help you?"" (My two techs that would have normally been on call for this particular site were out - one sick and other on vacation. I volunteered to take call for a few days.) 
+
+Later my cell phone log and forwarding extension log and the log from the department phone confirm that no call was made to the On Call Extension that night except the last one. Also when I signed into the processing machine there was no issue. It was running normally and I told them they should be good now without restarting it. (No action was taken) They confirmed that it was working now and they should be able to finish up. 
+
+I reported this to the regional manager who took it up with their boss who took it up with them. That never happened again. "
+29,Sneakerneting is a term that refers to networking  via physical storage. I. E.  I put my sneakers on and walked the USB drive between the computers.  
+30,"Oh come on, Fargo’s not *that* bad. There’s just the never ending godsdamned wind, the stink of the sugar beets during harvest, never ending winter.  There’s a week in July that’s lovely. "
+31,"&gt; Client: ""VPN doesn't work. My IP is 10.0.0.20""
+
+The right answer is ""Ah, so you are saying you need help getting your VPN to work"".
+
+Don't help users circumvent existing policies and procedures, and don't help users with a solution that just makes life harder for yourself down the road (constantly updating whitelisted IPs from dynamic ISP ranges),"
+32,Sure. So let me just close this resolved ticket and create another one for installation of unsupported 3rd party hardware not purchased via IT.
+33,"Obviously, any competent IT tech would've been able to enable her account *retroactively* and let her log in last week. What do they even pay you for if you can't work in the fourth dimension?"
+34,"Thanks for the share.
+
+&amp;#x200B;
+
+We remove MS Mail as feature from windows by GPO, for this very reason.
+
+&amp;#x200B;
+
+&amp;#x200B;"
+35,"&gt; Can you try swapping it out?  We’ve already gotten the swap approved and it’s in your queue. 
+
+One of the things you need to learn early in your career is when a request is really a order.  It might be FRAMED as a request, but you need to learn when to shut up and do as you're asked.
+
+Or, don't do it and enjoy the unemployment line.
+
+A million or so years ago in a previous life I was a computer programmer for a big telecom.  We were taught very quickly not to say 'no' to a request.  Or, if you had to say 'no' (and there were always occasions), you follow it up with a very calm explanation of the reasons (and best if you have an alternative solution).
+
+You certainly don't just say 'no' and then leave for a smoke break.
+
+Well, again, you CAN, you just probably box everything on your desk and take it with you as you head out.
+
+&amp;#x200B;
+
+&amp;#x200B;"
+36,"Even more so, because launching a new degree or course is nothing you just decide in the spur of the moment.
+
+There are normally *years* of planning before the launch. The Ministry of Education has to agree to this (note: most Universities are run by the state in Germany), the new degree has the be accredited by a board to meet certain standards, you have to hire teachers, etc.
+
+But, because somehow, the new degree needed its own vanity domain instead of just degree.faculty.univesity.tld, like in *any other* faculty, this problem (for him) occurred."
+37,"as long as they pay adequately for you to put the fire out when they lit themselves on fire again it's fine.
+
+Kindergarteners for special needs children need a similar patience than IT people do."
+38,"You at least said ""I was literally up all night printing that out, so I'm going home now to sleep. I'll see you tomorrow"", I hope?"
+39,""" Never underestimate the bandwidth of a station wagon full of tapes hurtling down the highway. ""
+
+\- Andrew S. Tanenbaum"
+40,"Ticket closed
+
+Unsupported hardware
+
+Please purchase approved hardware and contact us again"
+41,"You should at least allow a maximum of 2 letters, and a maximum of 2 digits. That way, you can say 'letters, numbers and special characters required' without specifying how many of each. And make it say 'Invalid password' without saying why every time something is entered."
+42,"""We didn't touch it. It must have been something you did."""
+43,"Just to put it out there but is this server all alone in a room by itself? I’m going to assume not so why in the world would your boss tell you to clean a single server? This makes no sense to me, I would watch my back if I were you!"
+44,You did get paid for those hours right?  
+45,"25,000 machines.
+
+That's, what, 1,000 thermostats, 2,500 heating units, 2,500 cooling units, and 19,000 bristles in his brooms?
+
+RwP
+"
+46,*European sirens in the distance*
+47,"If the device has a hard drive with files stored on it and the files are deleted, guess what ? 
+
+It is IT's fault! 
+
+"

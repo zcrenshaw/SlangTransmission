@@ -1,0 +1,9 @@
+count,after,before,link
+395,450,440,https://api.pushshift.io/reddit/search/submission/?&subreddit=askUK&aggs=subreddit&fields=aggs&metadata=true&after=469d&before=459d
+478,440,430,https://api.pushshift.io/reddit/search/submission/?&subreddit=askUK&aggs=subreddit&fields=aggs&metadata=true&after=459d&before=449d
+382,430,420,https://api.pushshift.io/reddit/search/submission/?&subreddit=askUK&aggs=subreddit&fields=aggs&metadata=true&after=449d&before=439d
+406,420,410,https://api.pushshift.io/reddit/search/submission/?&subreddit=askUK&aggs=subreddit&fields=aggs&metadata=true&after=439d&before=429d
+408,410,400,https://api.pushshift.io/reddit/search/submission/?&subreddit=askUK&aggs=subreddit&fields=aggs&metadata=true&after=429d&before=419d
+413,400,390,https://api.pushshift.io/reddit/search/submission/?&subreddit=askUK&aggs=subreddit&fields=aggs&metadata=true&after=419d&before=409d
+373,390,380,https://api.pushshift.io/reddit/search/submission/?&subreddit=askUK&aggs=subreddit&fields=aggs&metadata=true&after=409d&before=399d
+436,380,370,https://api.pushshift.io/reddit/search/submission/?&subreddit=askUK&aggs=subreddit&fields=aggs&metadata=true&after=399d&before=389d

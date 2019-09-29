@@ -1,0 +1,230 @@
+,text
+0,"Sometimes I wish I could see these kinds of conversations happen to, say, doctors.
+
+""HOW DARE YOU?? I DON'T HAVE LYMPHOMA.""
+""The test results say you do.""
+""I WANT TO SPEAK TO YOUR MANAGER."""
+1,"My question is why does your system only take passwords that are *exactly* 8 characters?
+
+Edit: Yes thank you everyone. I know it's a legacy system, but it still sucks"
+2,"Better locked out than locked in...
+
+In university, I was working late together with some other students. When we did this, we usually just walked trough the lobby to an exit-only door in the other building. But that night, we left the elevator - and our way through the lobby was blocked. Someone had set up moveable walls across the corridor.
+
+As we did not intend to stay there overnight, we moved one of the walls to pass through - only to be greeted by an angry, barking guard dog. Finally, some security guy arrived and angrily asked us why we were breaking in. We got that settled, but he did not want us to pass through the exhibition in the lobby that he had to guard. In the end, we had to threaten him: Either we can pass and leave through a non-armed door, or we take an armed exit and leave him to explain the situation to the fire fighters and police that would be alerted by opening those doors.
+
+So, in the end, after a lot of grumbling, he let us pass..."
+3,"The second someone even mentions the possibility of a lawsuit, it instantly becomes an issue that is way above my pay grade.  I would be happy to forward you to our legal department who can discuss this issue further.  If they deem that a technician should continue to assist you, they will let me know.  Goodbye!"
+4,"What do you mean ""button""?!  I can't deal with your ""technical"" jargon"
+5,"The standard script where I work: ""As you have brought up legal action, I may no longer assist you. Please have your lawyer contact our legal department. If you require further assistance, please call back. I must now release this call."" *click*"
+6,"Administrator needs to regroup. You can't unring a bell, and a school with no dictionaries is idiotic and anti-educational. The teachable moment here is:  
+
+1. Words have multiple meanings.  
+2. Dictionaries unlock hidden knowledge, and learning things is fun, and that is ok.
+3. It is not OK to make a joke out of someone's name, because most people don't choose their name, and you should have empathy.  
+
+"
+7,It would be easier to install an airplane engine in a car.
+8,wtf did they think ASAP meant?
+9,"We've switched to whitelisting email-adresses in our dev and test-environments. if the recipient is not whitelisted, mail is sent to a default-address and the supposed recipients mail-address attached to the subject line so that it's obvious. has saved us a lot of headache."
+10,SIR I AM NOT A BUTTON PERSON. I AM SHIPPING IT AND HANGING UP
+11,"""What do you mean my cancer is inoperable? Can you transfer me to a doctor with more experience?"""
+12,"Honestly, you're not wrong. This is why we now require the exact date in writing. We won't even accept requests similar to ""five days from now."""
+13,"Well, I mean, technically speaking, as soon as possible without Sales' boss' approval was in two weeks. "
+14,"This was so good, that even though it was large, I read it entirely..."
+15,One of my friends mothers gets somewhat close... 
+16,"""I was elected to **lead**, not to **read**"""
+17,"The only thing that bothers me at all is when people tell me they don't agree with me and that I'm wrong. I don't care if people yell at me, complain to me, really anything except for what happened to you. 
+
+Luckily since I'm internal IT I get to be a bit sassy back. "
+18,"When I worked for a mobile phone company the supervisor said ""im paid to take their shit and legal threats, you aren't. Forward those calls to me to deal with"".  
+  
+Great guy."
+19,I'm also glad legal decided to fight this despite the cost. 
+20,Good lord. That's less like dodging a bullet and more like dodging a bullet train.
+21,I would've included a link: http://www.dictionary.com/browse/asap
+22,I remember a story where the system would stop the password at the 8th character. Everything after that was ignored
+23,Perform mass upper blepharectomy and nobody bats an eye. Perform a mass encephalectomy and everyone loses their mind!
+24,"""You're approved for the lobotomy."""
+25,"Have been locked in at the grocery store I work at twice, not fun.
+
+Options:
+
+1. Wait until night crew shows up, ~90 mins or so.
+
+2. Maintain a list of cell numbers on my phone of full-time staff who have keys. I do this. The store does have a list of all employee numbers but it's locked in the cash office.
+
+If management would do a head count while everyone was leaving that'd be great..."
+26,"This is also a good opportunity to remind people that [rfc661](https://tools.ietf.org/html/rfc6761) lists valid test domains as 'example.com', 'example.net', and *.test
+
+Whitelisting specific internal email addresses is a great idea, but for most mass testing 'foo@bar.test' is good enough."
+27,"The stupid is indeed strong with this one.
+
+*""Hmmm... a phishing email - I'll send it to everyone!""*"
+28,"The cost you have to consider is the savings you created by showing all those that were watching that the behavior of this person would not be tolerated, and you would rather pay more to fight it than to pay what he wanted."
+29,"&gt;Me: Which operating system are you on?
+
+&gt;Defense Attorney: Seven.
+
+System 7, lovely!"
+30,"is it just me or is ASAP more urgent than ""as soon as possible""?"
+31,"Bring it up to your supervisor. Chain of command.
+
+Still facedesk worthy.
+
+We also had a similar incident, except the laptop was stolen. So that was cool.."
+32,"Now I'm imagining signs on the pumps and at the door: ""Computers are down; can't sell you anything; ring $number.bossman to get them working again."""
+33,Wow...just wow. Just found this subreddit 2 hours ago and lost hope in humanity 10 times alredy
+34,"We don't which is a double edged sword really as on the one hand, it'd be useful for reporting assholes like this to management, but on the other hand it'd be used by quality to enforce pedantic rules such as empathy and other such bullshit which ultimately would make our lives (as agents) more difficult.
+
+As it stands the lack of recording means we can be fairly harsh to these people (within reason) and not have any repercussions. If our calls are recorded it would have likely resulted in an hour of back and forth with the caller trying to pander to her and tell her everything is okay with the world and she is indeed a special little snowflake (in some sort of potty attempt to please quality/upper management) - instead of simply being able to hang up on her ass and move onto the next caller."
+35,"I have an issue with the casual usage of ""ASAP"". For me I consider that urgent. Not urgent like *pants on fire get out of here* but *do this once you've finished whatever you're doing*.
+
+It's the same as people tagging emails as important when they're not or writing subject lines in all caps just because ""it's more visible""."
+36,"That's very common with systems that use the des crypt() function - that only considers the first 8 characters, but will happily accept more, just ignore them."
+37,"At some point, very early in their military career, every serviceman realizes that they still pay taxes. They're paying their own paycheck. That's usually when the drinking starts."
+38,"It ""feels"" that way to me, too. Like, ""This is so urgent, I don't even have time to spell out 'as soon as possible'."""
+39,"Why did I never think of using a water-pipe analogy when describing connections? It's a great metaphor. I must still be hung up on that whole ""series of tubes!!!"" thing from a few years ago.
+
+...Holy shit that was 10 years ago. I'm old."
+40,"Hail the Omnissiah! He is the God in the Machine, the Source of All Knowledge."
+41,Do you record calls? Because that's totally something I'd be playing to their management team.
+42,"&lt;barely audible laugh&gt; YOUR POST &lt;inaudible ramblings&gt; SORRY &lt;inaudible ramblings&gt; CALLER!
+
+AT LEAST"
+43,"Sounds like you could probably top the other call notes. 
+
+""User's browser is set to Bing search, they prefer Google. User yelled at me for several minutes about ""THEIR INTERNET IS NOT WORKING"" before finally stating their problem. User was not at computer at the time, hung up after threatening to sue."""
+44,"I've had somebody throw their laptop on the floor and say ""THIS PIECE OF SHIT. I HAVE HAD ENOUGH. I WANT ANOTHER ONE NOW!""
+
+It was funny explaining to him that he had to put a ticket in, since we literally saw him destroy it in front of us.
+
+Long story short, he was put RIGHT to the back of the priority list."
+45,"&gt; Yes but I didn't think it applied to me
+
+Oh look at me, i am very important and have shit to do and places to be, warnings are for lesser people."
+46,Telling me I'm wrong when I'm wrong is fine. Telling me I'm wrong when I designed the damn system and know I'm right...I'm internal as well so sass is pretty high in general. One day I'll have to tell the story of the VPs new admin that I was responsible for training -_-
+47,"This is why IT departments need to send out red herring phishing emails, company wide. Schedule all people who enter their account details to a mandatory security training class. 
+
+Then, do it again. Another mandatory security training. 
+
+They'll catch on pretty quick when they're required to go to class, and all of their more 'literate' co-workers get to stay. "
+48,"""completely locked up""
+
+The problem explanation that could mean anything from ""my password isn't being accepted"" to ""the computer won't turn on"" to ""one program I'm using won't work.""
+
+I swear I hear that one every day."
+49,"If it has to be exactly eight, then fucking limit the text box so it doesn't accept more than eight!
+
+Or you know, have a sane password requirement like the rest of the world."
+50,"In his mind, he went; ""My credentials aren't working! I bet the IT people screwed this up. I better go firm-wide so everyone knows to try it and to yell at IT when THEIRS doesn't work too!"""
+51,"I can't understand the logic in ""change their printer at home, they can do this""... If I use that logic then I can teach in their classroom because I taught maths to my little sister in my house???!!
+
+Edit: ""Taught"" is the word :P Thanks /u/daishiknyte!"
+52,"3 AM.
+
+Doing minor OS update on AIX that runs a major hospital pharmacy system.  Have proper change control for the downtime.
+
+Running backup, or verifying- not sure.  But, step out to restroom while it's running.
+
+On return, the doors won't let me back in.
+
+Find out all of the card access doors are not working.
+
+Call cops.  We have a hospital PD and they manage the door access.  
+
+""Of course you can't get in.  We are running a system update on the machine!  We're going from DOS to a more secure Windows XP!""
+
+Well, you locked me out of the computer server room and I'm in the middle of an upgrade.
+
+""Of course!  We're doing an upgrade.""
+
+I am too, and if I don't get back into the room in a few minutes, the system will be down beyond my downtime window and phones are going to start ringing.  Did you guys announce this outage?  Was this in change control?
+
+""What's that?  No, we don't announce it.  We don't have to.  This is a SECURITY FUNCTION AND WE DON'T HAVE TO ASK IT FOR PERMISSION.""
+
+Ok.
+
+So, I go and call and wake up the pharmacy director and he calls the CEO of the hospital.  We're initially told it will be about another hour before they're done and our downtime is increased... until.
+
+We then get a call that their update did not work.  The card access system is down.  Being non-IT people, they did not back-up, they have no back-out plan.  The vendor won't be available until 8 AM pacific time and it's 4 AM Central time.  
+
+And, great- the way they took the system down left the doors secure for our area.  They were wide open for patient care areas like operating rooms and the like.
+
+They called our facility manager and they had to use a giant jack to crack the fireproof door open where I could abort my update and bring the system back on line about 2 hours late.
+
+They then removed the police from managing that server at the OS level.  They retained application control, but we managed the OS and hardware.  
+
+
+"
+53,"Legacy/backwards compatibility. When it was conceived, it was good enough (IIRC, the function works by encrypting 8 nul bytes with the given password using 56-bit DES encryption; when it was made, it was thought to be so secure that the passwords ""hashed"" this way were left world-readable, since the computers of the time were so slow)."
+54,"Thank you!  I thought for a while in high school that I'd go to college to be a writer.  Wound up going computer science, but still got a creative writing minor."
+55,"I always went with option 3.
+
+3\. Go out the fire exit and let management explain why they had to pay the $2k bill for FD/PD.  
+
+of course this was back before cell phones (early 90's) but they learned to check the deli, bakery and meat department before leaving."
+56,"http://forums.24hoursoflemons.com/viewtopic.php?id=4861
+
+Yes."
+57,SIR I AM NOT AN ASKREDDIT PERSON AND YOU ARE REFUSING TO HELP ME SO I AM GOING TO HANG UP. 
+58,"&gt; We got that settled, but he did not want us to pass through the exhibition in the lobby that he had to guard.
+
+So, was he just planning on shooting the shit with you guys all night or what?"
+59,"Yeah, OP can write. "
+60,"I have a boss that flags every email he sends as Important. I guess he doesn't understand that if everything is important, nothing is important."
+61,"Either that, or one specific thing is down, and instead of mentioning what one specific thing was failing, he just threw his arms up and said, ""Nothing works."""
+62,"As far as I'm concerned this is all on the owner. If he ""knew this would happen"" why in god's name did he agree to send someone out?"
+63,"whenever I would work the desk and had something similar happen, I would just say ""sir, it would be cheaper for you to buy a new computer than have me do this for you""
+
+most people get mad and leave when I quote them several thousand dollars rather than try to argue with me why their ideas don't work. "
+64,"I can't stop laughing at this guy's stupidity! I mean, come on, It's not that hard to read and click the right button.
+
+Also
+
+ &gt; Get a Microsoft representative down here to my office RIGHT NOW
+
+I mean, how important do they think they are?"
+65,"SIR, I ALREADY TOLD YOU THAT I AM NOT A DOOR PERSON, YOU'RE REFUSING TO HELP ME SO I'M GOING TO HANG UP!"
+66,We can't put up signs... We had a real *lovely*  morning 
+67,"&gt;blepharectomy 
+
+- Removal of the eyelid; they can't bat an eye... literally.
+
+&gt;encephalectomy 
+
+- Removal of the brain; they lose their mind... literally."
+68,"Feducial sleeps in the Core, and all heat flows from Him. Wake Him not, for His wrath is terrible and radiation sickness sucks."
+69,"A couple years back there was an employee stoner kid (before me, I am a stoner but medically) and he put a sign on the door as a joke saying ""work here we dont drug test"" minutes before the DM walked in. 
+
+Thus, the rule for no signs unless bathroom is out of order was enacted "
+70,"For me it was hilarious, but I can imagine the sheer panic that must have been flowing through his veins in the couple of minutes he spent waiting for a reply, poor bastard"
+71,"Likely what buddy was hoping for.
+
+&gt; Too much hassle, just pay the man, and maybe he'll shut up before anyone else gets any ideas."
+72,"""Hey, our students are looking things up and learning, and it offends us. Can you block the knowledge? Thanks."""
+73,SIR &lt;inaudible ramblings&gt; TRAIN PERSON &lt;inaudible ramblings&gt; NOW.
+74,1/2 an hours labor charge I hope.
+75,What?? Why!?
+76,"Well there is a recent case where a kid died because the parents ""didn't believe"" he had diabetes.  The parents are currently on trial.  
+
+
+Also my mother refused to believe she had type II and wouldn't take anything, and her blood sugar testing diary was *always* spot on exactly the same, and the doctors were liars. "
+77,"P1 ticket. High as you can get it, CFO if you can. Use the word ""liability"" a few dozen times. They'll listen. Also ""lawsuit"". "
+78,(insert obligatory joke about tax-payer money here)
+79,"""YOU SOUGHT TO LOCK ME IN BUT I AM FREE! MY REIGN SHALL LAST A THOUSAND YEARS AND ALL SHALL SUFFER FOR YOUR CONCEIT!"""
+80,"Gave it up like that teacher is givin it up to Mr. Johnson's *Johnson*!
+
+#*HEY-OOOOOOOOO!*"
+81,"I was afraid you were going to find the mouse itself jammed into the printer.   
+
+_red toner is supposed to be dry_"
+82,I totally agree as an instructor. This was the perfect moment to give a life lesson and they gave it up. 
+83,It only gets worse from here buddy. This sub is an anger/stress inducer like no other yet I can't stop myself from wanting more.
+84,"If it's the same task they do at home, I totally get it. The problem here is that the teacher never thought ""hey, this is actually very different from my home printer, I should leave this to someone with a clue."""
+85,"**You fixed the problem in record time, and the customer couldn't stop telling you how happy they were...
+
+But you failed to restate the problem with an action statement and plan of resolution, so we are scoring this as a failed call.**
+
+Getting out of a helpdesk was the best thing I ever did."
+86,Sounds like she did choose her new name...

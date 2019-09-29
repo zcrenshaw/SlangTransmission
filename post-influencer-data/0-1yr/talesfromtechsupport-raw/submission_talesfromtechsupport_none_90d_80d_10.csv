@@ -1,0 +1,19 @@
+,text
+0,"""This is unbelievable. We should bring you on as a consultant.""
+
+
+Not so long ago I temped as an admin assistant at a government department between jobs. I learned a few things in this job. For one thing, people really unfairly value your capability by your job title in this public sector especially. I mean, people really talked to me like I was slow, because I was ""the receptionist"". For another, government sector in this part of town is severely underskilled. The ""sys-admin""  was pretty much a guy who I guess had got the job because he had a lot of opinions about which cellphone brand was best. The IT manager was a 60+ year old woman who...well I don't know what she did. But aside from these things (and the pay), the job was pretty great. Low responsibility, low effort, leave at exactly 5 every day.
+
+One day the Admin Manager came to me with a grim face, like it was my time to do the green mile or something. She announced that she had **The Spreadsheet**, which annually required two weeks worth of data entry and usually got lumped on the admin team. I resigned myself to this. It sounded by her description like thousands of lines of names you had to copy into a database from a handwritten sheet or something. 
+
+She sat me down and showed me what we were looking at. As it turned out, **The Spreadsheet** really was a spreadsheet. And even more curiously, it was already full of data. 
+
+**Her:** So in Column A there is a firstname like John, and in column B there is a surname like Smith. You need to put those into one cell, so all of it is just in Column A, like ""John Smith"".
+**Me:** Ok. And what else?
+Her:** Well once you get done with that, there's also a postcode you need to take out of Column F and put into Column G. 
+**Me:** ....Ok. Is this...is this it?
+**Her:** Well yes. But as you can see, there are around five thousand rows, so this will take you a while. If you need help or it's taking too long let me know and I'll see if I can spare you an intern. Oh, but you can copy and paste each entry from one place to the next, you know how to do that right? 
+
+I blinked, and digested what I was looking at. Every year, this particular government department paid someone a living wage for 2 weeks or so to type this information out row by row. They had never employed anyone capable or asked anyone if it could be done another way. 
+
+Obviously when I went back into the admin manager's office with a finished spreadsheet an hour later (my excel formula's are a bit rusty), she was gobsmacked, and uttered the line from the title. I felt impressive, until I pinched myself."

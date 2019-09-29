@@ -134,7 +134,7 @@ def scrape(args,sleeptime,attempts,goal,current):
         # create list of text
         if goal < 0:
             #first access for this query
-            goal = total/100
+            goal = ceil(total/100)
             current = 0
         page = data['data']
         text = []
@@ -303,7 +303,7 @@ def batch(args,out_folder):
         point = scrape(search, SLEEPTIME,ATTEMPTS,-1,0)
         if point[0] == -1:
             output = out_folder + create_filename(search + [bucket_size]) + ".csv"
-            point[2].to_csv(output,index=False)
+            point[2].to_csv(output, index=False)
             writeout = False
         data.append([point[0],a,b,point[1]])
         sleep(SLEEPTIME / 50)  # to prevent 429 (too many request) errors
@@ -311,15 +311,9 @@ def batch(args,out_folder):
         b = a - bucket_size
 
 
-    # write to csv file
     if writeout:
-        with open(output, 'w') as file:
-            filewriter = csv.writer(file, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
-            filewriter.writerow(header)
-            for i in range(len(data)):
-                filewriter.writerow(data[i])
-
-
+        df = pd.DataFrame(data=data, columns=header)
+        df.to_csv(output, index=False)
 
 
 # CSV GENERATION ~~~~~~~~~~

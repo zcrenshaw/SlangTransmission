@@ -1,0 +1,9 @@
+,count,after,before,link
+0,103791,450,440,https://api.pushshift.io/reddit/search/comment/?&subreddit=relationships&aggs=subreddit&fields=aggs&metadata=true&after=451d&before=441d
+1,103998,440,430,https://api.pushshift.io/reddit/search/comment/?&subreddit=relationships&aggs=subreddit&fields=aggs&metadata=true&after=441d&before=431d
+2,104355,430,420,https://api.pushshift.io/reddit/search/comment/?&subreddit=relationships&aggs=subreddit&fields=aggs&metadata=true&after=431d&before=421d
+3,103597,420,410,https://api.pushshift.io/reddit/search/comment/?&subreddit=relationships&aggs=subreddit&fields=aggs&metadata=true&after=421d&before=411d
+4,90866,410,400,https://api.pushshift.io/reddit/search/comment/?&subreddit=relationships&aggs=subreddit&fields=aggs&metadata=true&after=411d&before=401d
+5,93317,400,390,https://api.pushshift.io/reddit/search/comment/?&subreddit=relationships&aggs=subreddit&fields=aggs&metadata=true&after=401d&before=391d
+6,93683,390,380,https://api.pushshift.io/reddit/search/comment/?&subreddit=relationships&aggs=subreddit&fields=aggs&metadata=true&after=391d&before=381d
+7,85934,380,370,https://api.pushshift.io/reddit/search/comment/?&subreddit=relationships&aggs=subreddit&fields=aggs&metadata=true&after=381d&before=371d

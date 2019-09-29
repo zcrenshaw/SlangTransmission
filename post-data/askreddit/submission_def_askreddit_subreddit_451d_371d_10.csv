@@ -1,9 +1,0 @@
-count,after,before,link
-0,451,441,https://api.pushshift.io/reddit/search/submission/?&q=def&subreddit=askreddit&aggs=subreddit&fields=aggs&metadata=true&after=451d&before=441d
-2,441,431,https://api.pushshift.io/reddit/search/submission/?&q=def&subreddit=askreddit&aggs=subreddit&fields=aggs&metadata=true&after=441d&before=431d
-4,431,421,https://api.pushshift.io/reddit/search/submission/?&q=def&subreddit=askreddit&aggs=subreddit&fields=aggs&metadata=true&after=431d&before=421d
-2,421,411,https://api.pushshift.io/reddit/search/submission/?&q=def&subreddit=askreddit&aggs=subreddit&fields=aggs&metadata=true&after=421d&before=411d
-1,411,401,https://api.pushshift.io/reddit/search/submission/?&q=def&subreddit=askreddit&aggs=subreddit&fields=aggs&metadata=true&after=411d&before=401d
-2,401,391,https://api.pushshift.io/reddit/search/submission/?&q=def&subreddit=askreddit&aggs=subreddit&fields=aggs&metadata=true&after=401d&before=391d
-2,391,381,https://api.pushshift.io/reddit/search/submission/?&q=def&subreddit=askreddit&aggs=subreddit&fields=aggs&metadata=true&after=391d&before=381d
-2,381,371,https://api.pushshift.io/reddit/search/submission/?&q=def&subreddit=askreddit&aggs=subreddit&fields=aggs&metadata=true&after=381d&before=371d

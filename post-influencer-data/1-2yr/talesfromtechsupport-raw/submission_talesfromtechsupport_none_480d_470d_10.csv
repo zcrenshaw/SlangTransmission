@@ -1,0 +1,77 @@
+,text
+0,"The worst epidemic of component failures ever, caused by a presidential memo. Only the floppies were safe!
+
+
+This is probably the last of my stories about University Boss.  And it was his most epic ""save the day"" accomplishment while I was there.
+
+**Me**: PFY (jr. systems administrator and support guy) in the Computer Science (CS) Department of a large university.
+
+**Boss**: Sr. CS sysadmin, my boss, and effortless genius at solving bureaucratic and people problems.
+
+**Sandy**: Finance admin.  I don't even remember her name so I'm calling her Sandy.  One of boss's ""friends in low places"" that he liked to brag about.
+
+**Setting**: Late 90s, the midst of the tech boom.
+
+CS enrollment had been skyrocketing, but the department struggled to keep up financially.  Finally one spring, our budget was looking better and Boss and I were planning out some desperately-needed upgrades to servers, desktops, and labs.  As we were about to place orders, the President of the University issued a memo that ran something like this:
+
+&gt; The University is having a cash flow problem.  An analysis has shown dramatic growth in spending for new computers.  Therefore, effective immediately, there is a University-wide freeze on all purchases of computers.  There will be no exceptions.
+
+Of COURSE there was a dramatic growth in PC purchases.  This was the late 90s, when they went from things some people used to things everybody needed.
+
+And it it was bad.  REALLY bad.  As if the Windows 3.1 lab wasn't embarrassing enough, we expected the servers to be completely and utterly unable to handle the load for fall semester.  The chair of the department made a heroic effort to make the case to administration that we were the freaking *Computer* Science department, but made no progress.  So, as usual, it fell to Boss.
+
+Boss called up Sandy in finance.  Boss always helped her out with things, and she helped us out too.
+
+&gt; Boss: ....  so can we buy used computers?
+
+&gt; Sandy: No.
+
+&gt; Boss: Is the money still in our budget?
+
+&gt; Sandy: Yes.
+
+&gt; Boss: So we can still spend the money, just not on computers?
+
+&gt; Sandy: Right.
+
+&gt; Boss: Do they realize how idiotic this is?  It won't save any money, will it?
+
+&gt; Sandy: Of course not.  If the President had asked me, I'd have told him it was stupid.  But nobody ever asks me.  I hear the Board loved his initiative.
+
+&gt; Boss: ...
+
+&gt; Boss: Are we allowed to build a new computer from parts?
+
+&gt; Sandy: No.  That's playing with fire.
+
+&gt; Boss: Are we still allowed to replace parts in existing computers if they have problems?
+
+&gt; Sandy: Yes.
+
+Boss got off the phone with Sandy with a grin.
+
+&gt; Boss: I need you to write a program to test the disks on the main servers.  Take the statistics you have for how much space each account uses, plus our projected enrollment rates for fall.  Write test data that uses that amount of space.
+
+&gt; Me: Uhm, why am I doing this?
+
+&gt; Boss: To solve all our problems, of course.
+
+I was in the dark, but I knew enough to trust Boss by this point.
+
+&gt; Me: Uh, OK.  But I think we won't have enough space.
+
+&gt; Boss: That's fine.  Run it and let me know what happens.
+
+So I wrote the program, ran it, and got the predictable ""out of space"" error.  Boss promptly fired off an order for some larger hard drives to replace the ones that were ""generating errors during testing.""  Ah ha, so THAT'S his plan!
+
+Pretty soon we tested the memory against the projected load, and wouldn't you know it, we got more errors!  But the motherboard wouldn't support enough RAM, so we needed a new motherboard -- and therefore a new CPU -- also.  Maybe even a new power supply.
+
+But never a new case.  And most definitely, never never never was I to touch the inventory sticker.  If I did, someone might think we had purchased a new computer!
+
+So, many of these machines had entirely new guts, just saving their original cases and floppy drives (and sometimes power supplies).
+
+We upgraded all of our most critical servers and two labs full of desktop PCs this way.  By the end of summer, we had almost all of what we wanted in the first place, which was good enough.  Nobody ever questioned it, and if they had, I'm quite sure Boss had filed away all these test reports to justify ""replacing the faulty components.""  He didn't violate the rule -- instead, he made sure to document how carefully he was following it.
+
+And that is how a presidential memo led to the documented failure of hundreds of sticks of RAM, dozens of motherboards, and who knows how many hard drives, all within the period of a few months.
+
+I've never seen anything like it."

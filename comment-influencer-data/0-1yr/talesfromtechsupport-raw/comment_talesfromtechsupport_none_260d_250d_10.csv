@@ -1,0 +1,138 @@
+,text
+0,"&gt; I feel like they were feeling dumb, because I didn't do anything they shouldn't have been able to do.
+
+That's *exactly* why they were feeling dumb. 
+
+Still, there's ways to be less blunt in the comments so the delivery is a bit gentle and they don't feel as much of an idiot. For example:
+
+&gt; Outlook was installed but wasn't readily visible on taskbar or in Start menu. Pinned it to the task bar for easy access.
+
+Or:
+
+&gt; Accounting Program was generating an alert that the GL hadn't been used in a while. Solution was to acknowledge the alert, after which the program would submit correctly.
+
+Or:
+
+&gt; Computer monitor was off...
+
+F*** it, that last one is hopeless."
+1,"i got this from a woman who wanted one of our online courses sent to her on paper..( dont doubt me)
+
+&amp;#x200B;
+
+i informed her that online courses are available online only, and cannot be used offline.
+
+&amp;#x200B;
+
+She sent in a 2 page handwritten letter complaining i was talking down to her with technical jargon."
+2,"""I don't want a solution, I want to complain about the problem."""
+3,"It finally, truly is the year of the Linux desktop."
+4,[deleted]
+5,"Well worth the effort.  I still have my Grandfather's eulogy on file, so I know what that means to him.  You're a better man than I am, Gunga Din."
+6,"Just.... WOW.
+
+I think he crapped his pants after that."
+7,"Man, I work industrial maintenance and people have tried to write me up for the same shit.
+
+My favorite:
+
+Me: Operator, why hasn't this machine run in 3 hours? (I noticed in passing the job times)
+
+O: Oh, uh, I forgot to put a log/page in. It stopped and I don't know why.
+
+&gt;Just so you know, this was a department *lead*, given the title, *Master Technician*.
+
+Me: *Looks at press PLC Screen: ""Job complete, load next job""*...
+
+Me: *Looks at counters on machine. ""Pieces left to inject: 0""*
+
+Also Me: _Looks at station computer and logs. ""Job completed - HH:mm   **User:Operator(MasterTech) acknowledged completed @ - HH:mm**""  
+[Popup box - Call in Job]_
+
+Me: it's not injecting because the job is complete, *you closed it out*. Pull the die and load the next job.
+
+O: No it's broken, it's been like that for hours.
+
+Me: ""[Internal tracking system] says completed, shot counter is at zero, pieces left to inject is at zero, and the (giant, shiny, flashy) *light next to the sign that says 'JOB COMPLETE'* is lit. Pull the die and call in next job.""
+
+O: ""Fine, whatever.""
+
+*Minutes later I see a problem log come through the paging system. ""Press xyz: Down  - Press not working, dont know why""*
+
+Went over there with other maintenance guy to CYA, no techs anywhere (all went an break). We pulled the die, loaded next one, and initialized job.
+
+In the interim of one week: O's supervisor informed me they lodged a complaint that they, ""felt like I was suggesting they're stupid"". Super shows me documentation he generated looking into it. 8 other witnessing techs said I did my job and they were not of the opinion I was calling anyone stupid. Tells me matter is dropped.
+
+One week later: higher up comes to me and tries to give me a three day suspension (I'd not had so much as a verbal since I started years ago) for, ""harassing, intimidating, bullying and overall having an attitude that was destructive to the teamwork environment"".
+
+That shit went up the ladder real fast. Culminating with me and the head of HR having a meeting. It is *very* frustrating and difficult to do any job when simply informing people calmly, of facts (ones they should know nonetheless) is somehow grounds for suspension."
+8,"Okay, I'll bite : 
+
+\- The problem with Java is not the langage, it is the sub-standard programmer its attract :p"
+9,"I guess more pillowy (if that's not a word, but I'm making it one) language?  
+
+I can try to come up with this stuff, but when I'm closing out a ticket, I'm thinking, what did I just do, not how can I say what I just did without hurting their feelings.  "
+10,Sadly this attitude is all too common in corporate support. Solutions are so boring and final. A good problem can be milked for complaints for MONTHS. 
+11,at first. but after an hour or so $OMGWTFBBQ will come to the realization that they must have been lied to.  Certainly there is no reason a lowly IT person could possibly have his boss nearby - and no CEO could POSSIBLY be anywhere his workers would be.. 
+12,I once had a client turn of the main breaker for his house to restart his router as he had no idea where it was.
+13,"My initial thought was ""OMG, how did $Managers credentials get propagated to every record?""."
+14,"&gt;$Me: 'You don't call me on my personal phone.'
+&gt;
+&gt;$OMGWTFBBQ: 'Would you listen, this is URGENT, it HAS TO GO OUT,'
+
+$Me: No, YOU listen. You have crossed a line into unacceptable behavior. I don't care how urgent your request is. I'll be raising this issue with your boss tomorrow and filing a harassment complaint with HR. Good day, sir. I SAID GOOD DAY."
+15,"Maybe, just maybe, some people deserve the suggestion that they're stupid."
+16,"“Uniquely inefficient idiot”
+
+I like the sound of that. It sounds like someone who could fuck up everything in the slowest most painful way possible. "
+17,9/10 tech problems are solved by turning it off and on again 😂
+18,"This was a long time ago, but it was a cocktail of ESET NOD32 as the antivirus, with the settings cranked all the way up, and Comodo Firewall/Defender in paranoid mode, with a very carefully crafted whitelist and auto-deny for everything else.
+
+Both had unique passwords to modify their configs.
+
+I also hardened windows a ton, disabling unneeded services, closing ports, etc.
+
+Add to that the volume encryption, and surely this sounds like insane overkill, yes?
+
+Well, yes. I originally set it up almost like some mad scientist experiment to see how absurdly secure I could make a windows box, it was never meant to be my workstation. I expected it to be almost unusable, but after a little tweaking, it worked beautifully. I was so pleased with the outcome, that I kept it. It rarely if ever, was an inconvenience.
+
+I'm sure it'd have driven a normal user absolutely bonkers.
+
+"
+19,And you haven't done *anything* about my email either!!!! I'm an everyone too!!!
+20,"User: ""My scanner won't turn work. Need help ASAP!
+
+Cleaning crew was in the night before.
+
+Me: "" there were cleaners in the night before, did you make sure it didn't get unplugged?""
+
+User: "" definitely plugged in, won't scan""
+
+Go onsite, see scanner is unplugged, plug it in, everything works. Update ticket in similar fashion to yours, just the steps to remediate problem.... User gives me dirty looks every time I was onsite "
+21,Don't you start calling him a programmer too. He's just a guy who created a program.
+22,Me to HR: It is highly inappropriate and unprofessional for you to capriciously dictate unwarranted training exercises for me and my staff. We will not attend any further additional HR training unless the course content is negotiated in good faith between the two of us at least 6 weeks ahead of time and approved by my VP. Get out of my office and don't ever take that tone with me again.
+23,"Pillowy is totally a word.
+
+https://www.collinsdictionary.com/us/dictionary/english/pillowy
+
+Anyway, it somewhat sucks that you have to think about other people's feelings when closing a ticket when your comments are merely factual and to the point, but IT isn't just a job dealing with technology, it's very much a job of dealing with people as well. I view IT as not so much ""how to a fix this technical issue?"" as ""how do I best address the problem the user is having?"" I also try to see it from their point of view. People can get stressed and flustered when a tech issue impeded their work, and can over look something obvious because of that.
+
+Since this sounds like it's just one person complaining, maybe for just their tickets take a little extra time to think of the best way to phrase your closing comment. After a while, it becomes second nature."
+24,"Ah, the ol' Scorched Earth approach"
+25,"Wait, I'm confused.  Some moron blew up and bosses actually had your back?  
+
+# IT'S A TRAP!"
+26,"Unfortunately, 2018 ends in a few hours, depending on where you live. So make the most of it."
+27,Some people are hopeless.
+28,"I like how your instinct was, instead of ""oh shit, this is a big security problem"", it was ""hmm, let's let it happen a few dozen more times so that I can accurately describe the problem"".
+
+Maybe not the best trait for a guard, but you'd be a good programmer."
+29,Applying for a job at company. Phone their service desk and be an arse hole. Its a ballsy strategy... 
+30,"Reminded of the guy who was let go when it was discovered he created tickets to have support format his spreadsheets, when it was HIS job to format the reports and calcs."
+31,"Yeah I was expecting
+
+a) security breach/malicious attack (at first)
+
+b) someone playing with the database when they shouldn't have"
+32,"After fixing issue, contact the user's direct manager to schedule training on the proper use of the phrase major incident."
+33,the remaining problem is solved by turning it off and never turning it back on

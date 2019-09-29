@@ -1,0 +1,9 @@
+,count,after,before,link
+0,2,450,440,https://api.pushshift.io/reddit/search/comment/?&q=defo&subreddit=askmen&aggs=subreddit&fields=aggs&metadata=true&after=451d&before=441d
+1,1,440,430,https://api.pushshift.io/reddit/search/comment/?&q=defo&subreddit=askmen&aggs=subreddit&fields=aggs&metadata=true&after=441d&before=431d
+2,1,430,420,https://api.pushshift.io/reddit/search/comment/?&q=defo&subreddit=askmen&aggs=subreddit&fields=aggs&metadata=true&after=431d&before=421d
+3,1,420,410,https://api.pushshift.io/reddit/search/comment/?&q=defo&subreddit=askmen&aggs=subreddit&fields=aggs&metadata=true&after=421d&before=411d
+4,3,410,400,https://api.pushshift.io/reddit/search/comment/?&q=defo&subreddit=askmen&aggs=subreddit&fields=aggs&metadata=true&after=411d&before=401d
+5,0,400,390,https://api.pushshift.io/reddit/search/comment/?&q=defo&subreddit=askmen&aggs=subreddit&fields=aggs&metadata=true&after=401d&before=391d
+6,1,390,380,https://api.pushshift.io/reddit/search/comment/?&q=defo&subreddit=askmen&aggs=subreddit&fields=aggs&metadata=true&after=391d&before=381d
+7,0,380,370,https://api.pushshift.io/reddit/search/comment/?&q=defo&subreddit=askmen&aggs=subreddit&fields=aggs&metadata=true&after=381d&before=371d
