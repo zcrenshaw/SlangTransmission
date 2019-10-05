@@ -7,6 +7,7 @@
 import sys
 import os
 import pandas as pd
+import numpy as np
 import glob
 import traceback
 from subprocess import call
@@ -30,6 +31,7 @@ def prep_df(filename, droplink):
             if 'Unnamed' in c:
                 df = df.drop(c, axis=1)
         df['mid'] = mid
+        df.sort_values(by='mid', ascending=False, inplace=True)
         df.set_index(['mid'], drop=True, inplace=True)
         return df
     except:
@@ -38,6 +40,11 @@ def prep_df(filename, droplink):
 
 def rolling_average(df, smoothing, cols):
     # computes a rolling average over a data set
+
+    # used as patch for now
+    df.sort_values(by='mid', ascending=False, inplace=True)
+
+
     for c in cols:
         df[c + '-avg'] = pd.Series([])
         df[c + '-avg'] = df[c].rolling(window=smoothing, center=True).mean()
@@ -114,10 +121,21 @@ def count_influence(q, src, dst):
             data = dict.fromkeys(cols, 0)
             for index, row in indf.iterrows():
                 for term in q:
-                    if term == 'total':
-                        data['total'] += 1
-                    elif term in row['text']:
-                        data[term] += 1
+                    try:
+                        if term == 'total':
+                            data['total'] += 1
+
+                        elif type(row['text']) == np.float64 or type(row['text']) == float:
+                            continue
+                        elif term in row['text']:
+                            data[term] += 1
+                    except:
+                        print(term)
+                        print(row['text'], index)
+                        print(indf)
+                        print(file)
+                        exit()
+
             data['after'] = a
             data['before'] = b
             outdf = outdf.append(data, ignore_index=True)
@@ -197,6 +215,7 @@ def folders_in(path_to_parent):
     for fname in os.listdir(path_to_parent):
         if os.path.isdir(os.path.join(path_to_parent,fname)):
             yield os.path.join(path_to_parent,fname)
+
 
 def build_tree(folder,ignore):
     direcs = list(folders_in(folder))
